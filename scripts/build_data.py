@@ -430,6 +430,7 @@ def main():
 
     print("1) Récupération des calendriers / résultats...")
     all_matches = fetch_all_matches()
+    all_matches = [m for m in all_matches if isinstance(m, dict)]
     print(f"   Total matchs récupérés : {len(all_matches)}")
 
     print("2) Récupération des logos...")
