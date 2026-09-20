@@ -1,9 +1,9 @@
 {
-  "generated_at": "1970-01-01T00:00:00+00:00",
-  "target_date": "1970-01-01",
-  "total_matches_scanned": 0,
-  "matches_today": 0,
-  "teams_rated": 0,
+  "generated_at": "2026-09-20T21:58:05.830901+00:00",
+  "target_date": "2026-09-20",
+  "total_matches_scanned": 5770,
+  "matches_today": 31,
+  "teams_rated": 344,
   "sources": [
     "https://github.com/openfootball/football.json",
     "https://github.com/openfootball/worldcup.json",
