@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pronostics — Les meilleures opportunités du jour</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚽</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<style>
+  :root{
+    --bg:#0a0f1c; --bg-panel:#101828; --bg-panel-2:#0d1420;
+    --line: rgba(255,255,255,.08); --line-strong: rgba(255,255,255,.16);
+    --text:#eef2fb; --text-dim:#8b96ac; --text-faint:#5b6478;
+    --accent:#ffb020; --accent-soft: rgba(255,176,32,.14);
+    --win:#3ddc97; --win-soft: rgba(61,220,151,.14);
+    --lose:#ff5d6c; --lose-soft: rgba(255,93,108,.14);
+    --pending:#5b7fff; --pending-soft: rgba(91,127,255,.14);
+    --radius: 14px;
+    --font-display:'Space Grotesk', sans-serif;
+    --font-body:'Inter', sans-serif;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:
+      radial-gradient(1100px 600px at 15% -10%, rgba(255,176,32,.08), transparent 60%),
+      radial-gradient(900px 500px at 100% 0%, rgba(91,127,255,.10), transparent 55%),
+      var(--bg);
+    color:var(--text); font-family:var(--font-body); line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+  }
+  @media (prefers-reduced-motion: reduce){ *{ animation:none !important; transition:none !important; } }
+
+  a{color:inherit;}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 20px;}
+
+  /* ---------- HEADER ---------- */
+  header.top{border-bottom:1px solid var(--line); position:sticky; top:0; z-index:40;
+    background:rgba(10,15,28,.78); backdrop-filter:blur(14px);}
+  .top-inner{display:flex; align-items:center; justify-content:space-between; padding:16px 20px; gap:16px; flex-wrap:wrap;}
+  .brand{display:flex; align-items:center; gap:10px;}
+  .brand .mark{width:34px;height:34px;border-radius:9px; background:linear-gradient(145deg,var(--accent),#ff7a45);
+    display:flex;align-items:center;justify-content:center;font-size:18px; box-shadow:0 6px 16px rgba(255,176,32,.35);}
+  .brand .name{font-family:var(--font-display); font-weight:700; font-size:18px; letter-spacing:.2px;}
+  .brand .sub{font-size:12px; color:var(--text-dim);}
+
+  .tabs{display:flex; gap:8px; background:var(--bg-panel-2); padding:5px; border-radius:999px; border:1px solid var(--line);}
+  .tab-btn{appearance:none; border:none; background:transparent; color:var(--text-dim); font-family:var(--font-body);
+    font-weight:600; font-size:14px; padding:9px 18px; border-radius:999px; cursor:pointer; transition:.2s ease;}
+  .tab-btn.active{background:var(--text); color:#0a0f1c;}
+  .tab-btn:not(.active):hover{color:var(--text);}
+
+  /* ---------- TICKER ---------- */
+  .ticker{border-bottom:1px solid var(--line); overflow:hidden; white-space:nowrap; background:var(--bg-panel-2);}
+  .ticker-track{display:inline-block; padding:8px 0; animation:scroll 32s linear infinite;}
+  .ticker-track span{display:inline-block; padding:0 28px; font-size:13px; color:var(--text-dim); font-family:var(--font-display);}
+  .ticker-track span b{color:var(--accent); font-weight:600;}
+  @keyframes scroll{ from{transform:translateX(0);} to{transform:translateX(-50%);} }
+
+  /* ---------- HERO / TOOLBAR ---------- */
+  .toolbar{padding:28px 0 18px; display:flex; flex-wrap:wrap; align-items:flex-end; justify-content:space-between; gap:18px;}
+  .toolbar h1{font-family:var(--font-display); font-size:clamp(22px,3vw,32px); margin:0 0 6px; font-weight:700;}
+  .toolbar p{margin:0; color:var(--text-dim); font-size:14px; max-width:520px;}
+  .controls{display:flex; gap:10px; flex-wrap:wrap; align-items:center;}
+  select, input[type=search]{
+    background:var(--bg-panel); border:1px solid var(--line); color:var(--text);
+    padding:9px 12px; border-radius:10px; font-family:var(--font-body); font-size:13px; outline:none;
+  }
+  select:focus, input:focus{border-color:var(--accent);}
+  .view-toggle{display:flex; border:1px solid var(--line); border-radius:10px; overflow:hidden;}
+  .view-toggle button{background:var(--bg-panel); border:none; color:var(--text-dim); padding:9px 12px; cursor:pointer; font-size:13px;}
+  .view-toggle button.active{background:var(--accent); color:#1a1200; font-weight:600;}
+
+  /* ---------- MATCH GRID / CARDS ---------- */
+  .grid{display:grid; grid-template-columns:repeat(auto-fill, minmax(300px,1fr)); gap:16px; padding:6px 0 40px; perspective:1200px;}
+  .card{
+    background:linear-gradient(180deg, var(--bg-panel), var(--bg-panel-2));
+    border:1px solid var(--line); border-radius:var(--radius); padding:0; position:relative; overflow:hidden;
+    transform-style:preserve-3d; transition:transform .25s ease, border-color .25s ease, box-shadow .25s ease;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 14px 100%, 0 calc(100% - 14px));
+  }
+  .card:hover{border-color:var(--line-strong); box-shadow:0 20px 40px -18px rgba(0,0,0,.6);}
+  .card .meta-row{display:flex; justify-content:space-between; align-items:center; padding:12px 16px 0; font-size:11.5px; color:var(--text-faint);}
+  .card .league{font-weight:600; color:var(--text-dim);}
+  .card .badge-conf{font-family:var(--font-display); font-weight:600; font-size:12px; padding:3px 9px; border-radius:999px;}
+  .conf-high{background:var(--win-soft); color:var(--win);}
+  .conf-mid{background:var(--accent-soft); color:var(--accent);}
+  .conf-low{background:var(--pending-soft); color:var(--pending);}
+
+  .teams{display:flex; align-items:center; justify-content:space-between; padding:16px; gap:10px;}
+  .team{display:flex; flex-direction:column; align-items:center; gap:8px; flex:1; min-width:0;}
+  .team img{width:42px; height:42px; object-fit:contain; filter:drop-shadow(0 4px 8px rgba(0,0,0,.5));}
+  .team .placeholder{width:42px;height:42px;border-radius:50%;background:var(--bg-panel-2);border:1px solid var(--line);
+    display:flex;align-items:center;justify-content:center;font-size:18px;}
+  .team span{font-size:12.5px; text-align:center; font-weight:600; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; max-width:100%;}
+  .vs{font-family:var(--font-display); color:var(--text-faint); font-size:13px; padding-top:14px;}
+
+  .tear{border-top:1px dashed var(--line); margin:0 16px;}
+
+  .pick-row{display:flex; justify-content:space-between; align-items:center; padding:14px 16px;}
+  .pick-label{font-size:13px; color:var(--text-dim);}
+  .pick-value{font-family:var(--font-display); font-weight:700; font-size:15px; color:var(--text);}
+  .btn-analyse{width:calc(100% - 32px); margin:0 16px 16px; background:var(--accent); color:#1a1200; border:none;
+    font-family:var(--font-body); font-weight:700; font-size:13.5px; padding:11px; border-radius:10px; cursor:pointer; transition:.2s;}
+  .btn-analyse:hover{background:#ffc355;}
+
+  .empty-state{grid-column:1/-1; text-align:center; padding:70px 20px; color:var(--text-dim);}
+  .empty-state h3{font-family:var(--font-display); color:var(--text); margin-bottom:6px;}
+
+  /* ---------- TABLE VIEW ---------- */
+  .table-wrap{overflow-x:auto; border:1px solid var(--line); border-radius:var(--radius); margin-bottom:40px;}
+  table{width:100%; border-collapse:collapse; min-width:760px;}
+  thead th{text-align:left; font-size:11.5px; text-transform:none; color:var(--text-faint); font-weight:600;
+    padding:12px 14px; border-bottom:1px solid var(--line); background:var(--bg-panel-2); white-space:nowrap;}
+  tbody td{padding:12px 14px; border-bottom:1px solid var(--line); font-size:13.5px; vertical-align:middle; white-space:nowrap;}
+  tbody tr:last-child td{border-bottom:none;}
+  tbody tr:hover{background:rgba(255,255,255,.02);}
+  .cell-match{display:flex; align-items:center; gap:8px;}
+  .cell-match img{width:20px;height:20px;object-fit:contain;}
+  .row-btn{background:transparent; border:1px solid var(--line); color:var(--text); padding:6px 12px; border-radius:8px; cursor:pointer; font-size:12.5px;}
+  .row-btn:hover{border-color:var(--accent); color:var(--accent);}
+
+  /* ---------- HISTORIQUE ---------- */
+  .accuracy-band{display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:14px; padding:24px 0;}
+  .stat-card{background:var(--bg-panel); border:1px solid var(--line); border-radius:var(--radius); padding:16px 18px;}
+  .stat-card .num{font-family:var(--font-display); font-size:26px; font-weight:700;}
+  .stat-card .lbl{font-size:12.5px; color:var(--text-dim); margin-top:2px;}
+
+  .hist-list{display:flex; flex-direction:column; gap:8px; padding-bottom:50px;}
+  .hist-row{display:flex; align-items:center; gap:14px; background:var(--bg-panel); border:1px solid var(--line);
+    border-radius:12px; padding:12px 16px; flex-wrap:wrap;}
+  .hist-status{width:26px;height:26px;border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:13px; flex-shrink:0;}
+  .st-win{background:var(--win-soft); color:var(--win);}
+  .st-lose{background:var(--lose-soft); color:var(--lose);}
+  .st-pending{background:var(--pending-soft); color:var(--pending);}
+  .hist-main{flex:1; min-width:220px;}
+  .hist-main .teams-line{font-weight:600; font-size:14px;}
+  .hist-main .sub-line{font-size:12px; color:var(--text-dim); margin-top:2px;}
+  .hist-score{font-family:var(--font-display); font-weight:700; font-size:14px; color:var(--text-dim); min-width:56px; text-align:right;}
+
+  /* ---------- MODAL ---------- */
+  .overlay{position:fixed; inset:0; background:rgba(6,9,16,.72); backdrop-filter:blur(6px); display:none;
+    align-items:center; justify-content:center; z-index:100; padding:20px;}
+  .overlay.open{display:flex;}
+  .modal{background:var(--bg-panel); border:1px solid var(--line-strong); border-radius:18px; max-width:520px; width:100%;
+    max-height:88vh; overflow-y:auto; padding:26px;}
+  .modal-close{float:right; background:transparent; border:none; color:var(--text-dim); font-size:20px; cursor:pointer;}
+  .modal h2{font-family:var(--font-display); font-size:19px; margin:0 0 4px;}
+  .modal .modal-sub{color:var(--text-dim); font-size:13px; margin-bottom:18px;}
+  .bar-row{margin-bottom:14px;}
+  .bar-row .bar-labels{display:flex; justify-content:space-between; font-size:12.5px; margin-bottom:5px; color:var(--text-dim);}
+  .bar-track{height:9px; border-radius:6px; background:var(--bg-panel-2); overflow:hidden; display:flex;}
+  .bar-seg{height:100%;}
+  .seg-1{background:var(--win);} .seg-x{background:var(--text-faint);} .seg-2{background:var(--lose);}
+  .info-grid{display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:18px;}
+  .info-box{background:var(--bg-panel-2); border:1px solid var(--line); border-radius:10px; padding:12px;}
+  .info-box .t{font-size:11px; color:var(--text-faint); margin-bottom:4px; font-weight:600;}
+  .info-box .v{font-family:var(--font-display); font-weight:700; font-size:14px;}
+  .form-chips{display:flex; gap:4px; margin-top:6px;}
+  .chip{width:20px;height:20px;border-radius:5px;font-size:10.5px;display:flex;align-items:center;justify-content:center;font-weight:700;}
+  .chip-w{background:var(--win-soft); color:var(--win);} .chip-d{background:rgba(255,255,255,.08); color:var(--text-dim);} .chip-l{background:var(--lose-soft); color:var(--lose);}
+
+  /* ---------- COMPTE / AUTH ---------- */
+  .account-btn{background:var(--bg-panel-2); border:1px solid var(--line); color:var(--text-dim);
+    font-family:var(--font-body); font-weight:600; font-size:13px; padding:9px 16px; border-radius:999px; cursor:pointer;}
+  .account-btn:hover{border-color:var(--line-strong); color:var(--text);}
+
+  .prolab-tag{display:inline-block; font-family:var(--font-body); font-size:11px; font-weight:700; letter-spacing:.4px;
+    background:var(--lose-soft); color:var(--lose); padding:3px 9px; border-radius:999px; vertical-align:middle; margin-left:8px;}
+  .prolab-tag::before{content:'●'; margin-right:5px; animation:pulse 1.4s infinite;}
+  @keyframes pulse{0%,100%{opacity:1;}50%{opacity:.3;}}
+
+  .prolab-panel{max-width:420px; background:var(--bg-panel); border:1px solid var(--line); border-radius:18px; padding:26px; margin-top:10px;}
+  .prolab-panel h3{font-family:var(--font-display); margin:0 0 8px; font-size:18px;}
+  .auth-form{display:flex; flex-direction:column; gap:10px; margin-top:16px;}
+  .auth-form input{background:var(--bg-panel-2); border:1px solid var(--line); color:var(--text);
+    padding:11px 13px; border-radius:10px; font-family:var(--font-body); font-size:14px; outline:none; width:100%;}
+  .auth-form input:focus{border-color:var(--accent);}
+  .auth-actions{display:flex; gap:10px; margin-top:4px; flex-wrap:wrap;}
+  .btn-secondary{background:transparent; border:1px solid var(--line-strong); color:var(--text); font-weight:600;
+    font-size:13.5px; padding:11px 16px; border-radius:10px; cursor:pointer;}
+  .btn-secondary:hover{border-color:var(--accent); color:var(--accent);}
+  .auth-error{font-size:12.5px; color:var(--lose); min-height:16px;}
+
+  .live-badge{display:inline-flex; align-items:center; gap:5px; font-size:10.5px; font-weight:700; color:var(--lose);
+    background:var(--lose-soft); padding:2px 8px; border-radius:999px;}
+  .live-badge::before{content:''; width:6px; height:6px; border-radius:50%; background:var(--lose); animation:pulse 1.2s infinite;}
+
+  /* ---------- ABOUT (déjà existant, laissé tel quel) ---------- */
+  .about-wrap{padding:30px 0 60px; max-width:720px;}
+  .about-eyebrow{font-size:12.5px; color:var(--accent); font-weight:600;}
+  .about-title{font-family:var(--font-display); font-size:clamp(24px,3.4vw,34px); font-weight:700; margin:8px 0 18px;}
+  .about-lead{color:var(--text-dim); font-size:15px; line-height:1.7; margin:0 0 14px;}
+  .founder-card{margin-top:34px; background:var(--bg-panel); border:1px solid var(--line); border-radius:18px; padding:26px;}
+  .founder-head{display:flex; align-items:center; gap:16px; margin-bottom:18px;}
+  .founder-avatar{width:56px;height:56px;border-radius:14px; background:linear-gradient(145deg,var(--accent-soft),var(--pending-soft));
+    display:flex; align-items:center; justify-content:center; font-size:26px; flex-shrink:0;}
+  .founder-name{font-family:var(--font-display); font-size:19px; font-weight:700; margin:2px 0 2px;}
+  .founder-role{font-size:13px; color:var(--text-dim);}
+  .founder-bio{color:var(--text-dim); font-size:14.5px; line-height:1.7; margin:0;}
+  .pillars{display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); gap:12px; margin-top:16px;}
+  .pillar{background:var(--bg-panel-2); border:1px solid var(--line); border-radius:12px; padding:14px;}
+  .pillar-icon{font-size:20px; margin-bottom:8px;}
+  .pillar-title{font-family:var(--font-display); font-weight:600; font-size:14px; margin-bottom:4px;}
+  .pillar-text{font-size:12.5px; color:var(--text-dim); line-height:1.5;}
+
+  /* ---------- BOUTON D'AIDE FLOTTANT ---------- */
+  .help-fab{position:fixed; right:22px; bottom:22px; z-index:90; display:flex; flex-direction:column; align-items:flex-end; gap:10px;}
+  .help-options{display:flex; flex-direction:column; gap:10px; opacity:0; pointer-events:none; transform:translateY(8px); transition:.2s ease;}
+  .help-fab.open .help-options{opacity:1; pointer-events:auto; transform:translateY(0);}
+  .help-option{display:flex; align-items:center; gap:10px; background:var(--bg-panel); border:1px solid var(--line-strong);
+    color:var(--text); text-decoration:none; padding:10px 16px; border-radius:999px; font-size:13.5px; font-weight:600;
+    box-shadow:0 10px 24px -10px rgba(0,0,0,.6); white-space:nowrap;}
+  .help-option.wa:hover{border-color:#25D366; color:#25D366;}
+  .help-option.call:hover{border-color:var(--accent); color:var(--accent);}
+  .help-toggle{width:58px; height:58px; border-radius:50%; border:none; cursor:pointer;
+    background:linear-gradient(145deg,var(--accent),#ff7a45); color:#1a1200; font-size:24px;
+    display:flex; align-items:center; justify-content:center; box-shadow:0 12px 28px -8px rgba(255,176,32,.55);
+    transition:transform .2s ease;}
+  .help-toggle:hover{transform:scale(1.06);}
+  .help-fab.open .help-toggle{transform:rotate(45deg);}
+
+  footer{border-top:1px solid var(--line); padding:26px 0 40px; color:var(--text-faint); font-size:12.5px;}
+  footer a{text-decoration:underline; text-underline-offset:2px;}
+  .foot-sources{display:flex; gap:14px; flex-wrap:wrap; margin-top:8px;}
+
+  @media (max-width:640px){
+    .toolbar{align-items:stretch;}
+    .controls{width:100%;}
+    select, input[type=search]{flex:1;}
+  }
+</style>
+</head>
+<body>
+  <header class="top">
+  <div class="top-inner wrap" style="max-width:1180px;margin:0 auto;width:100%;padding:16px 0;">
+    <div class="brand">
+      <div class="mark">⚽</div>
+      <div>
+        <div class="name">Prono<span style="color:var(--accent)">70</span></div>
+        <div class="sub">Les meilleures opportunités du jour</div>
+      </div>
+    </div>
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="prono">Prono du jour</button>
+      <button class="tab-btn" data-tab="historique">Historique</button>
+      <button class="tab-btn" data-tab="prolab">ProLab <span id="prolab-lock">🔒</span></button>
+      <button class="tab-btn" data-tab="apropos">À propos</button>
+    </div>
+    <div class="account-area" id="account-area">
+      <button class="account-btn" id="account-btn">Mon compte</button>
+    </div>
+  </div>
+</header>
+
+<div class="ticker">
+  <div class="ticker-track" id="ticker-track">
+    <span>Chargement des données…</span>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <!-- ===================== VUE PRONO ===================== -->
+  <section id="view-prono">
+    <div class="toolbar">
+      <div>
+        <h1>Les opportunités du jour</h1>
+        <p>Sélection calculée à partir d'un modèle Elo + forme + confrontations directes — aucune donnée générée par IA.</p>
+      </div>
+      <div class="controls">
+        <select id="filter-league"><option value="">Toutes les compétitions</option></select>
+        <select id="filter-sort">
+          <option value="conf-desc">Confiance décroissante</option>
+          <option value="conf-asc">Confiance croissante</option>
+          <option value="time">Heure du match</option>
+        </select>
+        <div class="view-toggle">
+          <button id="btn-grid" class="active">Cartes</button>
+          <button id="btn-table">Tableau</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="grid-container" class="grid"></div>
+    <div id="table-container" class="table-wrap" style="display:none;">
+      <table>
+        <thead>
+          <tr>
+            <th>Heure</th><th>Compétition</th><th>Match</th><th>Pronostic</th><th>Confiance</th><th>Buts att.</th><th></th>
+          </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ===================== VUE HISTORIQUE ===================== -->
+  <section id="view-historique" style="display:none;">
+    <div class="toolbar">
+      <div>
+        <h1>Historique &amp; vérification</h1>
+        <p>Chaque pronostic est comparé automatiquement au score final réel pour calculer un taux de réussite honnête.</p>
+      </div>
+    </div>
+    <div class="accuracy-band" id="accuracy-band"></div>
+    <div class="hist-list" id="hist-list"></div>
+  </section>
+
+  <!-- ===================== VUE PROLAB (payant, activation admin) ===================== -->
+  <section id="view-prolab" style="display:none;">
+    <div class="toolbar">
+      <div>
+        <h1>ProLab <span class="prolab-tag">LIVE</span></h1>
+        <p>Analyse en direct, actualisée automatiquement, prenant en compte le score, le temps de jeu et les statistiques pré-match de chaque rencontre.</p>
+      </div>
+    </div>
+
+    <!-- État : non connecté -->
+    <div id="prolab-guest" class="prolab-panel">
+      <h3>Connecte-toi pour accéder à ProLab</h3>
+      <p class="about-lead">ProLab est un espace payant, activé manuellement par l'administrateur après souscription.</p>
+      <div class="auth-form">
+        <input type="email" id="auth-email" placeholder="Adresse e-mail" autocomplete="email">
+        <input type="password" id="auth-password" placeholder="Mot de passe" autocomplete="current-password">
+        <div class="auth-actions">
+          <button class="btn-analyse" id="btn-signin" style="width:auto;margin:0;">Se connecter</button>
+          <button class="btn-secondary" id="btn-signup">Créer un compte</button>
+        </div>
+        <div id="auth-error" class="auth-error"></div>
+      </div>
+    </div>
+
+    <!-- État : connecté mais pas encore activé -->
+    <div id="prolab-pending" class="prolab-panel" style="display:none;">
+      <h3>Compte créé ✅</h3>
+      <p class="about-lead">Ton accès ProLab n'est pas encore activé. Contacte l'administrateur via le bouton d'aide en bas à droite (WhatsApp ou appel) pour l'activation.</p>
+    </div>
+
+    <!-- État : ProLab actif -->
+    <div id="prolab-active" style="display:none;">
+      <div id="prolab-grid" class="grid"></div>
+    </div>
+  </section>
+
+  <!-- ===================== VUE À PROPOS ===================== -->
+  <section id="view-apropos" style="display:none;">
+    <div class="about-wrap">
+
+      <div class="about-block">
+        <span class="about-eyebrow">Notre charte</span>
+        <h1 class="about-title">Une méthode, pas une promesse</h1>
+        <p class="about-lead">
+          PronoFoot est né d'une conviction simple : les paris sportifs ne devraient jamais être
+          une question de chance aveugle, mais le résultat d'un travail d'analyse sérieux.
+          Chaque prédiction publiée ici repose sur un examen approfondi des données disponibles
+          avant chaque rencontre, jamais sur l'improvisation.
+        </p>
+        <p class="about-lead">
+          Nous ne promettons jamais de gain garanti — personne ne peut le faire honnêtement dans
+          ce domaine. Notre engagement est ailleurs : vous fournir un travail d'analyse rigoureux,
+          transparent et constant, match après match.
+        </p>
+      </div>
+
+      <div class="founder-card">
+        <div class="founder-head">
+          <div class="founder-avatar">🧑‍💻</div>
+          <div>
+            <span class="about-eyebrow">Le fondateur</span>
+            <h2 class="founder-name">Medie Brice</h2>
+            <div class="founder-role">Développeur &amp; Analyste de données</div>
+          </div>
+        </div>
+        <p class="founder-bio">
+          Medie Brice conçoit et fait tourner PronoFoot de bout en bout — de l'architecture
+          technique du site jusqu'à la méthode d'analyse derrière chaque prédiction. Son parcours
+          combine une formation solide en développement et en analyse de données avec une pratique
+          de terrain acquise au fil du temps.
+        </p>
+        <p class="founder-bio" style="margin-top:10px;">Son approche des prédictions football repose sur trois piliers complémentaires :</p>
+
+        <div class="pillars">
+          <div class="pillar">
+            <div class="pillar-icon">📊</div>
+            <div class="pillar-title">L'analyse statistique</div>
+            <div class="pillar-text">Données historiques, forme récente des équipes, tendances de performance.</div>
+          </div>
+          <div class="pillar">
+            <div class="pillar-icon">📰</div>
+            <div class="pillar-title">La veille terrain</div>
+            <div class="pillar-text">Actualité des effectifs, blessures, compositions probables, contexte du match.</div>
+          </div>
+          <div class="pillar">
+            <div class="pillar-icon">⚙️</div>
+            <div class="pillar-title">Des outils internes</div>
+            <div class="pillar-text">Développés pour croiser ces informations de manière systématique, plutôt qu'au hasard.</div>
+          </div>
+        </div>
+
+        <p class="founder-bio" style="margin-top:16px;">
+          Cette rigueur est la raison d'être de PronoFoot : offrir une base de décision sérieuse,
+          pas des promesses.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <div class="wrap">
+    <div>Dernière mise à jour automatique : <span id="last-update">—</span></div>
+    <div class="foot-sources">
+      <a href="https://github.com/openfootball/football.json" target="_blank" rel="noopener">openfootball/football.json</a>
+      <a href="https://github.com/openfootball/worldcup.json" target="_blank" rel="noopener">openfootball/worldcup.json</a>
+      <a href="https://github.com/luukhopman/football-logos" target="_blank" rel="noopener">luukhopman/football-logos</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ===================== BOUTON D'AIDE FLOTTANT ===================== -->
+<div class="help-fab" id="help-fab">
+  <div class="help-options">
+    <a class="help-option wa" href="https://wa.me/237654091216" target="_blank" rel="noopener">💬 WhatsApp</a>
+    <a class="help-option call" href="tel:+237654091216">📞 Appeler</a>
+  </div>
+  <button class="help-toggle" id="help-toggle" aria-label="Aide">?</button>
+</div>
+
+<!-- ===================== MODALE ANALYSE ===================== -->
+<div class="overlay" id="overlay">
+  <div class="modal" id="modal-content"></div>
+</div>
+
+<script>
+const state = { today: null, history: null, meta: null, currentView: 'grid' };
+
+async function loadData(){
+  try{
+    const [today, history, meta] = await Promise.all([
+      fetch('./data/today.json').then(r=>r.json()),
+      fetch('./data/history.json').then(r=>r.json()),
+      fetch('./data/meta.json').then(r=>r.json()),
+    ]);
+    state.today = today; state.history = history; state.meta = meta;
+    populateLeagueFilter();
+    renderTicker();
+    renderProno();
+    renderHistorique();
+    document.getElementById('last-update').textContent = new Date(meta.generated_at).toLocaleString('fr-FR');
+  }catch(e){
+    document.getElementById('grid-container').innerHTML =
+      `<div class="empty-state"><h3>Données pas encore générées</h3><p>Lance le workflow GitHub Actions "Mise à jour quotidienne" une première fois (onglet Actions → Run workflow), les fichiers docs/data/*.json seront alors créés.</p></div>`;
+    console.error(e);
+  }
+}
+
+function populateLeagueFilter(){
+  const leagues = [...new Set(state.today.matches.map(m=>m.league))].sort();
+  const sel = document.getElementById('filter-league');
+  leagues.forEach(l=>{
+    const opt = document.createElement('option'); opt.value = l; opt.textContent = l; sel.appendChild(opt);
+  });
+}
+
+function renderTicker(){
+  const m = state.meta, h = state.history;
+  const items = [
+    `<b>${state.today.matches.length}/70</b> meilleures opportunités aujourd'hui`,
+    `<b>${m.teams_rated}</b> équipes suivies`,
+    `Précision historique : <b>${h.accuracy.overall}%</b> sur ${h.accuracy.graded} pronostics vérifiés`,
+    `Mise à jour : <b>${new Date(m.generated_at).toLocaleString('fr-FR')}</b>`,
+  ];
+  const html = items.map(i=>`<span>${i}</span>`).join('');
+  document.getElementById('ticker-track').innerHTML = html + html; // dupliqué pour la boucle
+}
+
+function confClass(c){ return c>=60 ? 'conf-high' : (c>=45 ? 'conf-mid' : 'conf-low'); }
+
+function getFilteredSorted(){
+  const leagueVal = document.getElementById('filter-league').value;
+  const sortVal = document.getElementById('filter-sort').value;
+  let list = state.today.matches.filter(m => !leagueVal || m.league === leagueVal);
+  if(sortVal==='conf-desc') list.sort((a,b)=>b.prediction.confidence - a.prediction.confidence);
+  if(sortVal==='conf-asc') list.sort((a,b)=>a.prediction.confidence - b.prediction.confidence);
+  if(sortVal==='time') list.sort((a,b)=> (a.time||'').localeCompare(b.time||''));
+  return list;
+}
+
+function teamLogoHtml(url, name){
+  return url ? `<img src="${url}" alt="${name}" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'placeholder',textContent:'⚽'}))">`
+             : `<div class="placeholder">⚽</div>`;
+}
+
+function renderProno(){
+  const list = getFilteredSorted();
+  const gridEl = document.getElementById('grid-container');
+  const tbodyEl = document.getElementById('table-body');
+
+  if(list.length === 0){
+    gridEl.innerHTML = `<div class="empty-state"><h3>Aucun match aujourd'hui pour ce filtre</h3><p>Essaie une autre compétition ou reviens demain — la sélection se régénère chaque jour.</p></div>`;
+    tbodyEl.innerHTML = '';
+    return;
+  }
+
+  gridEl.innerHTML = list.map((m,i)=>cardHtml(m,i)).join('');
+  tbodyEl.innerHTML = list.map((m,i)=>rowHtml(m,i)).join('');
+
+  document.querySelectorAll('[data-open]').forEach(btn=>{
+    btn.addEventListener('click', ()=> openModal(list[+btn.dataset.open]));
+  });
+  enableTilt();
+}
+
+function cardHtml(m,i){
+  const p = m.prediction;
+  return `
+  <div class="card" data-tilt>
+    <div class="meta-row">
+      <span class="league">${m.league}</span>
+      <span>${m.time || ''}</span>
+    </div>
+    <div class="teams">
+      <div class="team">${teamLogoHtml(m.home_logo, m.home)}<span>${m.home}</span></div>
+      <div class="vs">VS</div>
+      <div class="team">${teamLogoHtml(m.away_logo, m.away)}<span>${m.away}</span></div>
+    </div>
+    <div class="tear"></div>
+    <div class="pick-row">
+      <div>
+        <div class="pick-label">Pronostic</div>
+        <div class="pick-value">${p.pick_label}</div>
+      </div>
+      <span class="badge-conf ${confClass(p.confidence)}">${p.confidence}%</span>
+    </div>
+    <button class="btn-analyse" data-open="${i}">Voir l'analyse complète</button>
+  </div>`;
+}
+
+function rowHtml(m,i){
+  const p = m.prediction;
+  return `<tr>
+    <td>${m.time||''}</td>
+    <td>${m.league}</td>
+    <td><div class="cell-match">${teamLogoHtml(m.home_logo,m.home)}<span>${m.home}</span><span style="color:var(--text-faint)">vs</span>${teamLogoHtml(m.away_logo,m.away)}<span>${m.away}</span></div></td>
+    <td>${p.pick_label}</td>
+    <td><span class="badge-conf ${confClass(p.confidence)}">${p.confidence}%</span></td>
+    <td>${p.avg_goals_expected}</td>
+    <td><button class="row-btn" data-open="${i}">Analyse</button></td>
+  </tr>`;
+}
+
+function openModal(m){
+  const p = m.prediction;
+  const overlay = document.getElementById('overlay');
+  const total = p.prob_home + p.prob_draw + p.prob_away;
+  document.getElementById('modal-content').innerHTML = `
+    <button class="modal-close" id="modal-close">✕</button>
+    <h2>${m.home} vs ${m.away}</h2>
+    <div class="modal-sub">${m.league} · ${m.round || ''} · ${m.date} ${m.time||''}</div>
+
+    <div class="bar-row">
+      <div class="bar-labels"><span>${m.home} ${p.prob_home}%</span><span>Nul ${p.prob_draw}%</span><span>${m.away} ${p.prob_away}%</span></div>
+      <div class="bar-track">
+        <div class="bar-seg seg-1" style="width:${p.prob_home/total*100}%"></div>
+        <div class="bar-seg seg-x" style="width:${p.prob_draw/total*100}%"></div>
+        <div class="bar-seg seg-2" style="width:${p.prob_away/total*100}%"></div>
+      </div>
+    </div>
+
+    <div class="info-grid">
+      <div class="info-box">
+        <div class="t">Élo ${m.home}</div><div class="v">${p.elo_home}</div>
+        <div class="form-chips">${formChips(p.form_home.form_str)}</div>
+      </div>
+      <div class="info-box">
+        <div class="t">Élo ${m.away}</div><div class="v">${p.elo_away}</div>
+        <div class="form-chips">${formChips(p.form_away.form_str)}</div>
+      </div>
+      <div class="info-box"><div class="t">Confrontations directes</div>
+        <div class="v">${p.head_to_head.played} match(s)</div>
+        <div style="font-size:12px;color:var(--text-dim);margin-top:4px;">${p.head_to_head.home_wins}V / ${p.head_to_head.draws}N / ${p.head_to_head.away_wins}D</div>
+      </div>
+      <div class="info-box"><div class="t">Marché secondaire</div>
+        <div class="v">${p.over_under_pick}</div>
+        <div style="font-size:12px;color:var(--text-dim);margin-top:4px;">BTTS (2 équipes marquent) : ${p.btts_pick}</div>
+      </div>
+    </div>
+    <div style="margin-top:16px; font-size:12px; color:var(--text-faint);">
+      Qualité des données utilisées : <b style="color:var(--text-dim)">${p.data_quality}</b> — basé sur ${Math.min(p.form_home.played,p.form_away.played)} matchs récents disponibles pour chaque équipe.
+    </div>
+  `;
+  overlay.classList.add('open');
+  document.getElementById('modal-close').addEventListener('click', ()=> overlay.classList.remove('open'));
+}
+
+function formChips(str){
+  if(!str) return '<span style="font-size:11px;color:var(--text-faint)">Pas assez de données</span>';
+  return str.split('').map(r=>{
+    const cls = r==='W' ? 'chip-w' : (r==='D' ? 'chip-d' : 'chip-l');
+    return `<div class="chip ${cls}">${r}</div>`;
+  }).join('');
+}
+
+document.getElementById('overlay').addEventListener('click', (e)=>{
+  if(e.target.id === 'overlay') e.target.classList.remove('open');
+});
+
+// ---------- HISTORIQUE ----------
+function renderHistorique(){
+  const acc = state.history.accuracy;
+  document.getElementById('accuracy-band').innerHTML = `
+    <div class="stat-card"><div class="num" style="color:var(--win)">${acc.overall}%</div><div class="lbl">Taux de réussite global</div></div>
+    <div class="stat-card"><div class="num">${acc.graded}</div><div class="lbl">Pronostics vérifiés</div></div>
+    <div class="stat-card"><div class="num">${acc.correct}</div><div class="lbl">Pronostics gagnants</div></div>
+    <div class="stat-card"><div class="num">${state.history.entries.length - acc.graded}</div><div class="lbl">En attente du coup de sifflet final</div></div>
+  `;
+  const list = document.getElementById('hist-list');
+  if(state.history.entries.length===0){
+    list.innerHTML = `<div class="empty-state"><h3>Pas encore d'historique</h3><p>Il se remplit automatiquement chaque jour après la première exécution du workflow.</p></div>`;
+    return;
+  }
+  list.innerHTML = state.history.entries.map(e=>{
+    let statusClass = 'st-pending', icon = '⏳';
+    if(e.status === 'verifie'){ statusClass = e.correct ? 'st-win' : 'st-lose'; icon = e.correct ? '✓' : '✕'; }
+    return `<div class="hist-row">
+      <div class="hist-status ${statusClass}">${icon}</div>
+      <div class="hist-main">
+        <div class="teams-line">${e.home} vs ${e.away}</div>
+        <div class="sub-line">${e.league} · ${e.date} · Prono : ${e.pick_label} (${e.confidence}%)</div>
+      </div>
+      <div class="hist-score">${e.actual_score || 'à venir'}</div>
+    </div>`;
+  }).join('');
+}
+
+// ---------- TABS ----------
+const VIEWS = { prono: 'view-prono', historique: 'view-historique', prolab: 'view-prolab', apropos: 'view-apropos' };
+document.querySelectorAll('.tab-btn').forEach(btn=>{
+  btn.addEventListener('click', ()=>{
+    document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    Object.entries(VIEWS).forEach(([key, id])=>{
+      document.getElementById(id).style.display = (key === btn.dataset.tab) ? '' : 'none';
+    });
+  });
+});
+
+// ---------- BOUTON D'AIDE FLOTTANT ----------
+document.getElementById('help-toggle').addEventListener('click', ()=>{
+  document.getElementById('help-fab').classList.toggle('open');
+});
+document.addEventListener('click', (e)=>{
+  const fab = document.getElementById('help-fab');
+  if(fab.classList.contains('open') && !fab.contains(e.target)) fab.classList.remove('open');
+});
+
+// ---------- VIEW TOGGLE (cartes / tableau) ----------
+document.getElementById('btn-grid').addEventListener('click', ()=>{
+  state.currentView='grid';
+  document.getElementById('btn-grid').classList.add('active');
+  document.getElementById('btn-table').classList.remove('active');
+  document.getElementById('grid-container').style.display='grid';
+  document.getElementById('table-container').style.display='none';
+});
+document.getElementById('btn-table').addEventListener('click', ()=>{
+  state.currentView='table';
+  document.getElementById('btn-table').classList.add('active');
+  document.getElementById('btn-grid').classList.remove('active');
+  document.getElementById('grid-container').style.display='none';
+  document.getElementById('table-container').style.display='block';
+});
+
+document.getElementById('filter-league').addEventListener('change', renderProno);
+document.getElementById('filter-sort').addEventListener('change', renderProno);
+
+// ---------- Effet 3D léger au survol des cartes ----------
+function enableTilt(){
+  document.querySelectorAll('[data-tilt]').forEach(card=>{
+    card.addEventListener('mousemove', (e)=>{
+      const r = card.getBoundingClientRect();
+      const x = (e.clientX - r.left)/r.width - 0.5;
+      const y = (e.clientY - r.top)/r.height - 0.5;
+      card.style.transform = `rotate
