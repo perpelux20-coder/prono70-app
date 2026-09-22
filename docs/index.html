@@ -235,7 +235,8 @@
 </style>
 </head>
 <body>
-  <header class="top">
+
+<header class="top">
   <div class="top-inner wrap" style="max-width:1180px;margin:0 auto;width:100%;padding:16px 0;">
     <div class="brand">
       <div class="mark">⚽</div>
@@ -438,7 +439,6 @@
 </div>
 
 <script>
-  window.onerror = function(msg, src, line, col){ document.body.insertAdjacentHTML('afterbegin', '<div style="background:red;color:white;padding:14px;font-size:14px;position:relative;z-index:9999;">ERREUR : '+msg+' (ligne '+line+')</div>'); };
 const state = { today: null, history: null, meta: null, currentView: 'grid' };
 
 async function loadData(){
@@ -698,6 +698,10 @@ loadData();
 // =====================================================================
 // PROLAB — comptes (Supabase Auth) + affichage live (RLS-protégé)
 // =====================================================================
+// ⚠️ À REMPLIR après avoir créé ton projet Supabase (gratuit) :
+// Project Settings → API → "Project URL" et "anon public" key.
+// La clé "anon" est PUBLIQUE par design (protégée par les policies RLS) —
+// ne mets JAMAIS la clé "service_role" ici.
 const SUPABASE_URL = 'https://djbatbpcyyiwmqngwrqk.supabase.co';
 const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRqYmF0YnBjeXlpd21xbmd3cnFrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODk3NTIxNzYsImV4cCI6MjEwNTMyODE3Nn0.bbAVebDL5FbB_ROuZP_H4TqrRXs5uU5ipj-kZxUMSNM';
 
@@ -820,7 +824,7 @@ async function loadLiveMatches(){
 function startLivePolling(){
   loadLiveMatches();
   stopLivePolling();
-  prolabState.pollTimer = setInterval(loadLiveMatches, 30000);
+  prolabState.pollTimer = setInterval(loadLiveMatches, 30000); // rafraîchit l'affichage toutes les 30s
 }
 function stopLivePolling(){
   if (prolabState.pollTimer) clearInterval(prolabState.pollTimer);
