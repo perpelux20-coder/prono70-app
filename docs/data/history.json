@@ -9,9 +9,9 @@
       "pick_label": "Victoire AFC Bournemouth",
       "pick_code": "1",
       "confidence": 41.7,
-      "status": "en_attente",
-      "actual_score": null,
-      "correct": null
+      "status": "verifie",
+      "actual_score": "0-1",
+      "correct": false
     },
     {
       "id": "2026-09-20|Leeds United FC|Crystal Palace FC",
@@ -35,9 +35,9 @@
       "pick_label": "Victoire Manchester City FC",
       "pick_code": "1",
       "confidence": 52.5,
-      "status": "en_attente",
-      "actual_score": null,
-      "correct": null
+      "status": "verifie",
+      "actual_score": "5-3",
+      "correct": true
     },
     {
       "id": "2026-09-20|Fulham FC|Manchester United FC",
@@ -48,9 +48,9 @@
       "pick_label": "Victoire Fulham FC",
       "pick_code": "1",
       "confidence": 41.2,
-      "status": "en_attente",
-      "actual_score": null,
-      "correct": null
+      "status": "verifie",
+      "actual_score": "1-1",
+      "correct": false
     },
     {
       "id": "2026-09-20|Wolverhampton Wanderers FC|West Bromwich Albion FC",
@@ -256,9 +256,9 @@
       "pick_label": "Victoire AJ Auxerre",
       "pick_code": "1",
       "confidence": 42.1,
-      "status": "en_attente",
-      "actual_score": null,
-      "correct": null
+      "status": "verifie",
+      "actual_score": "2-1",
+      "correct": true
     },
     {
       "id": "2026-09-20|OGC Nice|Lille OSC",
@@ -269,9 +269,9 @@
       "pick_label": "Victoire OGC Nice",
       "pick_code": "1",
       "confidence": 37.6,
-      "status": "en_attente",
-      "actual_score": null,
-      "correct": null
+      "status": "verifie",
+      "actual_score": "2-1",
+      "correct": true
     },
     {
       "id": "2026-09-20|Olympique de Marseille|Paris Saint-Germain FC",
@@ -282,9 +282,9 @@
       "pick_label": "Victoire Olympique de Marseille",
       "pick_code": "1",
       "confidence": 41.1,
-      "status": "en_attente",
-      "actual_score": null,
-      "correct": null
+      "status": "verifie",
+      "actual_score": "1-2",
+      "correct": false
     },
     {
       "id": "2026-09-20|Feyenoord Rotterdam|FC Utrecht",
@@ -295,9 +295,9 @@
       "pick_label": "Victoire Feyenoord Rotterdam",
       "pick_code": "1",
       "confidence": 53.9,
-      "status": "en_attente",
-      "actual_score": null,
-      "correct": null
+      "status": "verifie",
+      "actual_score": "5-0",
+      "correct": true
     },
     {
       "id": "2026-09-20|FC Twente '65|PSV",
@@ -308,9 +308,9 @@
       "pick_label": "Victoire FC Twente '65",
       "pick_code": "1",
       "confidence": 41.5,
-      "status": "en_attente",
-      "actual_score": null,
-      "correct": null
+      "status": "verifie",
+      "actual_score": "3-2",
+      "correct": true
     },
     {
       "id": "2026-09-20|AZ|Telstar 1963",
@@ -321,9 +321,9 @@
       "pick_label": "Victoire AZ",
       "pick_code": "1",
       "confidence": 55.9,
-      "status": "en_attente",
-      "actual_score": null,
-      "correct": null
+      "status": "verifie",
+      "actual_score": "1-0",
+      "correct": true
     },
     {
       "id": "2026-09-20|NEC|Go Ahead Eagles",
@@ -334,9 +334,9 @@
       "pick_label": "Victoire NEC",
       "pick_code": "1",
       "confidence": 42.0,
-      "status": "en_attente",
-      "actual_score": null,
-      "correct": null
+      "status": "verifie",
+      "actual_score": "1-1",
+      "correct": false
     },
     {
       "id": "2026-09-20|Vitória Guimarães|Moreirense FC",
@@ -405,8 +405,8 @@
     }
   ],
   "accuracy": {
-    "overall": 0.0,
-    "graded": 0,
-    "correct": 0
+    "overall": 60.0,
+    "graded": 10,
+    "correct": 6
   }
 }
