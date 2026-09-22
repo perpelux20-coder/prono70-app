@@ -438,6 +438,7 @@
 </div>
 
 <script>
+  window.onerror = function(msg, src, line, col){ document.body.insertAdjacentHTML('afterbegin', '<div style="background:red;color:white;padding:14px;font-size:14px;position:relative;z-index:9999;">ERREUR : '+msg+' (ligne '+line+')</div>'); };
 const state = { today: null, history: null, meta: null, currentView: 'grid' };
 
 async function loadData(){
