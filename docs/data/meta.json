@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T09:34:24.559666+00:00",
+  "generated_at": "2026-09-22T09:43:06.612592+00:00",
   "target_date": "2026-09-22",
   "total_matches_scanned": 5770,
   "matches_today": 0,
@@ -9,5 +9,5 @@
     "https://github.com/openfootball/worldcup.json",
     "https://github.com/luukhopman/football-logos"
   ],
-  "accuracy_overall": 60.0
+  "accuracy_overall": 60.7
 }

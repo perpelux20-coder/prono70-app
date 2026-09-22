@@ -61,9 +61,9 @@
       "pick_label": "Victoire Wolverhampton Wanderers FC",
       "pick_code": "1",
       "confidence": 44.4,
-      "status": "en_attente",
-      "actual_score": null,
-      "correct": null
+      "status": "verifie",
+      "actual_score": "1-0",
+      "correct": true
     },
     {
       "id": "2026-09-20|Norwich City FC|Bolton Wanderers FC",
@@ -74,9 +74,9 @@
       "pick_label": "Victoire Norwich City FC",
       "pick_code": "1",
       "confidence": 47.8,
-      "status": "en_attente",
-      "actual_score": null,
-      "correct": null
+      "status": "verifie",
+      "actual_score": "3-4",
+      "correct": false
     },
     {
       "id": "2026-09-20|Bayer 04 Leverkusen|RB Leipzig",
@@ -87,9 +87,9 @@
       "pick_label": "Victoire Bayer 04 Leverkusen",
       "pick_code": "1",
       "confidence": 44.5,
-      "status": "en_attente",
-      "actual_score": null,
-      "correct": null
+      "status": "verifie",
+      "actual_score": "2-0",
+      "correct": true
     },
     {
       "id": "2026-09-20|FC Schalke 04|SV 07 Elversberg",
@@ -113,9 +113,9 @@
       "pick_label": "Victoire SC Paderborn 07",
       "pick_code": "1",
       "confidence": 52.4,
-      "status": "en_attente",
-      "actual_score": null,
-      "correct": null
+      "status": "verifie",
+      "actual_score": "3-1",
+      "correct": true
     },
     {
       "id": "2026-09-20|Getafe CF|Málaga CF",
@@ -126,9 +126,9 @@
       "pick_label": "Victoire Getafe CF",
       "pick_code": "1",
       "confidence": 48.9,
-      "status": "en_attente",
-      "actual_score": null,
-      "correct": null
+      "status": "verifie",
+      "actual_score": "1-0",
+      "correct": true
     },
     {
       "id": "2026-09-20|Club Atlético de Madrid|Real Madrid CF",
@@ -139,9 +139,9 @@
       "pick_label": "Victoire Club Atlético de Madrid",
       "pick_code": "1",
       "confidence": 43.8,
-      "status": "en_attente",
-      "actual_score": null,
-      "correct": null
+      "status": "verifie",
+      "actual_score": "2-1",
+      "correct": true
     },
     {
       "id": "2026-09-20|RC Deportivo La Coruña|Real Betis Balompié",
@@ -152,9 +152,9 @@
       "pick_label": "Victoire RC Deportivo La Coruña",
       "pick_code": "1",
       "confidence": 40.3,
-      "status": "en_attente",
-      "actual_score": null,
-      "correct": null
+      "status": "verifie",
+      "actual_score": "1-1",
+      "correct": false
     },
     {
       "id": "2026-09-20|Villarreal CF|Levante UD",
@@ -165,9 +165,9 @@
       "pick_label": "Victoire Villarreal CF",
       "pick_code": "1",
       "confidence": 44.2,
-      "status": "en_attente",
-      "actual_score": null,
-      "correct": null
+      "status": "verifie",
+      "actual_score": "3-1",
+      "correct": true
     },
     {
       "id": "2026-09-20|Valencia CF|Real Sociedad de Fútbol",
@@ -178,9 +178,9 @@
       "pick_label": "Victoire Valencia CF",
       "pick_code": "1",
       "confidence": 42.4,
-      "status": "en_attente",
-      "actual_score": null,
-      "correct": null
+      "status": "verifie",
+      "actual_score": "2-3",
+      "correct": false
     },
     {
       "id": "2026-09-20|ACF Fiorentina|SSC Napoli",
@@ -191,9 +191,9 @@
       "pick_label": "Victoire ACF Fiorentina",
       "pick_code": "1",
       "confidence": 42.6,
-      "status": "en_attente",
-      "actual_score": null,
-      "correct": null
+      "status": "verifie",
+      "actual_score": "1-1",
+      "correct": false
     },
     {
       "id": "2026-09-20|Frosinone Calcio|Como 1907",
@@ -204,9 +204,9 @@
       "pick_label": "Victoire Frosinone Calcio",
       "pick_code": "1",
       "confidence": 54.2,
-      "status": "en_attente",
-      "actual_score": null,
-      "correct": null
+      "status": "verifie",
+      "actual_score": "2-0",
+      "correct": true
     },
     {
       "id": "2026-09-20|Parma Calcio 1913|Genoa CFC",
@@ -217,9 +217,9 @@
       "pick_label": "Victoire Parma Calcio 1913",
       "pick_code": "1",
       "confidence": 45.5,
-      "status": "en_attente",
-      "actual_score": null,
-      "correct": null
+      "status": "verifie",
+      "actual_score": "2-1",
+      "correct": true
     },
     {
       "id": "2026-09-20|Juventus FC|Atalanta BC",
@@ -230,9 +230,9 @@
       "pick_label": "Victoire Juventus FC",
       "pick_code": "1",
       "confidence": 47.5,
-      "status": "en_attente",
-      "actual_score": null,
-      "correct": null
+      "status": "verifie",
+      "actual_score": "2-0",
+      "correct": true
     },
     {
       "id": "2026-09-20|AC Milan|US Lecce",
@@ -243,9 +243,9 @@
       "pick_label": "Victoire AC Milan",
       "pick_code": "1",
       "confidence": 48.5,
-      "status": "en_attente",
-      "actual_score": null,
-      "correct": null
+      "status": "verifie",
+      "actual_score": "3-0",
+      "correct": true
     },
     {
       "id": "2026-09-20|AJ Auxerre|Stade Brestois 29",
@@ -347,9 +347,9 @@
       "pick_label": "Victoire Vitória Guimarães",
       "pick_code": "1",
       "confidence": 42.0,
-      "status": "en_attente",
-      "actual_score": null,
-      "correct": null
+      "status": "verifie",
+      "actual_score": "1-1",
+      "correct": false
     },
     {
       "id": "2026-09-20|CF Estrela da Amadora|Académico de Viseu FC",
@@ -360,9 +360,9 @@
       "pick_label": "Victoire CF Estrela da Amadora",
       "pick_code": "1",
       "confidence": 47.5,
-      "status": "en_attente",
-      "actual_score": null,
-      "correct": null
+      "status": "verifie",
+      "actual_score": "0-2",
+      "correct": false
     },
     {
       "id": "2026-09-20|CD Santa Clara|Sporting Clube de Braga",
@@ -386,9 +386,9 @@
       "pick_label": "Victoire GD Estoril Praia",
       "pick_code": "1",
       "confidence": 46.9,
-      "status": "en_attente",
-      "actual_score": null,
-      "correct": null
+      "status": "verifie",
+      "actual_score": "1-2",
+      "correct": false
     },
     {
       "id": "2026-09-20|FC Porto|Sport Lisboa e Benfica",
@@ -399,14 +399,14 @@
       "pick_label": "Victoire FC Porto",
       "pick_code": "1",
       "confidence": 46.3,
-      "status": "en_attente",
-      "actual_score": null,
-      "correct": null
+      "status": "verifie",
+      "actual_score": "3-1",
+      "correct": true
     }
   ],
   "accuracy": {
-    "overall": 60.0,
-    "graded": 10,
-    "correct": 6
+    "overall": 60.7,
+    "graded": 28,
+    "correct": 17
   }
 }
