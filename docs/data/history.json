@@ -1,6 +1,71 @@
 {
   "entries": [
     {
+      "id": "2026-10-12|Coventry City FC|Newcastle United FC",
+      "date": "2026-10-12",
+      "league": "Angleterre - Premier League",
+      "home": "Coventry City FC",
+      "away": "Newcastle United FC",
+      "pick_label": "Victoire Coventry City FC",
+      "pick_code": "1",
+      "confidence": 39.8,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
+      "id": "2026-10-12|Levante UD|Sevilla FC",
+      "date": "2026-10-12",
+      "league": "Espagne - La Liga",
+      "home": "Levante UD",
+      "away": "Sevilla FC",
+      "pick_label": "Victoire Levante UD",
+      "pick_code": "1",
+      "confidence": 39.4,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
+      "id": "2026-10-12|Atalanta BC|Venezia FC",
+      "date": "2026-10-12",
+      "league": "Italie - Serie A",
+      "home": "Atalanta BC",
+      "away": "Venezia FC",
+      "pick_label": "Victoire Atalanta BC",
+      "pick_code": "1",
+      "confidence": 35.4,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
+      "id": "2026-10-12|Torino FC|Udinese Calcio",
+      "date": "2026-10-12",
+      "league": "Italie - Serie A",
+      "home": "Torino FC",
+      "away": "Udinese Calcio",
+      "pick_label": "Victoire Torino FC",
+      "pick_code": "1",
+      "confidence": 45.1,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
+      "id": "2026-10-12|FC Famalicão|FC Alverca",
+      "date": "2026-10-12",
+      "league": "Portugal - Primeira Liga",
+      "home": "FC Famalicão",
+      "away": "FC Alverca",
+      "pick_label": "Victoire FC Famalicão",
+      "pick_code": "1",
+      "confidence": 45.9,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
       "id": "2026-10-11|Hull City AFC|Everton FC",
       "date": "2026-10-11",
       "league": "Angleterre - Premier League",
