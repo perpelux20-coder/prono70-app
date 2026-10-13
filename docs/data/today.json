@@ -1,38 +1,38 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "matches": [
     {
-      "id": "2026-10-12|FC Famalicão|FC Alverca",
-      "date": "2026-10-12",
-      "time": "20:15",
-      "league": "Portugal - Primeira Liga",
-      "round": "Matchday 8",
-      "home": "FC Famalicão",
-      "away": "FC Alverca",
-      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Portugal%20-%20Liga%20Portugal/FC%20Famalic%C3%A3o.png",
-      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Portugal%20-%20Liga%20Portugal/FC%20Alverca.png",
+      "id": "2026-10-13|Birmingham City FC|Preston North End FC",
+      "date": "2026-10-13",
+      "time": "20:00",
+      "league": "Angleterre - Championship",
+      "round": "Matchday 10",
+      "home": "Birmingham City FC",
+      "away": "Preston North End FC",
+      "home_logo": null,
+      "away_logo": null,
       "prediction": {
-        "elo_home": 1496.4,
-        "elo_away": 1489.9,
-        "prob_home": 45.9,
-        "prob_draw": 24.5,
-        "prob_away": 29.6,
+        "elo_home": 1507.8,
+        "elo_away": 1452.3,
+        "prob_home": 53.2,
+        "prob_draw": 21.0,
+        "prob_away": 25.8,
         "pick_code": "1",
-        "pick_label": "Victoire FC Famalicão",
-        "confidence": 45.9,
+        "pick_label": "Victoire Birmingham City FC",
+        "confidence": 53.2,
         "form_home": {
-          "points": 5,
+          "points": 6,
           "played": 5,
           "avg_gf": 1.6,
-          "avg_ga": 1.2,
-          "form_str": "LLDDW"
+          "avg_ga": 1.6,
+          "form_str": "DDLWD"
         },
         "form_away": {
-          "points": 7,
+          "points": 4,
           "played": 5,
-          "avg_gf": 1.4,
-          "avg_ga": 1.4,
-          "form_str": "LDLWW"
+          "avg_gf": 1.2,
+          "avg_ga": 1.8,
+          "form_str": "LWLLD"
         },
         "head_to_head": {
           "played": 0,
@@ -42,42 +42,177 @@
         },
         "over_under_pick": "Plus de 2.5 buts",
         "btts_pick": "Oui",
-        "avg_goals_expected": 2.8,
+        "avg_goals_expected": 3.1,
         "data_quality": "solide"
       }
     },
     {
-      "id": "2026-10-12|Torino FC|Udinese Calcio",
-      "date": "2026-10-12",
-      "time": "20:45",
-      "league": "Italie - Serie A",
-      "round": "Matchday 6",
-      "home": "Torino FC",
-      "away": "Udinese Calcio",
-      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Torino%20FC.png",
-      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Udinese%20Calcio.png",
+      "id": "2026-10-13|Wolverhampton Wanderers FC|Bolton Wanderers FC",
+      "date": "2026-10-13",
+      "time": "19:45",
+      "league": "Angleterre - Championship",
+      "round": "Matchday 10",
+      "home": "Wolverhampton Wanderers FC",
+      "away": "Bolton Wanderers FC",
+      "home_logo": null,
+      "away_logo": null,
       "prediction": {
-        "elo_home": 1481.3,
-        "elo_away": 1480.6,
-        "prob_home": 45.1,
-        "prob_draw": 25.0,
-        "prob_away": 30.0,
+        "elo_home": 1533.3,
+        "elo_away": 1488.4,
+        "prob_home": 51.6,
+        "prob_draw": 21.8,
+        "prob_away": 26.6,
         "pick_code": "1",
-        "pick_label": "Victoire Torino FC",
-        "confidence": 45.1,
+        "pick_label": "Victoire Wolverhampton Wanderers FC",
+        "confidence": 51.6,
+        "form_home": {
+          "points": 10,
+          "played": 5,
+          "avg_gf": 2.0,
+          "avg_ga": 1.4,
+          "form_str": "WLDWW"
+        },
+        "form_away": {
+          "points": 6,
+          "played": 5,
+          "avg_gf": 1.8,
+          "avg_ga": 2.6,
+          "form_str": "LLLWW"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 3.9,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-10-13|Bristol City FC|Blackburn Rovers FC",
+      "date": "2026-10-13",
+      "time": "19:45",
+      "league": "Angleterre - Championship",
+      "round": "Matchday 10",
+      "home": "Bristol City FC",
+      "away": "Blackburn Rovers FC",
+      "home_logo": null,
+      "away_logo": null,
+      "prediction": {
+        "elo_home": 1509.1,
+        "elo_away": 1487.1,
+        "prob_home": 48.2,
+        "prob_draw": 23.4,
+        "prob_away": 28.4,
+        "pick_code": "1",
+        "pick_label": "Victoire Bristol City FC",
+        "confidence": 48.2,
+        "form_home": {
+          "points": 9,
+          "played": 5,
+          "avg_gf": 1.4,
+          "avg_ga": 1.4,
+          "form_str": "WWLLW"
+        },
+        "form_away": {
+          "points": 4,
+          "played": 5,
+          "avg_gf": 1.6,
+          "avg_ga": 1.8,
+          "form_str": "LLLWD"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 3.1,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-10-13|Cardiff City FC|Watford FC",
+      "date": "2026-10-13",
+      "time": "19:45",
+      "league": "Angleterre - Championship",
+      "round": "Matchday 10",
+      "home": "Cardiff City FC",
+      "away": "Watford FC",
+      "home_logo": null,
+      "away_logo": null,
+      "prediction": {
+        "elo_home": 1479.8,
+        "elo_away": 1477.5,
+        "prob_home": 45.3,
+        "prob_draw": 24.8,
+        "prob_away": 29.9,
+        "pick_code": "1",
+        "pick_label": "Victoire Cardiff City FC",
+        "confidence": 45.3,
         "form_home": {
           "points": 4,
           "played": 5,
           "avg_gf": 1.0,
-          "avg_ga": 1.6,
-          "form_str": "LLWLD"
+          "avg_ga": 1.4,
+          "form_str": "LLDLW"
         },
         "form_away": {
-          "points": 4,
+          "points": 3,
           "played": 5,
-          "avg_gf": 1.6,
-          "avg_ga": 2.2,
-          "form_str": "DWLLL"
+          "avg_gf": 0.6,
+          "avg_ga": 1.4,
+          "form_str": "LLWLL"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Moins de 2.5 buts",
+        "btts_pick": "Non",
+        "avg_goals_expected": 2.2,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-10-13|Stoke City FC|Middlesbrough FC",
+      "date": "2026-10-13",
+      "time": "20:00",
+      "league": "Angleterre - Championship",
+      "round": "Matchday 10",
+      "home": "Stoke City FC",
+      "away": "Middlesbrough FC",
+      "home_logo": null,
+      "away_logo": null,
+      "prediction": {
+        "elo_home": 1513.9,
+        "elo_away": 1530.9,
+        "prob_home": 42.5,
+        "prob_draw": 26.2,
+        "prob_away": 31.3,
+        "pick_code": "1",
+        "pick_label": "Victoire Stoke City FC",
+        "confidence": 42.5,
+        "form_home": {
+          "points": 13,
+          "played": 5,
+          "avg_gf": 2.0,
+          "avg_ga": 0.6,
+          "form_str": "WWDWW"
+        },
+        "form_away": {
+          "points": 9,
+          "played": 5,
+          "avg_gf": 2.0,
+          "avg_ga": 1.6,
+          "form_str": "DWWDD"
         },
         "head_to_head": {
           "played": 0,
@@ -87,42 +222,42 @@
         },
         "over_under_pick": "Plus de 2.5 buts",
         "btts_pick": "Oui",
-        "avg_goals_expected": 3.2,
+        "avg_goals_expected": 3.1,
         "data_quality": "solide"
       }
     },
     {
-      "id": "2026-10-12|Coventry City FC|Newcastle United FC",
-      "date": "2026-10-12",
-      "time": "20:00",
-      "league": "Angleterre - Premier League",
-      "round": "Matchday 6",
-      "home": "Coventry City FC",
-      "away": "Newcastle United FC",
-      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Coventry%20City.png",
-      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Newcastle%20United.png",
+      "id": "2026-10-13|Wrexham AFC|West Bromwich Albion FC",
+      "date": "2026-10-13",
+      "time": "19:45",
+      "league": "Angleterre - Championship",
+      "round": "Matchday 10",
+      "home": "Wrexham AFC",
+      "away": "West Bromwich Albion FC",
+      "home_logo": null,
+      "away_logo": null,
       "prediction": {
-        "elo_home": 1473.1,
-        "elo_away": 1508.9,
-        "prob_home": 39.8,
-        "prob_draw": 27.6,
-        "prob_away": 32.7,
+        "elo_home": 1499.7,
+        "elo_away": 1519.5,
+        "prob_home": 42.1,
+        "prob_draw": 26.4,
+        "prob_away": 31.5,
         "pick_code": "1",
-        "pick_label": "Victoire Coventry City FC",
-        "confidence": 39.8,
+        "pick_label": "Victoire Wrexham AFC",
+        "confidence": 42.1,
         "form_home": {
-          "points": 3,
+          "points": 7,
           "played": 5,
-          "avg_gf": 0.2,
+          "avg_gf": 1.4,
           "avg_ga": 2.0,
-          "form_str": "LLLLW"
+          "form_str": "LWDLW"
         },
         "form_away": {
           "points": 8,
           "played": 5,
-          "avg_gf": 1.8,
-          "avg_ga": 1.8,
-          "form_str": "DWDLW"
+          "avg_gf": 0.8,
+          "avg_ga": 0.6,
+          "form_str": "DWWDL"
         },
         "head_to_head": {
           "played": 0,
@@ -130,44 +265,44 @@
           "draws": 0,
           "away_wins": 0
         },
-        "over_under_pick": "Plus de 2.5 buts",
+        "over_under_pick": "Moins de 2.5 buts",
         "btts_pick": "Non",
-        "avg_goals_expected": 2.9,
+        "avg_goals_expected": 2.4,
         "data_quality": "solide"
       }
     },
     {
-      "id": "2026-10-12|Levante UD|Sevilla FC",
-      "date": "2026-10-12",
-      "time": "21:00",
-      "league": "Espagne - La Liga",
-      "round": "Matchday 8",
-      "home": "Levante UD",
-      "away": "Sevilla FC",
-      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Levante%20UD.png",
-      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Sevilla%20FC.png",
+      "id": "2026-10-13|Millwall FC|Swansea City AFC",
+      "date": "2026-10-13",
+      "time": "19:45",
+      "league": "Angleterre - Championship",
+      "round": "Matchday 10",
+      "home": "Millwall FC",
+      "away": "Swansea City AFC",
+      "home_logo": null,
+      "away_logo": null,
       "prediction": {
-        "elo_home": 1480.0,
-        "elo_away": 1518.2,
-        "prob_home": 39.4,
-        "prob_draw": 27.7,
-        "prob_away": 32.8,
+        "elo_home": 1498.5,
+        "elo_away": 1544.4,
+        "prob_home": 38.3,
+        "prob_draw": 28.3,
+        "prob_away": 33.4,
         "pick_code": "1",
-        "pick_label": "Victoire Levante UD",
-        "confidence": 39.4,
+        "pick_label": "Victoire Millwall FC",
+        "confidence": 38.3,
         "form_home": {
-          "points": 3,
-          "played": 4,
-          "avg_gf": 2.0,
-          "avg_ga": 3.0,
-          "form_str": "LWLL"
+          "points": 5,
+          "played": 5,
+          "avg_gf": 1.8,
+          "avg_ga": 2.0,
+          "form_str": "LWLDD"
         },
         "form_away": {
-          "points": 7,
+          "points": 12,
           "played": 5,
-          "avg_gf": 1.0,
-          "avg_ga": 1.4,
-          "form_str": "LDWWL"
+          "avg_gf": 2.2,
+          "avg_ga": 1.0,
+          "form_str": "WWLWW"
         },
         "head_to_head": {
           "played": 0,
@@ -177,42 +312,42 @@
         },
         "over_under_pick": "Plus de 2.5 buts",
         "btts_pick": "Oui",
-        "avg_goals_expected": 3.7,
+        "avg_goals_expected": 3.5,
         "data_quality": "solide"
       }
     },
     {
-      "id": "2026-10-12|Atalanta BC|Venezia FC",
-      "date": "2026-10-12",
-      "time": "18:30",
-      "league": "Italie - Serie A",
-      "round": "Matchday 6",
-      "home": "Atalanta BC",
-      "away": "Venezia FC",
-      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Atalanta%20BC.png",
-      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Venezia%20FC.png",
+      "id": "2026-10-13|Burnley FC|Charlton Athletic FC",
+      "date": "2026-10-13",
+      "time": "19:45",
+      "league": "Angleterre - Championship",
+      "round": "Matchday 10",
+      "home": "Burnley FC",
+      "away": "Charlton Athletic FC",
+      "home_logo": null,
+      "away_logo": null,
       "prediction": {
-        "elo_home": 1486.8,
-        "elo_away": 1554.1,
-        "prob_home": 35.4,
-        "prob_draw": 29.8,
-        "prob_away": 34.8,
+        "elo_home": 1460.5,
+        "elo_away": 1510.2,
+        "prob_home": 37.8,
+        "prob_draw": 28.6,
+        "prob_away": 33.6,
         "pick_code": "1",
-        "pick_label": "Victoire Atalanta BC",
-        "confidence": 35.4,
+        "pick_label": "Victoire Burnley FC",
+        "confidence": 37.8,
         "form_home": {
-          "points": 6,
+          "points": 3,
           "played": 5,
           "avg_gf": 1.0,
-          "avg_ga": 1.4,
-          "form_str": "WWLLL"
+          "avg_ga": 1.6,
+          "form_str": "DLDLD"
         },
         "form_away": {
-          "points": 0,
+          "points": 7,
           "played": 5,
-          "avg_gf": 0.8,
-          "avg_ga": 2.6,
-          "form_str": "LLLLL"
+          "avg_gf": 1.0,
+          "avg_ga": 1.8,
+          "form_str": "WWDLL"
         },
         "head_to_head": {
           "played": 0,
@@ -221,8 +356,8 @@
           "away_wins": 0
         },
         "over_under_pick": "Plus de 2.5 buts",
-        "btts_pick": "Non",
-        "avg_goals_expected": 2.9,
+        "btts_pick": "Oui",
+        "avg_goals_expected": 2.7,
         "data_quality": "solide"
       }
     }
