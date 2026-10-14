@@ -1,6 +1,58 @@
 {
   "entries": [
     {
+      "id": "2026-10-14|Portsmouth FC|Sheffield United FC",
+      "date": "2026-10-14",
+      "league": "Angleterre - Championship",
+      "home": "Portsmouth FC",
+      "away": "Sheffield United FC",
+      "pick_label": "Victoire Portsmouth FC",
+      "pick_code": "1",
+      "confidence": 44.4,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
+      "id": "2026-10-14|Norwich City FC|Southampton FC",
+      "date": "2026-10-14",
+      "league": "Angleterre - Championship",
+      "home": "Norwich City FC",
+      "away": "Southampton FC",
+      "pick_label": "Victoire Norwich City FC",
+      "pick_code": "1",
+      "confidence": 39.0,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
+      "id": "2026-10-14|Queens Park Rangers FC|Derby County FC",
+      "date": "2026-10-14",
+      "league": "Angleterre - Championship",
+      "home": "Queens Park Rangers FC",
+      "away": "Derby County FC",
+      "pick_label": "Victoire Queens Park Rangers FC",
+      "pick_code": "1",
+      "confidence": 53.6,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
+      "id": "2026-10-14|Lincoln City FC|West Ham United FC",
+      "date": "2026-10-14",
+      "league": "Angleterre - Championship",
+      "home": "Lincoln City FC",
+      "away": "West Ham United FC",
+      "pick_label": "Victoire Lincoln City FC",
+      "pick_code": "1",
+      "confidence": 40.9,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
       "id": "2026-10-13|Wolverhampton Wanderers FC|Bolton Wanderers FC",
       "date": "2026-10-13",
       "league": "Angleterre - Championship",
