@@ -1,4 +1,275 @@
 {
-  "date": "2026-10-15",
-  "matches": []
+  "date": "2026-10-16",
+  "matches": [
+    {
+      "id": "2026-10-16|Frosinone Calcio|US Sassuolo Calcio",
+      "date": "2026-10-16",
+      "time": "20:45",
+      "league": "Italie - Serie A",
+      "round": "Matchday 7",
+      "home": "Frosinone Calcio",
+      "away": "US Sassuolo Calcio",
+      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Frosinone%20Calcio.png",
+      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/US%20Sassuolo.png",
+      "prediction": {
+        "elo_home": 1604.9,
+        "elo_away": 1503.6,
+        "prob_home": 59.7,
+        "prob_draw": 18.0,
+        "prob_away": 22.3,
+        "pick_code": "1",
+        "pick_label": "Victoire Frosinone Calcio",
+        "confidence": 59.7,
+        "form_home": {
+          "points": 10,
+          "played": 5,
+          "avg_gf": 1.8,
+          "avg_ga": 0.8,
+          "form_str": "LWWDW"
+        },
+        "form_away": {
+          "points": 7,
+          "played": 5,
+          "avg_gf": 1.8,
+          "avg_ga": 1.8,
+          "form_str": "LWDWL"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 3.1,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-10-16|Le Mans FC|Toulouse FC",
+      "date": "2026-10-16",
+      "time": "20:45",
+      "league": "France - Ligue 1",
+      "round": "Matchday 7",
+      "home": "Le Mans FC",
+      "away": "Toulouse FC",
+      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Le%20Mans%20FC.png",
+      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/FC%20Toulouse.png",
+      "prediction": {
+        "elo_home": 1516.4,
+        "elo_away": 1488.6,
+        "prob_home": 49.1,
+        "prob_draw": 23.0,
+        "prob_away": 27.9,
+        "pick_code": "1",
+        "pick_label": "Victoire Le Mans FC",
+        "confidence": 49.1,
+        "form_home": {
+          "points": 6,
+          "played": 5,
+          "avg_gf": 1.8,
+          "avg_ga": 1.8,
+          "form_str": "DLDDW"
+        },
+        "form_away": {
+          "points": 5,
+          "played": 5,
+          "avg_gf": 1.4,
+          "avg_ga": 1.8,
+          "form_str": "LDLDW"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 3.4,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-10-16|RC Deportivo La Coruña|Levante UD",
+      "date": "2026-10-16",
+      "time": "21:00",
+      "league": "Espagne - La Liga",
+      "round": "Matchday 9",
+      "home": "RC Deportivo La Coruña",
+      "away": "Levante UD",
+      "home_logo": null,
+      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Levante%20UD.png",
+      "prediction": {
+        "elo_home": 1507.2,
+        "elo_away": 1480.0,
+        "prob_home": 49.0,
+        "prob_draw": 23.1,
+        "prob_away": 28.0,
+        "pick_code": "1",
+        "pick_label": "Victoire RC Deportivo La Coruña",
+        "confidence": 49.0,
+        "form_home": {
+          "points": 8,
+          "played": 5,
+          "avg_gf": 1.6,
+          "avg_ga": 1.2,
+          "form_str": "WWDLD"
+        },
+        "form_away": {
+          "points": 3,
+          "played": 4,
+          "avg_gf": 2.0,
+          "avg_ga": 3.0,
+          "form_str": "LWLL"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 3.9,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-10-16|Eintracht Frankfurt|1. FC Köln",
+      "date": "2026-10-16",
+      "time": "20:30",
+      "league": "Allemagne - Bundesliga",
+      "round": "Matchday 6",
+      "home": "Eintracht Frankfurt",
+      "away": "1. FC Köln",
+      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Eintracht%20Frankfurt.png",
+      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/1.FC%20K%C3%B6ln.png",
+      "prediction": {
+        "elo_home": 1501.8,
+        "elo_away": 1487.7,
+        "prob_home": 47.0,
+        "prob_draw": 24.0,
+        "prob_away": 29.0,
+        "pick_code": "1",
+        "pick_label": "Victoire Eintracht Frankfurt",
+        "confidence": 47.0,
+        "form_home": {
+          "points": 5,
+          "played": 4,
+          "avg_gf": 2.25,
+          "avg_ga": 2.5,
+          "form_str": "DLWD"
+        },
+        "form_away": {
+          "points": 4,
+          "played": 4,
+          "avg_gf": 1.5,
+          "avg_ga": 2.25,
+          "form_str": "WLDL"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 4.25,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-10-16|SC Heerenveen|SBV Excelsior",
+      "date": "2026-10-16",
+      "time": "20:00",
+      "league": "Pays-Bas - Eredivisie",
+      "round": "Matchday 9",
+      "home": "SC Heerenveen",
+      "away": "SBV Excelsior",
+      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Netherlands%20-%20Eredivisie/SC%20Heerenveen.png",
+      "away_logo": null,
+      "prediction": {
+        "elo_home": 1499.7,
+        "elo_away": 1510.2,
+        "prob_home": 43.4,
+        "prob_draw": 25.8,
+        "prob_away": 30.8,
+        "pick_code": "1",
+        "pick_label": "Victoire SC Heerenveen",
+        "confidence": 43.4,
+        "form_home": {
+          "points": 5,
+          "played": 5,
+          "avg_gf": 2.0,
+          "avg_ga": 1.8,
+          "form_str": "DLDLW"
+        },
+        "form_away": {
+          "points": 8,
+          "played": 5,
+          "avg_gf": 2.0,
+          "avg_ga": 1.4,
+          "form_str": "WWDLD"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 3.6,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-10-16|Burnley FC|Wolverhampton Wanderers FC",
+      "date": "2026-10-16",
+      "time": "20:00",
+      "league": "Angleterre - Championship",
+      "round": "Matchday 11",
+      "home": "Burnley FC",
+      "away": "Wolverhampton Wanderers FC",
+      "home_logo": null,
+      "away_logo": null,
+      "prediction": {
+        "elo_home": 1460.5,
+        "elo_away": 1533.3,
+        "prob_home": 34.8,
+        "prob_draw": 29.8,
+        "prob_away": 35.4,
+        "pick_code": "2",
+        "pick_label": "Victoire Wolverhampton Wanderers FC",
+        "confidence": 35.4,
+        "form_home": {
+          "points": 3,
+          "played": 5,
+          "avg_gf": 1.0,
+          "avg_ga": 1.6,
+          "form_str": "DLDLD"
+        },
+        "form_away": {
+          "points": 10,
+          "played": 5,
+          "avg_gf": 2.0,
+          "avg_ga": 1.4,
+          "form_str": "WLDWW"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 3.0,
+        "data_quality": "solide"
+      }
+    }
+  ]
 }
