@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-17T10:01:52.789064+00:00",
-  "target_date": "2026-10-17",
+  "generated_at": "2026-10-18T10:15:23.519810+00:00",
+  "target_date": "2026-10-18",
   "total_matches_scanned": 5770,
-  "matches_today": 35,
+  "matches_today": 24,
   "teams_rated": 344,
   "sources": [
     "https://github.com/openfootball/football.json",

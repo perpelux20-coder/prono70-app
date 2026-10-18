@@ -1,1343 +1,38 @@
 {
-  "date": "2026-10-17",
+  "date": "2026-10-18",
   "matches": [
     {
-      "id": "2026-10-17|AS Roma|Genoa CFC",
-      "date": "2026-10-17",
-      "time": "20:45",
-      "league": "Italie - Serie A",
-      "round": "Matchday 7",
-      "home": "AS Roma",
-      "away": "Genoa CFC",
-      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AS%20Roma.png",
-      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Genoa%20CFC.png",
+      "id": "2026-10-18|FC Twente '65|FC Utrecht",
+      "date": "2026-10-18",
+      "time": "20:00",
+      "league": "Pays-Bas - Eredivisie",
+      "round": "Matchday 9",
+      "home": "FC Twente '65",
+      "away": "FC Utrecht",
+      "home_logo": null,
+      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Netherlands%20-%20Eredivisie/FC%20Utrecht.png",
       "prediction": {
-        "elo_home": 1540.6,
-        "elo_away": 1460.0,
-        "prob_home": 56.9,
-        "prob_draw": 19.2,
-        "prob_away": 23.9,
+        "elo_home": 1538.3,
+        "elo_away": 1476.2,
+        "prob_home": 54.1,
+        "prob_draw": 20.6,
+        "prob_away": 25.3,
         "pick_code": "1",
-        "pick_label": "Victoire AS Roma",
-        "confidence": 56.9,
+        "pick_label": "Victoire FC Twente '65",
+        "confidence": 54.1,
         "form_home": {
           "points": 13,
           "played": 5,
-          "avg_gf": 2.8,
-          "avg_ga": 0.6,
-          "form_str": "WWWWD"
-        },
-        "form_away": {
-          "points": 1,
-          "played": 5,
-          "avg_gf": 0.6,
-          "avg_ga": 2.0,
-          "form_str": "LLLDL"
-        },
-        "head_to_head": {
-          "played": 0,
-          "home_wins": 0,
-          "draws": 0,
-          "away_wins": 0
-        },
-        "over_under_pick": "Plus de 2.5 buts",
-        "btts_pick": "Non",
-        "avg_goals_expected": 3.0,
-        "data_quality": "solide"
-      }
-    },
-    {
-      "id": "2026-10-17|Manchester City FC|Ipswich Town FC",
-      "date": "2026-10-17",
-      "time": "15:00",
-      "league": "Angleterre - Premier League",
-      "round": "Matchday 7",
-      "home": "Manchester City FC",
-      "away": "Ipswich Town FC",
-      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Manchester%20City.png",
-      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Ipswich%20Town.png",
-      "prediction": {
-        "elo_home": 1548.7,
-        "elo_away": 1491.1,
-        "prob_home": 53.5,
-        "prob_draw": 20.9,
-        "prob_away": 25.6,
-        "pick_code": "1",
-        "pick_label": "Victoire Manchester City FC",
-        "confidence": 53.5,
-        "form_home": {
-          "points": 15,
-          "played": 5,
-          "avg_gf": 2.6,
+          "avg_gf": 2.4,
           "avg_ga": 1.0,
-          "form_str": "WWWWW"
-        },
-        "form_away": {
-          "points": 6,
-          "played": 5,
-          "avg_gf": 1.4,
-          "avg_ga": 2.2,
-          "form_str": "WLLWL"
-        },
-        "head_to_head": {
-          "played": 0,
-          "home_wins": 0,
-          "draws": 0,
-          "away_wins": 0
-        },
-        "over_under_pick": "Plus de 2.5 buts",
-        "btts_pick": "Oui",
-        "avg_goals_expected": 3.6,
-        "data_quality": "solide"
-      }
-    },
-    {
-      "id": "2026-10-17|Venezia FC|SSC Napoli",
-      "date": "2026-10-17",
-      "time": "15:00",
-      "league": "Italie - Serie A",
-      "round": "Matchday 7",
-      "home": "Venezia FC",
-      "away": "SSC Napoli",
-      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Venezia%20FC.png",
-      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/SSC%20Napoli.png",
-      "prediction": {
-        "elo_home": 1554.1,
-        "elo_away": 1501.7,
-        "prob_home": 52.7,
-        "prob_draw": 21.3,
-        "prob_away": 26.1,
-        "pick_code": "1",
-        "pick_label": "Victoire Venezia FC",
-        "confidence": 52.7,
-        "form_home": {
-          "points": 0,
-          "played": 5,
-          "avg_gf": 0.8,
-          "avg_ga": 2.6,
-          "form_str": "LLLLL"
-        },
-        "form_away": {
-          "points": 7,
-          "played": 5,
-          "avg_gf": 1.4,
-          "avg_ga": 1.2,
-          "form_str": "WLLWD"
-        },
-        "head_to_head": {
-          "played": 0,
-          "home_wins": 0,
-          "draws": 0,
-          "away_wins": 0
-        },
-        "over_under_pick": "Plus de 2.5 buts",
-        "btts_pick": "Non",
-        "avg_goals_expected": 3.0,
-        "data_quality": "solide"
-      }
-    },
-    {
-      "id": "2026-10-17|Middlesbrough FC|Cardiff City FC",
-      "date": "2026-10-17",
-      "time": "12:30",
-      "league": "Angleterre - Championship",
-      "round": "Matchday 11",
-      "home": "Middlesbrough FC",
-      "away": "Cardiff City FC",
-      "home_logo": null,
-      "away_logo": null,
-      "prediction": {
-        "elo_home": 1530.9,
-        "elo_away": 1479.8,
-        "prob_home": 52.5,
-        "prob_draw": 21.3,
-        "prob_away": 26.1,
-        "pick_code": "1",
-        "pick_label": "Victoire Middlesbrough FC",
-        "confidence": 52.5,
-        "form_home": {
-          "points": 9,
-          "played": 5,
-          "avg_gf": 2.0,
-          "avg_ga": 1.6,
-          "form_str": "DWWDD"
-        },
-        "form_away": {
-          "points": 4,
-          "played": 5,
-          "avg_gf": 1.0,
-          "avg_ga": 1.4,
-          "form_str": "LLDLW"
-        },
-        "head_to_head": {
-          "played": 0,
-          "home_wins": 0,
-          "draws": 0,
-          "away_wins": 0
-        },
-        "over_under_pick": "Plus de 2.5 buts",
-        "btts_pick": "Oui",
-        "avg_goals_expected": 3.0,
-        "data_quality": "solide"
-      }
-    },
-    {
-      "id": "2026-10-17|Wrexham AFC|Preston North End FC",
-      "date": "2026-10-17",
-      "time": "15:00",
-      "league": "Angleterre - Championship",
-      "round": "Matchday 11",
-      "home": "Wrexham AFC",
-      "away": "Preston North End FC",
-      "home_logo": null,
-      "away_logo": null,
-      "prediction": {
-        "elo_home": 1499.7,
-        "elo_away": 1452.3,
-        "prob_home": 51.9,
-        "prob_draw": 21.6,
-        "prob_away": 26.4,
-        "pick_code": "1",
-        "pick_label": "Victoire Wrexham AFC",
-        "confidence": 51.9,
-        "form_home": {
-          "points": 7,
-          "played": 5,
-          "avg_gf": 1.4,
-          "avg_ga": 2.0,
-          "form_str": "LWDLW"
-        },
-        "form_away": {
-          "points": 4,
-          "played": 5,
-          "avg_gf": 1.2,
-          "avg_ga": 1.8,
-          "form_str": "LWLLD"
-        },
-        "head_to_head": {
-          "played": 0,
-          "home_wins": 0,
-          "draws": 0,
-          "away_wins": 0
-        },
-        "over_under_pick": "Plus de 2.5 buts",
-        "btts_pick": "Oui",
-        "avg_goals_expected": 3.2,
-        "data_quality": "solide"
-      }
-    },
-    {
-      "id": "2026-10-17|FC Schalke 04|1. FSV Mainz 05",
-      "date": "2026-10-17",
-      "time": "15:30",
-      "league": "Allemagne - Bundesliga",
-      "round": "Matchday 6",
-      "home": "FC Schalke 04",
-      "away": "1. FSV Mainz 05",
-      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/FC%20Schalke%2004.png",
-      "away_logo": null,
-      "prediction": {
-        "elo_home": 1551.9,
-        "elo_away": 1511.4,
-        "prob_home": 50.9,
-        "prob_draw": 22.1,
-        "prob_away": 27.0,
-        "pick_code": "1",
-        "pick_label": "Victoire FC Schalke 04",
-        "confidence": 50.9,
-        "form_home": {
-          "points": 9,
-          "played": 5,
-          "avg_gf": 1.6,
-          "avg_ga": 1.2,
-          "form_str": "WWLLW"
-        },
-        "form_away": {
-          "points": 6,
-          "played": 3,
-          "avg_gf": 3.33,
-          "avg_ga": 2.0,
-          "form_str": "WLW"
-        },
-        "head_to_head": {
-          "played": 0,
-          "home_wins": 0,
-          "draws": 0,
-          "away_wins": 0
-        },
-        "over_under_pick": "Plus de 2.5 buts",
-        "btts_pick": "Oui",
-        "avg_goals_expected": 4.06,
-        "data_quality": "limitée"
-      }
-    },
-    {
-      "id": "2026-10-17|SV 07 Elversberg|FC Augsburg",
-      "date": "2026-10-17",
-      "time": "15:30",
-      "league": "Allemagne - Bundesliga",
-      "round": "Matchday 6",
-      "home": "SV 07 Elversberg",
-      "away": "FC Augsburg",
-      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/SV%2007%20Elversberg.png",
-      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/FC%20Augsburg.png",
-      "prediction": {
-        "elo_home": 1546.3,
-        "elo_away": 1511.1,
-        "prob_home": 50.1,
-        "prob_draw": 22.5,
-        "prob_away": 27.4,
-        "pick_code": "1",
-        "pick_label": "Victoire SV 07 Elversberg",
-        "confidence": 50.1,
-        "form_home": {
-          "points": 7,
-          "played": 5,
-          "avg_gf": 2.0,
-          "avg_ga": 2.2,
-          "form_str": "LDWWL"
-        },
-        "form_away": {
-          "points": 7,
-          "played": 4,
-          "avg_gf": 2.75,
-          "avg_ga": 1.5,
-          "form_str": "WWDL"
-        },
-        "head_to_head": {
-          "played": 0,
-          "home_wins": 0,
-          "draws": 0,
-          "away_wins": 0
-        },
-        "over_under_pick": "Plus de 2.5 buts",
-        "btts_pick": "Oui",
-        "avg_goals_expected": 4.22,
-        "data_quality": "solide"
-      }
-    },
-    {
-      "id": "2026-10-17|Southampton FC|Bolton Wanderers FC",
-      "date": "2026-10-17",
-      "time": "15:00",
-      "league": "Angleterre - Championship",
-      "round": "Matchday 11",
-      "home": "Southampton FC",
-      "away": "Bolton Wanderers FC",
-      "home_logo": null,
-      "away_logo": null,
-      "prediction": {
-        "elo_home": 1521.3,
-        "elo_away": 1488.4,
-        "prob_home": 49.8,
-        "prob_draw": 22.7,
-        "prob_away": 27.5,
-        "pick_code": "1",
-        "pick_label": "Victoire Southampton FC",
-        "confidence": 49.8,
-        "form_home": {
-          "points": 8,
-          "played": 5,
-          "avg_gf": 2.0,
-          "avg_ga": 1.2,
-          "form_str": "DDWWL"
-        },
-        "form_away": {
-          "points": 6,
-          "played": 5,
-          "avg_gf": 1.8,
-          "avg_ga": 2.6,
-          "form_str": "LLLWW"
-        },
-        "head_to_head": {
-          "played": 0,
-          "home_wins": 0,
-          "draws": 0,
-          "away_wins": 0
-        },
-        "over_under_pick": "Plus de 2.5 buts",
-        "btts_pick": "Oui",
-        "avg_goals_expected": 3.8,
-        "data_quality": "solide"
-      }
-    },
-    {
-      "id": "2026-10-17|West Bromwich Albion FC|Blackburn Rovers FC",
-      "date": "2026-10-17",
-      "time": "15:00",
-      "league": "Angleterre - Championship",
-      "round": "Matchday 11",
-      "home": "West Bromwich Albion FC",
-      "away": "Blackburn Rovers FC",
-      "home_logo": null,
-      "away_logo": null,
-      "prediction": {
-        "elo_home": 1519.5,
-        "elo_away": 1487.1,
-        "prob_home": 49.7,
-        "prob_draw": 22.7,
-        "prob_away": 27.6,
-        "pick_code": "1",
-        "pick_label": "Victoire West Bromwich Albion FC",
-        "confidence": 49.7,
-        "form_home": {
-          "points": 8,
-          "played": 5,
-          "avg_gf": 0.8,
-          "avg_ga": 0.6,
-          "form_str": "DWWDL"
-        },
-        "form_away": {
-          "points": 4,
-          "played": 5,
-          "avg_gf": 1.6,
-          "avg_ga": 1.8,
-          "form_str": "LLLWD"
-        },
-        "head_to_head": {
-          "played": 0,
-          "home_wins": 0,
-          "draws": 0,
-          "away_wins": 0
-        },
-        "over_under_pick": "Moins de 2.5 buts",
-        "btts_pick": "Non",
-        "avg_goals_expected": 2.4,
-        "data_quality": "solide"
-      }
-    },
-    {
-      "id": "2026-10-17|FC Bayern München|RB Leipzig",
-      "date": "2026-10-17",
-      "time": "18:30",
-      "league": "Allemagne - Bundesliga",
-      "round": "Matchday 6",
-      "home": "FC Bayern München",
-      "away": "RB Leipzig",
-      "home_logo": null,
-      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/RB%20Leipzig.png",
-      "prediction": {
-        "elo_home": 1531.0,
-        "elo_away": 1498.7,
-        "prob_home": 49.7,
-        "prob_draw": 22.7,
-        "prob_away": 27.6,
-        "pick_code": "1",
-        "pick_label": "Victoire FC Bayern München",
-        "confidence": 49.7,
-        "form_home": {
-          "points": 9,
-          "played": 3,
-          "avg_gf": 4.67,
-          "avg_ga": 0.67,
-          "form_str": "WWW"
-        },
-        "form_away": {
-          "points": 6,
-          "played": 4,
-          "avg_gf": 2.25,
-          "avg_ga": 1.25,
-          "form_str": "WLWL"
-        },
-        "head_to_head": {
-          "played": 0,
-          "home_wins": 0,
-          "draws": 0,
-          "away_wins": 0
-        },
-        "over_under_pick": "Plus de 2.5 buts",
-        "btts_pick": "Oui",
-        "avg_goals_expected": 4.42,
-        "data_quality": "limitée"
-      }
-    },
-    {
-      "id": "2026-10-17|Lille OSC|Stade Brestois 29",
-      "date": "2026-10-17",
-      "time": "20:45",
-      "league": "France - Ligue 1",
-      "round": "Matchday 7",
-      "home": "Lille OSC",
-      "away": "Stade Brestois 29",
-      "home_logo": null,
-      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Stade%20Brestois%2029.png",
-      "prediction": {
-        "elo_home": 1520.9,
-        "elo_away": 1489.8,
-        "prob_home": 49.5,
-        "prob_draw": 22.8,
-        "prob_away": 27.7,
-        "pick_code": "1",
-        "pick_label": "Victoire Lille OSC",
-        "confidence": 49.5,
-        "form_home": {
-          "points": 10,
-          "played": 5,
-          "avg_gf": 1.6,
-          "avg_ga": 0.8,
-          "form_str": "WDWWL"
+          "form_str": "WDWWW"
         },
         "form_away": {
           "points": 5,
           "played": 5,
-          "avg_gf": 1.4,
-          "avg_ga": 1.6,
-          "form_str": "DDWLL"
-        },
-        "head_to_head": {
-          "played": 0,
-          "home_wins": 0,
-          "draws": 0,
-          "away_wins": 0
-        },
-        "over_under_pick": "Plus de 2.5 buts",
-        "btts_pick": "Oui",
-        "avg_goals_expected": 2.7,
-        "data_quality": "solide"
-      }
-    },
-    {
-      "id": "2026-10-17|Newcastle United FC|Aston Villa FC",
-      "date": "2026-10-17",
-      "time": "17:30",
-      "league": "Angleterre - Premier League",
-      "round": "Matchday 7",
-      "home": "Newcastle United FC",
-      "away": "Aston Villa FC",
-      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Newcastle%20United.png",
-      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Aston%20Villa.png",
-      "prediction": {
-        "elo_home": 1508.9,
-        "elo_away": 1479.3,
-        "prob_home": 49.3,
-        "prob_draw": 22.9,
-        "prob_away": 27.8,
-        "pick_code": "1",
-        "pick_label": "Victoire Newcastle United FC",
-        "confidence": 49.3,
-        "form_home": {
-          "points": 8,
-          "played": 5,
           "avg_gf": 1.8,
-          "avg_ga": 1.8,
-          "form_str": "DWDLW"
-        },
-        "form_away": {
-          "points": 3,
-          "played": 4,
-          "avg_gf": 1.0,
-          "avg_ga": 2.25,
-          "form_str": "LLLW"
-        },
-        "head_to_head": {
-          "played": 0,
-          "home_wins": 0,
-          "draws": 0,
-          "away_wins": 0
-        },
-        "over_under_pick": "Plus de 2.5 buts",
-        "btts_pick": "Oui",
-        "avg_goals_expected": 3.42,
-        "data_quality": "solide"
-      }
-    },
-    {
-      "id": "2026-10-17|Bristol City FC|Sheffield United FC",
-      "date": "2026-10-17",
-      "time": "15:00",
-      "league": "Angleterre - Championship",
-      "round": "Matchday 11",
-      "home": "Bristol City FC",
-      "away": "Sheffield United FC",
-      "home_logo": null,
-      "away_logo": null,
-      "prediction": {
-        "elo_home": 1509.1,
-        "elo_away": 1487.9,
-        "prob_home": 48.1,
-        "prob_draw": 23.5,
-        "prob_away": 28.4,
-        "pick_code": "1",
-        "pick_label": "Victoire Bristol City FC",
-        "confidence": 48.1,
-        "form_home": {
-          "points": 9,
-          "played": 5,
-          "avg_gf": 1.4,
-          "avg_ga": 1.4,
-          "form_str": "WWLLW"
-        },
-        "form_away": {
-          "points": 6,
-          "played": 5,
-          "avg_gf": 1.4,
-          "avg_ga": 1.8,
-          "form_str": "WLWLL"
-        },
-        "head_to_head": {
-          "played": 0,
-          "home_wins": 0,
-          "draws": 0,
-          "away_wins": 0
-        },
-        "over_under_pick": "Plus de 2.5 buts",
-        "btts_pick": "Oui",
-        "avg_goals_expected": 3.0,
-        "data_quality": "solide"
-      }
-    },
-    {
-      "id": "2026-10-17|Villarreal CF|Elche CF",
-      "date": "2026-10-17",
-      "time": "16:15",
-      "league": "Espagne - La Liga",
-      "round": "Matchday 9",
-      "home": "Villarreal CF",
-      "away": "Elche CF",
-      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Villarreal%20CF.png",
-      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Elche%20CF.png",
-      "prediction": {
-        "elo_home": 1493.1,
-        "elo_away": 1473.2,
-        "prob_home": 47.9,
-        "prob_draw": 23.6,
-        "prob_away": 28.5,
-        "pick_code": "1",
-        "pick_label": "Victoire Villarreal CF",
-        "confidence": 47.9,
-        "form_home": {
-          "points": 6,
-          "played": 5,
-          "avg_gf": 1.8,
-          "avg_ga": 1.6,
-          "form_str": "LLLWW"
-        },
-        "form_away": {
-          "points": 4,
-          "played": 5,
-          "avg_gf": 2.0,
-          "avg_ga": 2.2,
-          "form_str": "LLDLW"
-        },
-        "head_to_head": {
-          "played": 0,
-          "home_wins": 0,
-          "draws": 0,
-          "away_wins": 0
-        },
-        "over_under_pick": "Plus de 2.5 buts",
-        "btts_pick": "Oui",
-        "avg_goals_expected": 3.8,
-        "data_quality": "solide"
-      }
-    },
-    {
-      "id": "2026-10-17|Sparta Rotterdam|Willem II Tilburg",
-      "date": "2026-10-17",
-      "time": "21:00",
-      "league": "Pays-Bas - Eredivisie",
-      "round": "Matchday 9",
-      "home": "Sparta Rotterdam",
-      "away": "Willem II Tilburg",
-      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Netherlands%20-%20Eredivisie/Sparta%20Rotterdam.png",
-      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Netherlands%20-%20Eredivisie/Willem%20II%20Tilburg.png",
-      "prediction": {
-        "elo_home": 1466.6,
-        "elo_away": 1449.9,
-        "prob_home": 47.4,
-        "prob_draw": 23.8,
-        "prob_away": 28.8,
-        "pick_code": "1",
-        "pick_label": "Victoire Sparta Rotterdam",
-        "confidence": 47.4,
-        "form_home": {
-          "points": 2,
-          "played": 5,
-          "avg_gf": 1.4,
-          "avg_ga": 3.0,
-          "form_str": "DLDLL"
-        },
-        "form_away": {
-          "points": 2,
-          "played": 5,
-          "avg_gf": 0.8,
-          "avg_ga": 2.4,
-          "form_str": "DLDLL"
-        },
-        "head_to_head": {
-          "played": 0,
-          "home_wins": 0,
-          "draws": 0,
-          "away_wins": 0
-        },
-        "over_under_pick": "Plus de 2.5 buts",
-        "btts_pick": "Non",
-        "avg_goals_expected": 3.8,
-        "data_quality": "solide"
-      }
-    },
-    {
-      "id": "2026-10-17|Everton FC|Chelsea FC",
-      "date": "2026-10-17",
-      "time": "12:30",
-      "league": "Angleterre - Premier League",
-      "round": "Matchday 7",
-      "home": "Everton FC",
-      "away": "Chelsea FC",
-      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Everton%20FC.png",
-      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Chelsea%20FC.png",
-      "prediction": {
-        "elo_home": 1516.5,
-        "elo_away": 1502.3,
-        "prob_home": 47.1,
-        "prob_draw": 24.0,
-        "prob_away": 29.0,
-        "pick_code": "1",
-        "pick_label": "Victoire Everton FC",
-        "confidence": 47.1,
-        "form_home": {
-          "points": 8,
-          "played": 4,
-          "avg_gf": 1.5,
-          "avg_ga": 0.75,
-          "form_str": "WDDW"
-        },
-        "form_away": {
-          "points": 7,
-          "played": 5,
-          "avg_gf": 2.0,
-          "avg_ga": 2.4,
-          "form_str": "WWLDL"
-        },
-        "head_to_head": {
-          "played": 0,
-          "home_wins": 0,
-          "draws": 0,
-          "away_wins": 0
-        },
-        "over_under_pick": "Plus de 2.5 buts",
-        "btts_pick": "Oui",
-        "avg_goals_expected": 3.33,
-        "data_quality": "solide"
-      }
-    },
-    {
-      "id": "2026-10-17|Swansea City AFC|West Ham United FC",
-      "date": "2026-10-17",
-      "time": "15:00",
-      "league": "Angleterre - Championship",
-      "round": "Matchday 11",
-      "home": "Swansea City AFC",
-      "away": "West Ham United FC",
-      "home_logo": null,
-      "away_logo": null,
-      "prediction": {
-        "elo_home": 1544.4,
-        "elo_away": 1531.6,
-        "prob_home": 46.8,
-        "prob_draw": 24.1,
-        "prob_away": 29.1,
-        "pick_code": "1",
-        "pick_label": "Victoire Swansea City AFC",
-        "confidence": 46.8,
-        "form_home": {
-          "points": 12,
-          "played": 5,
-          "avg_gf": 2.2,
-          "avg_ga": 1.0,
-          "form_str": "WWLWW"
-        },
-        "form_away": {
-          "points": 13,
-          "played": 5,
-          "avg_gf": 3.6,
-          "avg_ga": 1.2,
-          "form_str": "WWWWD"
-        },
-        "head_to_head": {
-          "played": 0,
-          "home_wins": 0,
-          "draws": 0,
-          "away_wins": 0
-        },
-        "over_under_pick": "Plus de 2.5 buts",
-        "btts_pick": "Oui",
-        "avg_goals_expected": 4.0,
-        "data_quality": "solide"
-      }
-    },
-    {
-      "id": "2026-10-17|ES Troyes AC|Racing Club de Lens",
-      "date": "2026-10-17",
-      "time": "20:45",
-      "league": "France - Ligue 1",
-      "round": "Matchday 7",
-      "home": "ES Troyes AC",
-      "away": "Racing Club de Lens",
-      "home_logo": null,
-      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/RC%20Lens.png",
-      "prediction": {
-        "elo_home": 1482.6,
-        "elo_away": 1481.4,
-        "prob_home": 45.1,
-        "prob_draw": 24.9,
-        "prob_away": 30.0,
-        "pick_code": "1",
-        "pick_label": "Victoire ES Troyes AC",
-        "confidence": 45.1,
-        "form_home": {
-          "points": 3,
-          "played": 4,
-          "avg_gf": 1.0,
-          "avg_ga": 2.75,
-          "form_str": "WLLL"
-        },
-        "form_away": {
-          "points": 4,
-          "played": 5,
-          "avg_gf": 1.8,
-          "avg_ga": 1.8,
-          "form_str": "WLLDL"
-        },
-        "head_to_head": {
-          "played": 0,
-          "home_wins": 0,
-          "draws": 0,
-          "away_wins": 0
-        },
-        "over_under_pick": "Plus de 2.5 buts",
-        "btts_pick": "Oui",
-        "avg_goals_expected": 3.67,
-        "data_quality": "solide"
-      }
-    },
-    {
-      "id": "2026-10-17|Hamburger SV|VfB Stuttgart",
-      "date": "2026-10-17",
-      "time": "15:30",
-      "league": "Allemagne - Bundesliga",
-      "round": "Matchday 6",
-      "home": "Hamburger SV",
-      "away": "VfB Stuttgart",
-      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Hamburger%20SV.png",
-      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/VfB%20Stuttgart.png",
-      "prediction": {
-        "elo_home": 1479.7,
-        "elo_away": 1479.1,
-        "prob_home": 45.0,
-        "prob_draw": 25.0,
-        "prob_away": 30.0,
-        "pick_code": "1",
-        "pick_label": "Victoire Hamburger SV",
-        "confidence": 45.0,
-        "form_home": {
-          "points": 3,
-          "played": 4,
-          "avg_gf": 0.5,
-          "avg_ga": 3.25,
-          "form_str": "LLLW"
-        },
-        "form_away": {
-          "points": 3,
-          "played": 4,
-          "avg_gf": 1.5,
-          "avg_ga": 2.25,
-          "form_str": "LWLL"
-        },
-        "head_to_head": {
-          "played": 0,
-          "home_wins": 0,
-          "draws": 0,
-          "away_wins": 0
-        },
-        "over_under_pick": "Plus de 2.5 buts",
-        "btts_pick": "Non",
-        "avg_goals_expected": 3.75,
-        "data_quality": "solide"
-      }
-    },
-    {
-      "id": "2026-10-17|Norwich City FC|Portsmouth FC",
-      "date": "2026-10-17",
-      "time": "15:00",
-      "league": "Angleterre - Championship",
-      "round": "Matchday 11",
-      "home": "Norwich City FC",
-      "away": "Portsmouth FC",
-      "home_logo": null,
-      "away_logo": null,
-      "prediction": {
-        "elo_home": 1480.0,
-        "elo_away": 1484.3,
-        "prob_home": 44.3,
-        "prob_draw": 25.3,
-        "prob_away": 30.4,
-        "pick_code": "1",
-        "pick_label": "Victoire Norwich City FC",
-        "confidence": 44.3,
-        "form_home": {
-          "points": 6,
-          "played": 5,
-          "avg_gf": 2.2,
-          "avg_ga": 2.2,
-          "form_str": "LWWLL"
-        },
-        "form_away": {
-          "points": 7,
-          "played": 5,
-          "avg_gf": 1.6,
-          "avg_ga": 1.4,
-          "form_str": "WLLWD"
-        },
-        "head_to_head": {
-          "played": 0,
-          "home_wins": 0,
-          "draws": 0,
-          "away_wins": 0
-        },
-        "over_under_pick": "Plus de 2.5 buts",
-        "btts_pick": "Oui",
-        "avg_goals_expected": 3.7,
-        "data_quality": "solide"
-      }
-    },
-    {
-      "id": "2026-10-17|Millwall FC|Lincoln City FC",
-      "date": "2026-10-17",
-      "time": "12:30",
-      "league": "Angleterre - Championship",
-      "round": "Matchday 11",
-      "home": "Millwall FC",
-      "away": "Lincoln City FC",
-      "home_logo": null,
-      "away_logo": null,
-      "prediction": {
-        "elo_home": 1498.5,
-        "elo_away": 1503.5,
-        "prob_home": 44.2,
-        "prob_draw": 25.4,
-        "prob_away": 30.4,
-        "pick_code": "1",
-        "pick_label": "Victoire Millwall FC",
-        "confidence": 44.2,
-        "form_home": {
-          "points": 5,
-          "played": 5,
-          "avg_gf": 1.8,
-          "avg_ga": 2.0,
-          "form_str": "LWLDD"
-        },
-        "form_away": {
-          "points": 10,
-          "played": 5,
-          "avg_gf": 1.0,
-          "avg_ga": 0.6,
-          "form_str": "WDWWL"
-        },
-        "head_to_head": {
-          "played": 0,
-          "home_wins": 0,
-          "draws": 0,
-          "away_wins": 0
-        },
-        "over_under_pick": "Plus de 2.5 buts",
-        "btts_pick": "Oui",
-        "avg_goals_expected": 2.7,
-        "data_quality": "solide"
-      }
-    },
-    {
-      "id": "2026-10-17|Brentford FC|Liverpool FC",
-      "date": "2026-10-17",
-      "time": "15:00",
-      "league": "Angleterre - Premier League",
-      "round": "Matchday 7",
-      "home": "Brentford FC",
-      "away": "Liverpool FC",
-      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Brentford%20FC.png",
-      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Liverpool%20FC.png",
-      "prediction": {
-        "elo_home": 1519.1,
-        "elo_away": 1525.2,
-        "prob_home": 44.1,
-        "prob_draw": 25.4,
-        "prob_away": 30.5,
-        "pick_code": "1",
-        "pick_label": "Victoire Brentford FC",
-        "confidence": 44.1,
-        "form_home": {
-          "points": 9,
-          "played": 5,
-          "avg_gf": 2.0,
-          "avg_ga": 0.8,
-          "form_str": "WDDDW"
-        },
-        "form_away": {
-          "points": 8,
-          "played": 4,
-          "avg_gf": 1.75,
-          "avg_ga": 1.0,
-          "form_str": "DDWW"
-        },
-        "head_to_head": {
-          "played": 0,
-          "home_wins": 0,
-          "draws": 0,
-          "away_wins": 0
-        },
-        "over_under_pick": "Plus de 2.5 buts",
-        "btts_pick": "Oui",
-        "avg_goals_expected": 2.77,
-        "data_quality": "solide"
-      }
-    },
-    {
-      "id": "2026-10-17|Birmingham City FC|Queens Park Rangers FC",
-      "date": "2026-10-17",
-      "time": "15:00",
-      "league": "Angleterre - Championship",
-      "round": "Matchday 11",
-      "home": "Birmingham City FC",
-      "away": "Queens Park Rangers FC",
-      "home_logo": null,
-      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Scotland%20-%20Scottish%20Premiership/Rangers%20FC.png",
-      "prediction": {
-        "elo_home": 1507.8,
-        "elo_away": 1518.5,
-        "prob_home": 43.4,
-        "prob_draw": 25.8,
-        "prob_away": 30.8,
-        "pick_code": "1",
-        "pick_label": "Victoire Birmingham City FC",
-        "confidence": 43.4,
-        "form_home": {
-          "points": 6,
-          "played": 5,
-          "avg_gf": 1.6,
-          "avg_ga": 1.6,
-          "form_str": "DDLWD"
-        },
-        "form_away": {
-          "points": 8,
-          "played": 5,
-          "avg_gf": 1.4,
-          "avg_ga": 1.2,
-          "form_str": "WWLDD"
-        },
-        "head_to_head": {
-          "played": 0,
-          "home_wins": 0,
-          "draws": 0,
-          "away_wins": 0
-        },
-        "over_under_pick": "Plus de 2.5 buts",
-        "btts_pick": "Oui",
-        "avg_goals_expected": 2.9,
-        "data_quality": "solide"
-      }
-    },
-    {
-      "id": "2026-10-17|RC Strasbourg Alsace|Paris Saint-Germain FC",
-      "date": "2026-10-17",
-      "time": "17:15",
-      "league": "France - Ligue 1",
-      "round": "Matchday 7",
-      "home": "RC Strasbourg Alsace",
-      "away": "Paris Saint-Germain FC",
-      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/RC%20Strasbourg%20Alsace.png",
-      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Paris%20Saint-Germain.png",
-      "prediction": {
-        "elo_home": 1504.0,
-        "elo_away": 1518.2,
-        "prob_home": 42.9,
-        "prob_draw": 26.0,
-        "prob_away": 31.1,
-        "pick_code": "1",
-        "pick_label": "Victoire RC Strasbourg Alsace",
-        "confidence": 42.9,
-        "form_home": {
-          "points": 7,
-          "played": 5,
-          "avg_gf": 2.0,
-          "avg_ga": 2.0,
-          "form_str": "LWWDL"
-        },
-        "form_away": {
-          "points": 8,
-          "played": 5,
-          "avg_gf": 1.6,
-          "avg_ga": 1.4,
-          "form_str": "DDLWW"
-        },
-        "head_to_head": {
-          "played": 0,
-          "home_wins": 0,
-          "draws": 0,
-          "away_wins": 0
-        },
-        "over_under_pick": "Plus de 2.5 buts",
-        "btts_pick": "Oui",
-        "avg_goals_expected": 3.5,
-        "data_quality": "solide"
-      }
-    },
-    {
-      "id": "2026-10-17|Real Betis Balompié|FC Barcelona",
-      "date": "2026-10-17",
-      "time": "18:30",
-      "league": "Espagne - La Liga",
-      "round": "Matchday 9",
-      "home": "Real Betis Balompié",
-      "away": "FC Barcelona",
-      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Betis%20Balompi%C3%A9.png",
-      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/FC%20Barcelona.png",
-      "prediction": {
-        "elo_home": 1542.0,
-        "elo_away": 1572.2,
-        "prob_home": 40.6,
-        "prob_draw": 27.2,
-        "prob_away": 32.3,
-        "pick_code": "1",
-        "pick_label": "Victoire Real Betis Balompié",
-        "confidence": 40.6,
-        "form_home": {
-          "points": 10,
-          "played": 5,
-          "avg_gf": 1.4,
-          "avg_ga": 1.4,
-          "form_str": "LWWWD"
-        },
-        "form_away": {
-          "points": 15,
-          "played": 5,
-          "avg_gf": 4.8,
-          "avg_ga": 1.4,
-          "form_str": "WWWWW"
-        },
-        "head_to_head": {
-          "played": 0,
-          "home_wins": 0,
-          "draws": 0,
-          "away_wins": 0
-        },
-        "over_under_pick": "Plus de 2.5 buts",
-        "btts_pick": "Oui",
-        "avg_goals_expected": 4.5,
-        "data_quality": "solide"
-      }
-    },
-    {
-      "id": "2026-10-17|Watford FC|Charlton Athletic FC",
-      "date": "2026-10-17",
-      "time": "12:30",
-      "league": "Angleterre - Championship",
-      "round": "Matchday 11",
-      "home": "Watford FC",
-      "away": "Charlton Athletic FC",
-      "home_logo": null,
-      "away_logo": null,
-      "prediction": {
-        "elo_home": 1477.5,
-        "elo_away": 1510.2,
-        "prob_home": 40.2,
-        "prob_draw": 27.3,
-        "prob_away": 32.4,
-        "pick_code": "1",
-        "pick_label": "Victoire Watford FC",
-        "confidence": 40.2,
-        "form_home": {
-          "points": 3,
-          "played": 5,
-          "avg_gf": 0.6,
-          "avg_ga": 1.4,
-          "form_str": "LLWLL"
-        },
-        "form_away": {
-          "points": 7,
-          "played": 5,
-          "avg_gf": 1.0,
-          "avg_ga": 1.8,
-          "form_str": "WWDLL"
-        },
-        "head_to_head": {
-          "played": 0,
-          "home_wins": 0,
-          "draws": 0,
-          "away_wins": 0
-        },
-        "over_under_pick": "Moins de 2.5 buts",
-        "btts_pick": "Non",
-        "avg_goals_expected": 2.4,
-        "data_quality": "solide"
-      }
-    },
-    {
-      "id": "2026-10-17|SV Werder Bremen|SC Paderborn 07",
-      "date": "2026-10-17",
-      "time": "15:30",
-      "league": "Allemagne - Bundesliga",
-      "round": "Matchday 6",
-      "home": "SV Werder Bremen",
-      "away": "SC Paderborn 07",
-      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/SV%20Werder%20Bremen.png",
-      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/SC%20Paderborn%2007.png",
-      "prediction": {
-        "elo_home": 1512.1,
-        "elo_away": 1545.8,
-        "prob_home": 40.1,
-        "prob_draw": 27.4,
-        "prob_away": 32.5,
-        "pick_code": "1",
-        "pick_label": "Victoire SV Werder Bremen",
-        "confidence": 40.1,
-        "form_home": {
-          "points": 7,
-          "played": 4,
-          "avg_gf": 2.0,
-          "avg_ga": 2.0,
-          "form_str": "LWDW"
-        },
-        "form_away": {
-          "points": 9,
-          "played": 5,
-          "avg_gf": 1.4,
-          "avg_ga": 1.4,
-          "form_str": "WWLLW"
-        },
-        "head_to_head": {
-          "played": 0,
-          "home_wins": 0,
-          "draws": 0,
-          "away_wins": 0
-        },
-        "over_under_pick": "Plus de 2.5 buts",
-        "btts_pick": "Oui",
-        "avg_goals_expected": 3.4,
-        "data_quality": "solide"
-      }
-    },
-    {
-      "id": "2026-10-17|Valencia CF|Athletic Club",
-      "date": "2026-10-17",
-      "time": "21:00",
-      "league": "Espagne - La Liga",
-      "round": "Matchday 9",
-      "home": "Valencia CF",
-      "away": "Athletic Club",
-      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Valencia%20CF.png",
-      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Athletic%20Bilbao.png",
-      "prediction": {
-        "elo_home": 1461.7,
-        "elo_away": 1498.9,
-        "prob_home": 39.6,
-        "prob_draw": 27.7,
-        "prob_away": 32.8,
-        "pick_code": "1",
-        "pick_label": "Victoire Valencia CF",
-        "confidence": 39.6,
-        "form_home": {
-          "points": 3,
-          "played": 5,
-          "avg_gf": 0.8,
-          "avg_ga": 2.4,
-          "form_str": "LLLWL"
-        },
-        "form_away": {
-          "points": 7,
-          "played": 5,
-          "avg_gf": 1.4,
-          "avg_ga": 1.2,
-          "form_str": "LLWWD"
-        },
-        "head_to_head": {
-          "played": 0,
-          "home_wins": 0,
-          "draws": 0,
-          "away_wins": 0
-        },
-        "over_under_pick": "Plus de 2.5 buts",
-        "btts_pick": "Non",
-        "avg_goals_expected": 2.9,
-        "data_quality": "solide"
-      }
-    },
-    {
-      "id": "2026-10-17|Fulham FC|Hull City AFC",
-      "date": "2026-10-17",
-      "time": "15:00",
-      "league": "Angleterre - Premier League",
-      "round": "Matchday 7",
-      "home": "Fulham FC",
-      "away": "Hull City AFC",
-      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Fulham%20FC.png",
-      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Hull%20City.png",
-      "prediction": {
-        "elo_home": 1463.6,
-        "elo_away": 1513.8,
-        "prob_home": 37.7,
-        "prob_draw": 28.6,
-        "prob_away": 33.7,
-        "pick_code": "1",
-        "pick_label": "Victoire Fulham FC",
-        "confidence": 37.7,
-        "form_home": {
-          "points": 1,
-          "played": 4,
-          "avg_gf": 1.25,
-          "avg_ga": 2.0,
-          "form_str": "LLLD"
-        },
-        "form_away": {
-          "points": 7,
-          "played": 4,
-          "avg_gf": 1.5,
-          "avg_ga": 1.0,
-          "form_str": "WWDL"
-        },
-        "head_to_head": {
-          "played": 0,
-          "home_wins": 0,
-          "draws": 0,
-          "away_wins": 0
-        },
-        "over_under_pick": "Plus de 2.5 buts",
-        "btts_pick": "Oui",
-        "avg_goals_expected": 2.88,
-        "data_quality": "solide"
-      }
-    },
-    {
-      "id": "2026-10-17|ADO Den Haag|PSV",
-      "date": "2026-10-17",
-      "time": "16:30",
-      "league": "Pays-Bas - Eredivisie",
-      "round": "Matchday 9",
-      "home": "ADO Den Haag",
-      "away": "PSV",
-      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Netherlands%20-%20Eredivisie/ADO%20Den%20Haag.png",
-      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Netherlands%20-%20Eredivisie/PSV%20Eindhoven.png",
-      "prediction": {
-        "elo_home": 1453.5,
-        "elo_away": 1543.0,
-        "prob_home": 33.7,
-        "prob_draw": 28.6,
-        "prob_away": 37.7,
-        "pick_code": "2",
-        "pick_label": "Victoire PSV",
-        "confidence": 37.7,
-        "form_home": {
-          "points": 2,
-          "played": 5,
-          "avg_gf": 1.2,
-          "avg_ga": 2.2,
-          "form_str": "LDLLD"
-        },
-        "form_away": {
-          "points": 12,
-          "played": 5,
-          "avg_gf": 4.0,
-          "avg_ga": 1.4,
-          "form_str": "WWWWL"
+          "avg_ga": 3.6,
+          "form_str": "DLDWL"
         },
         "head_to_head": {
           "played": 0,
@@ -1352,37 +47,37 @@
       }
     },
     {
-      "id": "2026-10-17|Derby County FC|Stoke City FC",
-      "date": "2026-10-17",
-      "time": "15:00",
-      "league": "Angleterre - Championship",
-      "round": "Matchday 11",
-      "home": "Derby County FC",
-      "away": "Stoke City FC",
-      "home_logo": null,
-      "away_logo": null,
+      "id": "2026-10-18|AC Milan|Atalanta BC",
+      "date": "2026-10-18",
+      "time": "18:00",
+      "league": "Italie - Serie A",
+      "round": "Matchday 7",
+      "home": "AC Milan",
+      "away": "Atalanta BC",
+      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AC%20Milan.png",
+      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Atalanta%20BC.png",
       "prediction": {
-        "elo_home": 1459.9,
-        "elo_away": 1513.9,
-        "prob_home": 37.2,
-        "prob_draw": 28.9,
-        "prob_away": 33.9,
+        "elo_home": 1537.5,
+        "elo_away": 1486.8,
+        "prob_home": 52.4,
+        "prob_draw": 21.4,
+        "prob_away": 26.2,
         "pick_code": "1",
-        "pick_label": "Victoire Derby County FC",
-        "confidence": 37.2,
+        "pick_label": "Victoire AC Milan",
+        "confidence": 52.4,
         "form_home": {
-          "points": 4,
-          "played": 5,
-          "avg_gf": 0.8,
-          "avg_ga": 1.4,
-          "form_str": "WLLLD"
-        },
-        "form_away": {
-          "points": 13,
+          "points": 11,
           "played": 5,
           "avg_gf": 2.0,
-          "avg_ga": 0.6,
-          "form_str": "WWDWW"
+          "avg_ga": 0.8,
+          "form_str": "WWDDW"
+        },
+        "form_away": {
+          "points": 6,
+          "played": 5,
+          "avg_gf": 1.0,
+          "avg_ga": 1.4,
+          "form_str": "WWLLL"
         },
         "head_to_head": {
           "played": 0,
@@ -1391,43 +86,88 @@
           "away_wins": 0
         },
         "over_under_pick": "Moins de 2.5 buts",
-        "btts_pick": "Non",
-        "avg_goals_expected": 2.4,
+        "btts_pick": "Oui",
+        "avg_goals_expected": 2.6,
         "data_quality": "solide"
       }
     },
     {
-      "id": "2026-10-17|Telstar 1963|Feyenoord Rotterdam",
-      "date": "2026-10-17",
-      "time": "20:00",
-      "league": "Pays-Bas - Eredivisie",
-      "round": "Matchday 9",
-      "home": "Telstar 1963",
-      "away": "Feyenoord Rotterdam",
-      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Netherlands%20-%20Eredivisie/SC%20Telstar.png",
-      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Netherlands%20-%20Eredivisie/Feyenoord%20Rotterdam.png",
+      "id": "2026-10-18|Brighton & Hove Albion FC|Crystal Palace FC",
+      "date": "2026-10-18",
+      "time": "14:00",
+      "league": "Angleterre - Premier League",
+      "round": "Matchday 7",
+      "home": "Brighton & Hove Albion FC",
+      "away": "Crystal Palace FC",
+      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Brighton%20%26%20Hove%20Albion.png",
+      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Crystal%20Palace.png",
       "prediction": {
-        "elo_home": 1468.7,
-        "elo_away": 1551.0,
-        "prob_home": 34.2,
-        "prob_draw": 29.1,
-        "prob_away": 36.7,
-        "pick_code": "2",
-        "pick_label": "Victoire Feyenoord Rotterdam",
-        "confidence": 36.7,
+        "elo_home": 1520.4,
+        "elo_away": 1478.4,
+        "prob_home": 51.2,
+        "prob_draw": 22.0,
+        "prob_away": 26.8,
+        "pick_code": "1",
+        "pick_label": "Victoire Brighton & Hove Albion FC",
+        "confidence": 51.2,
         "form_home": {
-          "points": 1,
+          "points": 10,
           "played": 5,
-          "avg_gf": 0.6,
-          "avg_ga": 2.2,
-          "form_str": "LLDLL"
+          "avg_gf": 3.2,
+          "avg_ga": 1.0,
+          "form_str": "WLDWW"
         },
         "form_away": {
-          "points": 13,
-          "played": 5,
-          "avg_gf": 4.4,
-          "avg_ga": 1.0,
-          "form_str": "WDWWW"
+          "points": 3,
+          "played": 4,
+          "avg_gf": 1.5,
+          "avg_ga": 2.75,
+          "form_str": "LLWL"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 4.22,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-10-18|Olympique Lyonnais|OGC Nice",
+      "date": "2026-10-18",
+      "time": "20:45",
+      "league": "France - Ligue 1",
+      "round": "Matchday 7",
+      "home": "Olympique Lyonnais",
+      "away": "OGC Nice",
+      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Olympique%20Lyon.png",
+      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/OGC%20Nice.png",
+      "prediction": {
+        "elo_home": 1527.2,
+        "elo_away": 1490.5,
+        "prob_home": 50.4,
+        "prob_draw": 22.4,
+        "prob_away": 27.3,
+        "pick_code": "1",
+        "pick_label": "Victoire Olympique Lyonnais",
+        "confidence": 50.4,
+        "form_home": {
+          "points": 10,
+          "played": 4,
+          "avg_gf": 2.5,
+          "avg_ga": 0.5,
+          "form_str": "WDWW"
+        },
+        "form_away": {
+          "points": 4,
+          "played": 4,
+          "avg_gf": 0.75,
+          "avg_ga": 1.5,
+          "form_str": "LDLW"
         },
         "head_to_head": {
           "played": 0,
@@ -1437,42 +177,897 @@
         },
         "over_under_pick": "Plus de 2.5 buts",
         "btts_pick": "Non",
+        "avg_goals_expected": 2.62,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-10-18|Leeds United FC|Manchester United FC",
+      "date": "2026-10-18",
+      "time": "14:00",
+      "league": "Angleterre - Premier League",
+      "round": "Matchday 7",
+      "home": "Leeds United FC",
+      "away": "Manchester United FC",
+      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Leeds%20United.png",
+      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Manchester%20United.png",
+      "prediction": {
+        "elo_home": 1521.4,
+        "elo_away": 1492.0,
+        "prob_home": 49.3,
+        "prob_draw": 22.9,
+        "prob_away": 27.8,
+        "pick_code": "1",
+        "pick_label": "Victoire Leeds United FC",
+        "confidence": 49.3,
+        "form_home": {
+          "points": 8,
+          "played": 4,
+          "avg_gf": 1.75,
+          "avg_ga": 0.75,
+          "form_str": "WDDW"
+        },
+        "form_away": {
+          "points": 5,
+          "played": 5,
+          "avg_gf": 1.6,
+          "avg_ga": 1.6,
+          "form_str": "LWDLD"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 2.85,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-10-18|Angers SCO|Olympique de Marseille",
+      "date": "2026-10-18",
+      "time": "15:00",
+      "league": "France - Ligue 1",
+      "round": "Matchday 7",
+      "home": "Angers SCO",
+      "away": "Olympique de Marseille",
+      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Angers%20SCO.png",
+      "away_logo": null,
+      "prediction": {
+        "elo_home": 1496.1,
+        "elo_away": 1467.0,
+        "prob_home": 49.2,
+        "prob_draw": 22.9,
+        "prob_away": 27.8,
+        "pick_code": "1",
+        "pick_label": "Victoire Angers SCO",
+        "confidence": 49.2,
+        "form_home": {
+          "points": 6,
+          "played": 4,
+          "avg_gf": 1.5,
+          "avg_ga": 1.25,
+          "form_str": "LWLW"
+        },
+        "form_away": {
+          "points": 3,
+          "played": 5,
+          "avg_gf": 1.4,
+          "avg_ga": 1.6,
+          "form_str": "WLLLL"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 2.88,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-10-18|Real Madrid CF|Sevilla FC",
+      "date": "2026-10-18",
+      "time": "21:00",
+      "league": "Espagne - La Liga",
+      "round": "Matchday 9",
+      "home": "Real Madrid CF",
+      "away": "Sevilla FC",
+      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Madrid.png",
+      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Sevilla%20FC.png",
+      "prediction": {
+        "elo_home": 1529.9,
+        "elo_away": 1518.2,
+        "prob_home": 46.7,
+        "prob_draw": 24.2,
+        "prob_away": 29.2,
+        "pick_code": "1",
+        "pick_label": "Victoire Real Madrid CF",
+        "confidence": 46.7,
+        "form_home": {
+          "points": 9,
+          "played": 5,
+          "avg_gf": 2.4,
+          "avg_ga": 1.2,
+          "form_str": "WLWWL"
+        },
+        "form_away": {
+          "points": 7,
+          "played": 5,
+          "avg_gf": 1.0,
+          "avg_ga": 1.4,
+          "form_str": "LDWWL"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 3.0,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-10-18|Paris FC|Stade Rennais FC 1901",
+      "date": "2026-10-18",
+      "time": "17:15",
+      "league": "France - Ligue 1",
+      "round": "Matchday 7",
+      "home": "Paris FC",
+      "away": "Stade Rennais FC 1901",
+      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Paris%20FC.png",
+      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Stade%20Rennais%20FC.png",
+      "prediction": {
+        "elo_home": 1530.3,
+        "elo_away": 1518.9,
+        "prob_home": 46.6,
+        "prob_draw": 24.2,
+        "prob_away": 29.2,
+        "pick_code": "1",
+        "pick_label": "Victoire Paris FC",
+        "confidence": 46.6,
+        "form_home": {
+          "points": 9,
+          "played": 3,
+          "avg_gf": 2.67,
+          "avg_ga": 1.0,
+          "form_str": "WWW"
+        },
+        "form_away": {
+          "points": 10,
+          "played": 5,
+          "avg_gf": 1.6,
+          "avg_ga": 1.8,
+          "form_str": "DWWWL"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 3.53,
+        "data_quality": "limitée"
+      }
+    },
+    {
+      "id": "2026-10-18|CA Osasuna|Real Racing Club de Santander",
+      "date": "2026-10-18",
+      "time": "14:00",
+      "league": "Espagne - La Liga",
+      "round": "Matchday 9",
+      "home": "CA Osasuna",
+      "away": "Real Racing Club de Santander",
+      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/CA%20Osasuna.png",
+      "away_logo": null,
+      "prediction": {
+        "elo_home": 1488.5,
+        "elo_away": 1481.8,
+        "prob_home": 45.9,
+        "prob_draw": 24.5,
+        "prob_away": 29.5,
+        "pick_code": "1",
+        "pick_label": "Victoire CA Osasuna",
+        "confidence": 45.9,
+        "form_home": {
+          "points": 4,
+          "played": 5,
+          "avg_gf": 0.8,
+          "avg_ga": 2.4,
+          "form_str": "WLLLD"
+        },
+        "form_away": {
+          "points": 6,
+          "played": 5,
+          "avg_gf": 1.8,
+          "avg_ga": 3.6,
+          "form_str": "WLWLL"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Non",
+        "avg_goals_expected": 4.3,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-10-18|AFC Bournemouth|Sunderland AFC",
+      "date": "2026-10-18",
+      "time": "14:00",
+      "league": "Angleterre - Premier League",
+      "round": "Matchday 7",
+      "home": "AFC Bournemouth",
+      "away": "Sunderland AFC",
+      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/AFC%20Bournemouth.png",
+      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Sunderland%20AFC.png",
+      "prediction": {
+        "elo_home": 1478.2,
+        "elo_away": 1482.8,
+        "prob_home": 44.3,
+        "prob_draw": 25.3,
+        "prob_away": 30.4,
+        "pick_code": "1",
+        "pick_label": "Victoire AFC Bournemouth",
+        "confidence": 44.3,
+        "form_home": {
+          "points": 3,
+          "played": 5,
+          "avg_gf": 1.2,
+          "avg_ga": 1.6,
+          "form_str": "LDDDL"
+        },
+        "form_away": {
+          "points": 4,
+          "played": 5,
+          "avg_gf": 1.2,
+          "avg_ga": 2.0,
+          "form_str": "LWDLL"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 3.0,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-10-18|Udinese Calcio|US Lecce",
+      "date": "2026-10-18",
+      "time": "12:30",
+      "league": "Italie - Serie A",
+      "round": "Matchday 7",
+      "home": "Udinese Calcio",
+      "away": "US Lecce",
+      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Udinese%20Calcio.png",
+      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/US%20Lecce.png",
+      "prediction": {
+        "elo_home": 1480.6,
+        "elo_away": 1497.5,
+        "prob_home": 42.5,
+        "prob_draw": 26.2,
+        "prob_away": 31.3,
+        "pick_code": "1",
+        "pick_label": "Victoire Udinese Calcio",
+        "confidence": 42.5,
+        "form_home": {
+          "points": 4,
+          "played": 5,
+          "avg_gf": 1.6,
+          "avg_ga": 2.2,
+          "form_str": "DWLLL"
+        },
+        "form_away": {
+          "points": 6,
+          "played": 5,
+          "avg_gf": 1.0,
+          "avg_ga": 2.0,
+          "form_str": "WLLWL"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 3.4,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-10-18|Bayer 04 Leverkusen|SC Freiburg",
+      "date": "2026-10-18",
+      "time": "15:30",
+      "league": "Allemagne - Bundesliga",
+      "round": "Matchday 6",
+      "home": "Bayer 04 Leverkusen",
+      "away": "SC Freiburg",
+      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Bayer%2004%20Leverkusen.png",
+      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/SC%20Freiburg.png",
+      "prediction": {
+        "elo_home": 1513.2,
+        "elo_away": 1532.4,
+        "prob_home": 42.2,
+        "prob_draw": 26.4,
+        "prob_away": 31.5,
+        "pick_code": "1",
+        "pick_label": "Victoire Bayer 04 Leverkusen",
+        "confidence": 42.2,
+        "form_home": {
+          "points": 7,
+          "played": 4,
+          "avg_gf": 2.5,
+          "avg_ga": 1.25,
+          "form_str": "LWDW"
+        },
+        "form_away": {
+          "points": 10,
+          "played": 4,
+          "avg_gf": 3.0,
+          "avg_ga": 0.75,
+          "form_str": "WWWD"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 3.75,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-10-18|RC Celta de Vigo|Deportivo Alavés",
+      "date": "2026-10-18",
+      "time": "16:15",
+      "league": "Espagne - La Liga",
+      "round": "Matchday 9",
+      "home": "RC Celta de Vigo",
+      "away": "Deportivo Alavés",
+      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Celta%20de%20Vigo.png",
+      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Deportivo%20Alav%C3%A9s.png",
+      "prediction": {
+        "elo_home": 1482.9,
+        "elo_away": 1503.0,
+        "prob_home": 42.0,
+        "prob_draw": 26.4,
+        "prob_away": 31.5,
+        "pick_code": "1",
+        "pick_label": "Victoire RC Celta de Vigo",
+        "confidence": 42.0,
+        "form_home": {
+          "points": 5,
+          "played": 5,
+          "avg_gf": 1.6,
+          "avg_ga": 1.2,
+          "form_str": "LLDDW"
+        },
+        "form_away": {
+          "points": 7,
+          "played": 5,
+          "avg_gf": 1.6,
+          "avg_ga": 1.2,
+          "form_str": "DWWLL"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 2.8,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-10-18|Borussia Mönchengladbach|TSG 1899 Hoffenheim",
+      "date": "2026-10-18",
+      "time": "17:30",
+      "league": "Allemagne - Bundesliga",
+      "round": "Matchday 6",
+      "home": "Borussia Mönchengladbach",
+      "away": "TSG 1899 Hoffenheim",
+      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Borussia%20M%C3%B6nchengladbach.png",
+      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/TSG%201899%20Hoffenheim.png",
+      "prediction": {
+        "elo_home": 1459.9,
+        "elo_away": 1480.7,
+        "prob_home": 41.9,
+        "prob_draw": 26.5,
+        "prob_away": 31.6,
+        "pick_code": "1",
+        "pick_label": "Victoire Borussia Mönchengladbach",
+        "confidence": 41.9,
+        "form_home": {
+          "points": 0,
+          "played": 4,
+          "avg_gf": 1.5,
+          "avg_ga": 4.0,
+          "form_str": "LLLL"
+        },
+        "form_away": {
+          "points": 3,
+          "played": 4,
+          "avg_gf": 1.75,
+          "avg_ga": 2.5,
+          "form_str": "LLWL"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 4.88,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-10-18|Le Havre AC|AJ Auxerre",
+      "date": "2026-10-18",
+      "time": "17:15",
+      "league": "France - Ligue 1",
+      "round": "Matchday 7",
+      "home": "Le Havre AC",
+      "away": "AJ Auxerre",
+      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Le%20Havre%20AC.png",
+      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/AJ%20Auxerre.png",
+      "prediction": {
+        "elo_home": 1468.2,
+        "elo_away": 1488.9,
+        "prob_home": 41.9,
+        "prob_draw": 26.5,
+        "prob_away": 31.6,
+        "pick_code": "1",
+        "pick_label": "Victoire Le Havre AC",
+        "confidence": 41.9,
+        "form_home": {
+          "points": 1,
+          "played": 4,
+          "avg_gf": 1.0,
+          "avg_ga": 1.75,
+          "form_str": "LDLL"
+        },
+        "form_away": {
+          "points": 6,
+          "played": 5,
+          "avg_gf": 1.4,
+          "avg_ga": 2.4,
+          "form_str": "LLLWW"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 3.28,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-10-18|FC Groningen|AFC Ajax",
+      "date": "2026-10-18",
+      "time": "16:45",
+      "league": "Pays-Bas - Eredivisie",
+      "round": "Matchday 9",
+      "home": "FC Groningen",
+      "away": "AFC Ajax",
+      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Netherlands%20-%20Eredivisie/FC%20Groningen.png",
+      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Netherlands%20-%20Eredivisie/Ajax%20Amsterdam.png",
+      "prediction": {
+        "elo_home": 1507.5,
+        "elo_away": 1528.6,
+        "prob_home": 41.9,
+        "prob_draw": 26.5,
+        "prob_away": 31.6,
+        "pick_code": "1",
+        "pick_label": "Victoire FC Groningen",
+        "confidence": 41.9,
+        "form_home": {
+          "points": 5,
+          "played": 5,
+          "avg_gf": 1.8,
+          "avg_ga": 2.2,
+          "form_str": "LLDDW"
+        },
+        "form_away": {
+          "points": 10,
+          "played": 5,
+          "avg_gf": 3.4,
+          "avg_ga": 1.4,
+          "form_str": "WLWWD"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 4.4,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-10-18|Juventus FC|SS Lazio",
+      "date": "2026-10-18",
+      "time": "20:45",
+      "league": "Italie - Serie A",
+      "round": "Matchday 7",
+      "home": "Juventus FC",
+      "away": "SS Lazio",
+      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Juventus%20FC.png",
+      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/SS%20Lazio.png",
+      "prediction": {
+        "elo_home": 1520.6,
+        "elo_away": 1546.0,
+        "prob_home": 41.3,
+        "prob_draw": 26.8,
+        "prob_away": 31.9,
+        "pick_code": "1",
+        "pick_label": "Victoire Juventus FC",
+        "confidence": 41.3,
+        "form_home": {
+          "points": 10,
+          "played": 5,
+          "avg_gf": 1.6,
+          "avg_ga": 0.8,
+          "form_str": "WWDLW"
+        },
+        "form_away": {
+          "points": 13,
+          "played": 5,
+          "avg_gf": 1.6,
+          "avg_ga": 0.6,
+          "form_str": "WWWDW"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Moins de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 2.3,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-10-18|NEC|Fortuna Sittard",
+      "date": "2026-10-18",
+      "time": "20:00",
+      "league": "Pays-Bas - Eredivisie",
+      "round": "Matchday 9",
+      "home": "NEC",
+      "away": "Fortuna Sittard",
+      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Czech%20Republic%20-%20Chance%20Liga/FK%20Jablonec.png",
+      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Netherlands%20-%20Eredivisie/Fortuna%20Sittard.png",
+      "prediction": {
+        "elo_home": 1486.9,
+        "elo_away": 1521.5,
+        "prob_home": 39.9,
+        "prob_draw": 27.5,
+        "prob_away": 32.6,
+        "pick_code": "1",
+        "pick_label": "Victoire NEC",
+        "confidence": 39.9,
+        "form_home": {
+          "points": 5,
+          "played": 5,
+          "avg_gf": 1.4,
+          "avg_ga": 2.0,
+          "form_str": "WLDLD"
+        },
+        "form_away": {
+          "points": 9,
+          "played": 5,
+          "avg_gf": 1.6,
+          "avg_ga": 2.2,
+          "form_str": "LWWLW"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 3.6,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-10-18|Nottingham Forest FC|Arsenal FC",
+      "date": "2026-10-18",
+      "time": "16:30",
+      "league": "Angleterre - Premier League",
+      "round": "Matchday 7",
+      "home": "Nottingham Forest FC",
+      "away": "Arsenal FC",
+      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Nottingham%20Forest.png",
+      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Arsenal%20FC.png",
+      "prediction": {
+        "elo_home": 1487.8,
+        "elo_away": 1532.8,
+        "prob_home": 38.5,
+        "prob_draw": 28.2,
+        "prob_away": 33.3,
+        "pick_code": "1",
+        "pick_label": "Victoire Nottingham Forest FC",
+        "confidence": 38.5,
+        "form_home": {
+          "points": 4,
+          "played": 4,
+          "avg_gf": 1.0,
+          "avg_ga": 1.25,
+          "form_str": "LDWL"
+        },
+        "form_away": {
+          "points": 12,
+          "played": 5,
+          "avg_gf": 1.6,
+          "avg_ga": 0.8,
+          "form_str": "WWWWL"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Moins de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 2.33,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-10-18|ACF Fiorentina|Como 1907",
+      "date": "2026-10-18",
+      "time": "15:00",
+      "league": "Italie - Serie A",
+      "round": "Matchday 7",
+      "home": "ACF Fiorentina",
+      "away": "Como 1907",
+      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/ACF%20Fiorentina.png",
+      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Como%201907.png",
+      "prediction": {
+        "elo_home": 1482.3,
+        "elo_away": 1528.2,
+        "prob_home": 38.3,
+        "prob_draw": 28.3,
+        "prob_away": 33.4,
+        "pick_code": "1",
+        "pick_label": "Victoire ACF Fiorentina",
+        "confidence": 38.3,
+        "form_home": {
+          "points": 4,
+          "played": 5,
+          "avg_gf": 1.2,
+          "avg_ga": 2.4,
+          "form_str": "LLLWD"
+        },
+        "form_away": {
+          "points": 10,
+          "played": 5,
+          "avg_gf": 1.8,
+          "avg_ga": 1.2,
+          "form_str": "DWWWL"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 3.3,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-10-18|PEC Zwolle|Go Ahead Eagles",
+      "date": "2026-10-18",
+      "time": "12:15",
+      "league": "Pays-Bas - Eredivisie",
+      "round": "Matchday 9",
+      "home": "PEC Zwolle",
+      "away": "Go Ahead Eagles",
+      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Netherlands%20-%20Eredivisie/PEC%20Zwolle.png",
+      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Netherlands%20-%20Eredivisie/Go%20Ahead%20Eagles.png",
+      "prediction": {
+        "elo_home": 1462.3,
+        "elo_away": 1510.5,
+        "prob_home": 38.0,
+        "prob_draw": 28.4,
+        "prob_away": 33.5,
+        "pick_code": "1",
+        "pick_label": "Victoire PEC Zwolle",
+        "confidence": 38.0,
+        "form_home": {
+          "points": 4,
+          "played": 5,
+          "avg_gf": 1.0,
+          "avg_ga": 3.0,
+          "form_str": "WLDLL"
+        },
+        "form_away": {
+          "points": 6,
+          "played": 5,
+          "avg_gf": 2.0,
+          "avg_ga": 2.2,
+          "form_str": "WLDDD"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Oui",
         "avg_goals_expected": 4.1,
         "data_quality": "solide"
       }
     },
     {
-      "id": "2026-10-17|Bologna FC 1909|FC Internazionale Milano",
-      "date": "2026-10-17",
-      "time": "18:00",
-      "league": "Italie - Serie A",
-      "round": "Matchday 7",
-      "home": "Bologna FC 1909",
-      "away": "FC Internazionale Milano",
-      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Bologna%20FC%201909.png",
-      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AC%20Milan.png",
+      "id": "2026-10-18|SC Cambuur-Leeuwarden|AZ",
+      "date": "2026-10-18",
+      "time": "14:30",
+      "league": "Pays-Bas - Eredivisie",
+      "round": "Matchday 9",
+      "home": "SC Cambuur-Leeuwarden",
+      "away": "AZ",
+      "home_logo": null,
+      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Austria%20-%20Bundesliga/Grazer%20AK%201902.png",
       "prediction": {
-        "elo_home": 1466.9,
-        "elo_away": 1543.5,
-        "prob_home": 34.6,
-        "prob_draw": 29.5,
-        "prob_away": 35.9,
+        "elo_home": 1469.2,
+        "elo_away": 1556.4,
+        "prob_home": 33.9,
+        "prob_draw": 28.8,
+        "prob_away": 37.4,
         "pick_code": "2",
-        "pick_label": "Victoire FC Internazionale Milano",
-        "confidence": 35.9,
+        "pick_label": "Victoire AZ",
+        "confidence": 37.4,
         "form_home": {
-          "points": 2,
+          "points": 5,
           "played": 5,
-          "avg_gf": 0.6,
-          "avg_ga": 1.2,
-          "form_str": "LLDLD"
+          "avg_gf": 1.8,
+          "avg_ga": 2.4,
+          "form_str": "LLDWD"
         },
         "form_away": {
           "points": 13,
           "played": 5,
-          "avg_gf": 3.0,
-          "avg_ga": 1.6,
-          "form_str": "WWWWD"
+          "avg_gf": 2.4,
+          "avg_ga": 1.0,
+          "form_str": "WWWDW"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 3.8,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-10-18|FC Lorient|AS Monaco FC",
+      "date": "2026-10-18",
+      "time": "17:15",
+      "league": "France - Ligue 1",
+      "round": "Matchday 7",
+      "home": "FC Lorient",
+      "away": "AS Monaco FC",
+      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/FC%20Lorient.png",
+      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/AS%20Monaco.png",
+      "prediction": {
+        "elo_home": 1489.0,
+        "elo_away": 1543.5,
+        "prob_home": 37.1,
+        "prob_draw": 28.9,
+        "prob_away": 34.0,
+        "pick_code": "1",
+        "pick_label": "Victoire FC Lorient",
+        "confidence": 37.1,
+        "form_home": {
+          "points": 4,
+          "played": 4,
+          "avg_gf": 1.25,
+          "avg_ga": 1.5,
+          "form_str": "LWDL"
+        },
+        "form_away": {
+          "points": 13,
+          "played": 5,
+          "avg_gf": 1.6,
+          "avg_ga": 0.6,
+          "form_str": "WWWDW"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Moins de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 2.47,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-10-18|Málaga CF|Real Sociedad de Fútbol",
+      "date": "2026-10-18",
+      "time": "18:30",
+      "league": "Espagne - La Liga",
+      "round": "Matchday 9",
+      "home": "Málaga CF",
+      "away": "Real Sociedad de Fútbol",
+      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/M%C3%A1laga%20CF.png",
+      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Sociedad.png",
+      "prediction": {
+        "elo_home": 1445.8,
+        "elo_away": 1504.7,
+        "prob_home": 36.5,
+        "prob_draw": 29.2,
+        "prob_away": 34.3,
+        "pick_code": "1",
+        "pick_label": "Victoire Málaga CF",
+        "confidence": 36.5,
+        "form_home": {
+          "points": 2,
+          "played": 5,
+          "avg_gf": 0.6,
+          "avg_ga": 2.0,
+          "form_str": "DLDLL"
+        },
+        "form_away": {
+          "points": 9,
+          "played": 5,
+          "avg_gf": 1.8,
+          "avg_ga": 2.4,
+          "form_str": "LWWLW"
         },
         "head_to_head": {
           "played": 0,
@@ -1482,97 +1077,7 @@
         },
         "over_under_pick": "Plus de 2.5 buts",
         "btts_pick": "Non",
-        "avg_goals_expected": 3.2,
-        "data_quality": "solide"
-      }
-    },
-    {
-      "id": "2026-10-17|RCD Espanyol de Barcelona|Club Atlético de Madrid",
-      "date": "2026-10-17",
-      "time": "14:00",
-      "league": "Espagne - La Liga",
-      "round": "Matchday 9",
-      "home": "RCD Espanyol de Barcelona",
-      "away": "Club Atlético de Madrid",
-      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/FC%20Barcelona.png",
-      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Atl%C3%A9tico%20de%20Madrid.png",
-      "prediction": {
-        "elo_home": 1475.3,
-        "elo_away": 1540.1,
-        "prob_home": 35.7,
-        "prob_draw": 29.6,
-        "prob_away": 34.7,
-        "pick_code": "1",
-        "pick_label": "Victoire RCD Espanyol de Barcelona",
-        "confidence": 35.7,
-        "form_home": {
-          "points": 4,
-          "played": 5,
-          "avg_gf": 1.2,
-          "avg_ga": 1.6,
-          "form_str": "LDWLL"
-        },
-        "form_away": {
-          "points": 12,
-          "played": 5,
-          "avg_gf": 2.4,
-          "avg_ga": 1.0,
-          "form_str": "WLWWW"
-        },
-        "head_to_head": {
-          "played": 0,
-          "home_wins": 0,
-          "draws": 0,
-          "away_wins": 0
-        },
-        "over_under_pick": "Plus de 2.5 buts",
-        "btts_pick": "Oui",
-        "avg_goals_expected": 3.1,
-        "data_quality": "solide"
-      }
-    },
-    {
-      "id": "2026-10-17|1. FC Union Berlin|Borussia Dortmund",
-      "date": "2026-10-17",
-      "time": "15:30",
-      "league": "Allemagne - Bundesliga",
-      "round": "Matchday 6",
-      "home": "1. FC Union Berlin",
-      "away": "Borussia Dortmund",
-      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/1.FC%20Union%20Berlin.png",
-      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Borussia%20Dortmund.png",
-      "prediction": {
-        "elo_home": 1469.8,
-        "elo_away": 1543.0,
-        "prob_home": 34.8,
-        "prob_draw": 29.8,
-        "prob_away": 35.4,
-        "pick_code": "2",
-        "pick_label": "Victoire Borussia Dortmund",
-        "confidence": 35.4,
-        "form_home": {
-          "points": 1,
-          "played": 4,
-          "avg_gf": 1.0,
-          "avg_ga": 4.25,
-          "form_str": "DLLL"
-        },
-        "form_away": {
-          "points": 12,
-          "played": 4,
-          "avg_gf": 2.25,
-          "avg_ga": 0.5,
-          "form_str": "WWWW"
-        },
-        "head_to_head": {
-          "played": 0,
-          "home_wins": 0,
-          "draws": 0,
-          "away_wins": 0
-        },
-        "over_under_pick": "Plus de 2.5 buts",
-        "btts_pick": "Oui",
-        "avg_goals_expected": 4.0,
+        "avg_goals_expected": 3.4,
         "data_quality": "solide"
       }
     }
