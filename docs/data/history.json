@@ -1,6 +1,58 @@
 {
   "entries": [
     {
+      "id": "2026-10-19|Tottenham Hotspur FC|Coventry City FC",
+      "date": "2026-10-19",
+      "league": "Angleterre - Premier League",
+      "home": "Tottenham Hotspur FC",
+      "away": "Coventry City FC",
+      "pick_label": "Victoire Tottenham Hotspur FC",
+      "pick_code": "1",
+      "confidence": 43.7,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
+      "id": "2026-10-19|Getafe CF|Rayo Vallecano de Madrid",
+      "date": "2026-10-19",
+      "league": "Espagne - La Liga",
+      "home": "Getafe CF",
+      "away": "Rayo Vallecano de Madrid",
+      "pick_label": "Victoire Getafe CF",
+      "pick_code": "1",
+      "confidence": 44.1,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
+      "id": "2026-10-19|AC Monza|Cagliari Calcio",
+      "date": "2026-10-19",
+      "league": "Italie - Serie A",
+      "home": "AC Monza",
+      "away": "Cagliari Calcio",
+      "pick_label": "Victoire AC Monza",
+      "pick_code": "1",
+      "confidence": 50.7,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
+      "id": "2026-10-19|Parma Calcio 1913|Torino FC",
+      "date": "2026-10-19",
+      "league": "Italie - Serie A",
+      "home": "Parma Calcio 1913",
+      "away": "Torino FC",
+      "pick_label": "Victoire Parma Calcio 1913",
+      "pick_code": "1",
+      "confidence": 44.9,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
       "id": "2026-10-18|AFC Bournemouth|Sunderland AFC",
       "date": "2026-10-18",
       "league": "Angleterre - Premier League",
