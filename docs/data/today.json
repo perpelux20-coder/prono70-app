@@ -1,38 +1,38 @@
 {
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "matches": [
     {
-      "id": "2026-10-20|Wolverhampton Wanderers FC|Portsmouth FC",
-      "date": "2026-10-20",
-      "time": "19:45",
-      "league": "Angleterre - Championship",
+      "id": "2026-10-21|Levante UD|Athletic Club",
+      "date": "2026-10-21",
+      "time": "20:00",
+      "league": "Espagne - La Liga",
       "round": "Matchday 6",
-      "home": "Wolverhampton Wanderers FC",
-      "away": "Portsmouth FC",
-      "home_logo": null,
-      "away_logo": null,
+      "home": "Levante UD",
+      "away": "Athletic Club",
+      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Levante%20UD.png",
+      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Athletic%20Bilbao.png",
       "prediction": {
-        "elo_home": 1533.3,
-        "elo_away": 1484.3,
-        "prob_home": 52.2,
-        "prob_draw": 21.5,
-        "prob_away": 26.3,
+        "elo_home": 1480.0,
+        "elo_away": 1498.9,
+        "prob_home": 42.2,
+        "prob_draw": 26.3,
+        "prob_away": 31.4,
         "pick_code": "1",
-        "pick_label": "Victoire Wolverhampton Wanderers FC",
-        "confidence": 52.2,
+        "pick_label": "Victoire Levante UD",
+        "confidence": 42.2,
         "form_home": {
-          "points": 10,
-          "played": 5,
+          "points": 3,
+          "played": 4,
           "avg_gf": 2.0,
-          "avg_ga": 1.4,
-          "form_str": "WLDWW"
+          "avg_ga": 3.0,
+          "form_str": "LWLL"
         },
         "form_away": {
           "points": 7,
           "played": 5,
-          "avg_gf": 1.6,
-          "avg_ga": 1.4,
-          "form_str": "WLLWD"
+          "avg_gf": 1.4,
+          "avg_ga": 1.2,
+          "form_str": "LLWWD"
         },
         "head_to_head": {
           "played": 0,
@@ -42,7 +42,7 @@
         },
         "over_under_pick": "Plus de 2.5 buts",
         "btts_pick": "Oui",
-        "avg_goals_expected": 3.2,
+        "avg_goals_expected": 3.8,
         "data_quality": "solide"
       }
     }

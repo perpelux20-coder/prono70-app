@@ -1,6 +1,19 @@
 {
   "entries": [
     {
+      "id": "2026-10-21|Levante UD|Athletic Club",
+      "date": "2026-10-21",
+      "league": "Espagne - La Liga",
+      "home": "Levante UD",
+      "away": "Athletic Club",
+      "pick_label": "Victoire Levante UD",
+      "pick_code": "1",
+      "confidence": 42.2,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
       "id": "2026-10-20|Wolverhampton Wanderers FC|Portsmouth FC",
       "date": "2026-10-20",
       "league": "Angleterre - Championship",
