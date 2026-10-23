@@ -1,4 +1,320 @@
 {
-  "date": "2026-10-22",
-  "matches": []
+  "date": "2026-10-23",
+  "matches": [
+    {
+      "id": "2026-10-23|Go Ahead Eagles|Telstar 1963",
+      "date": "2026-10-23",
+      "time": "20:00",
+      "league": "Pays-Bas - Eredivisie",
+      "round": "Matchday 10",
+      "home": "Go Ahead Eagles",
+      "away": "Telstar 1963",
+      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Netherlands%20-%20Eredivisie/Go%20Ahead%20Eagles.png",
+      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Netherlands%20-%20Eredivisie/SC%20Telstar.png",
+      "prediction": {
+        "elo_home": 1510.5,
+        "elo_away": 1468.7,
+        "prob_home": 51.1,
+        "prob_draw": 22.0,
+        "prob_away": 26.9,
+        "pick_code": "1",
+        "pick_label": "Victoire Go Ahead Eagles",
+        "confidence": 51.1,
+        "form_home": {
+          "points": 6,
+          "played": 5,
+          "avg_gf": 2.0,
+          "avg_ga": 2.2,
+          "form_str": "WLDDD"
+        },
+        "form_away": {
+          "points": 1,
+          "played": 5,
+          "avg_gf": 0.6,
+          "avg_ga": 2.2,
+          "form_str": "LLDLL"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Non",
+        "avg_goals_expected": 3.5,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-10-23|VfB Stuttgart|Borussia Mönchengladbach",
+      "date": "2026-10-23",
+      "time": "20:30",
+      "league": "Allemagne - Bundesliga",
+      "round": "Matchday 7",
+      "home": "VfB Stuttgart",
+      "away": "Borussia Mönchengladbach",
+      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/VfB%20Stuttgart.png",
+      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Borussia%20M%C3%B6nchengladbach.png",
+      "prediction": {
+        "elo_home": 1479.1,
+        "elo_away": 1459.9,
+        "prob_home": 47.8,
+        "prob_draw": 23.6,
+        "prob_away": 28.6,
+        "pick_code": "1",
+        "pick_label": "Victoire VfB Stuttgart",
+        "confidence": 47.8,
+        "form_home": {
+          "points": 3,
+          "played": 4,
+          "avg_gf": 1.5,
+          "avg_ga": 2.25,
+          "form_str": "LWLL"
+        },
+        "form_away": {
+          "points": 0,
+          "played": 4,
+          "avg_gf": 1.5,
+          "avg_ga": 4.0,
+          "form_str": "LLLL"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 4.62,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-10-23|Ipswich Town FC|Nottingham Forest FC",
+      "date": "2026-10-23",
+      "time": "20:00",
+      "league": "Angleterre - Premier League",
+      "round": "Matchday 8",
+      "home": "Ipswich Town FC",
+      "away": "Nottingham Forest FC",
+      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Ipswich%20Town.png",
+      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Nottingham%20Forest.png",
+      "prediction": {
+        "elo_home": 1491.1,
+        "elo_away": 1487.8,
+        "prob_home": 45.4,
+        "prob_draw": 24.8,
+        "prob_away": 29.8,
+        "pick_code": "1",
+        "pick_label": "Victoire Ipswich Town FC",
+        "confidence": 45.4,
+        "form_home": {
+          "points": 6,
+          "played": 5,
+          "avg_gf": 1.4,
+          "avg_ga": 2.2,
+          "form_str": "WLLWL"
+        },
+        "form_away": {
+          "points": 4,
+          "played": 4,
+          "avg_gf": 1.0,
+          "avg_ga": 1.25,
+          "form_str": "LDWL"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 2.92,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-10-23|Stade Brestois 29|OGC Nice",
+      "date": "2026-10-23",
+      "time": "20:45",
+      "league": "France - Ligue 1",
+      "round": "Matchday 8",
+      "home": "Stade Brestois 29",
+      "away": "OGC Nice",
+      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Stade%20Brestois%2029.png",
+      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/OGC%20Nice.png",
+      "prediction": {
+        "elo_home": 1489.8,
+        "elo_away": 1490.5,
+        "prob_home": 44.8,
+        "prob_draw": 25.1,
+        "prob_away": 30.1,
+        "pick_code": "1",
+        "pick_label": "Victoire Stade Brestois 29",
+        "confidence": 44.8,
+        "form_home": {
+          "points": 5,
+          "played": 5,
+          "avg_gf": 1.4,
+          "avg_ga": 1.6,
+          "form_str": "DDWLL"
+        },
+        "form_away": {
+          "points": 4,
+          "played": 4,
+          "avg_gf": 0.75,
+          "avg_ga": 1.5,
+          "form_str": "LDLW"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Non",
+        "avg_goals_expected": 2.62,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-10-23|Vitória Guimarães|CS Marítimo",
+      "date": "2026-10-23",
+      "time": "20:45",
+      "league": "Portugal - Primeira Liga",
+      "round": "Matchday 9",
+      "home": "Vitória Guimarães",
+      "away": "CS Marítimo",
+      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Portugal%20-%20Liga%20Portugal/Vit%C3%B3ria%20Guimar%C3%A3es%20SC.png",
+      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Portugal%20-%20Liga%20Portugal/CS%20Mar%C3%ADtimo.png",
+      "prediction": {
+        "elo_home": 1469.9,
+        "elo_away": 1489.9,
+        "prob_home": 42.1,
+        "prob_draw": 26.4,
+        "prob_away": 31.5,
+        "pick_code": "1",
+        "pick_label": "Victoire Vitória Guimarães",
+        "confidence": 42.1,
+        "form_home": {
+          "points": 4,
+          "played": 5,
+          "avg_gf": 1.0,
+          "avg_ga": 1.4,
+          "form_str": "LWLLD"
+        },
+        "form_away": {
+          "points": 2,
+          "played": 5,
+          "avg_gf": 1.0,
+          "avg_ga": 2.2,
+          "form_str": "DLLLD"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 2.8,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-10-23|Bolton Wanderers FC|Middlesbrough FC",
+      "date": "2026-10-23",
+      "time": "20:00",
+      "league": "Angleterre - Championship",
+      "round": "Matchday 12",
+      "home": "Bolton Wanderers FC",
+      "away": "Middlesbrough FC",
+      "home_logo": null,
+      "away_logo": null,
+      "prediction": {
+        "elo_home": 1488.4,
+        "elo_away": 1530.9,
+        "prob_home": 38.8,
+        "prob_draw": 28.0,
+        "prob_away": 33.1,
+        "pick_code": "1",
+        "pick_label": "Victoire Bolton Wanderers FC",
+        "confidence": 38.8,
+        "form_home": {
+          "points": 6,
+          "played": 5,
+          "avg_gf": 1.8,
+          "avg_ga": 2.6,
+          "form_str": "LLLWW"
+        },
+        "form_away": {
+          "points": 9,
+          "played": 5,
+          "avg_gf": 2.0,
+          "avg_ga": 1.6,
+          "form_str": "DWWDD"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 4.0,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-10-23|Torino FC|AC Monza",
+      "date": "2026-10-23",
+      "time": "20:45",
+      "league": "Italie - Serie A",
+      "round": "Matchday 8",
+      "home": "Torino FC",
+      "away": "AC Monza",
+      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Torino%20FC.png",
+      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AC%20Monza.png",
+      "prediction": {
+        "elo_home": 1481.3,
+        "elo_away": 1573.5,
+        "prob_home": 33.5,
+        "prob_draw": 28.4,
+        "prob_away": 38.1,
+        "pick_code": "2",
+        "pick_label": "Victoire AC Monza",
+        "confidence": 38.1,
+        "form_home": {
+          "points": 4,
+          "played": 5,
+          "avg_gf": 1.0,
+          "avg_ga": 1.6,
+          "form_str": "LLWLD"
+        },
+        "form_away": {
+          "points": 4,
+          "played": 5,
+          "avg_gf": 1.6,
+          "avg_ga": 2.4,
+          "form_str": "LLDLW"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 3.3,
+        "data_quality": "solide"
+      }
+    }
+  ]
 }
