@@ -1,6 +1,19 @@
 {
   "entries": [
     {
+      "id": "2026-10-26|CD Santa Clara|Sport Lisboa e Benfica",
+      "date": "2026-10-26",
+      "league": "Portugal - Primeira Liga",
+      "home": "CD Santa Clara",
+      "away": "Sport Lisboa e Benfica",
+      "pick_label": "Victoire CD Santa Clara",
+      "pick_code": "1",
+      "confidence": 44.7,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
       "id": "2026-10-25|Liverpool FC|Brighton & Hove Albion FC",
       "date": "2026-10-25",
       "league": "Angleterre - Premier League",
