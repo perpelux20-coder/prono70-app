@@ -1,6 +1,45 @@
 {
   "entries": [
     {
+      "id": "2026-10-27|US Sassuolo Calcio|SS Lazio",
+      "date": "2026-10-27",
+      "league": "Italie - Serie A",
+      "home": "US Sassuolo Calcio",
+      "away": "SS Lazio",
+      "pick_label": "Victoire US Sassuolo Calcio",
+      "pick_code": "1",
+      "confidence": 38.8,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
+      "id": "2026-10-27|AS Roma|Cagliari Calcio",
+      "date": "2026-10-27",
+      "league": "Italie - Serie A",
+      "home": "AS Roma",
+      "away": "Cagliari Calcio",
+      "pick_label": "Victoire AS Roma",
+      "pick_code": "1",
+      "confidence": 45.9,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
+      "id": "2026-10-27|Torino FC|Como 1907",
+      "date": "2026-10-27",
+      "league": "Italie - Serie A",
+      "home": "Torino FC",
+      "away": "Como 1907",
+      "pick_label": "Victoire Torino FC",
+      "pick_code": "1",
+      "confidence": 38.2,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
       "id": "2026-10-26|CD Santa Clara|Sport Lisboa e Benfica",
       "date": "2026-10-26",
       "league": "Portugal - Primeira Liga",

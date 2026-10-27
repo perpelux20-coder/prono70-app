@@ -1,38 +1,83 @@
 {
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "matches": [
     {
-      "id": "2026-10-26|CD Santa Clara|Sport Lisboa e Benfica",
-      "date": "2026-10-26",
-      "time": "18:45",
-      "league": "Portugal - Primeira Liga",
+      "id": "2026-10-27|AS Roma|Cagliari Calcio",
+      "date": "2026-10-27",
+      "time": "20:45",
+      "league": "Italie - Serie A",
       "round": "Matchday 9",
-      "home": "CD Santa Clara",
-      "away": "Sport Lisboa e Benfica",
-      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Portugal%20-%20Liga%20Portugal/CD%20Santa%20Clara.png",
-      "away_logo": null,
+      "home": "AS Roma",
+      "away": "Cagliari Calcio",
+      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AS%20Roma.png",
+      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Cagliari%20Calcio.png",
       "prediction": {
-        "elo_home": 1540.9,
-        "elo_away": 1542.6,
-        "prob_home": 44.7,
-        "prob_draw": 25.1,
-        "prob_away": 30.2,
+        "elo_home": 1540.6,
+        "elo_away": 1534.3,
+        "prob_home": 45.9,
+        "prob_draw": 24.6,
+        "prob_away": 29.6,
         "pick_code": "1",
-        "pick_label": "Victoire CD Santa Clara",
-        "confidence": 44.7,
+        "pick_label": "Victoire AS Roma",
+        "confidence": 45.9,
         "form_home": {
           "points": 13,
           "played": 5,
-          "avg_gf": 1.8,
-          "avg_ga": 0.4,
-          "form_str": "WWDWW"
+          "avg_gf": 2.8,
+          "avg_ga": 0.6,
+          "form_str": "WWWWD"
         },
         "form_away": {
           "points": 12,
           "played": 5,
-          "avg_gf": 2.6,
-          "avg_ga": 1.0,
-          "form_str": "WWWWL"
+          "avg_gf": 1.0,
+          "avg_ga": 0.4,
+          "form_str": "WLWWW"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Moins de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 2.4,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-10-27|US Sassuolo Calcio|SS Lazio",
+      "date": "2026-10-27",
+      "time": "18:30",
+      "league": "Italie - Serie A",
+      "round": "Matchday 9",
+      "home": "US Sassuolo Calcio",
+      "away": "SS Lazio",
+      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/US%20Sassuolo.png",
+      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/SS%20Lazio.png",
+      "prediction": {
+        "elo_home": 1503.6,
+        "elo_away": 1546.0,
+        "prob_home": 38.8,
+        "prob_draw": 28.0,
+        "prob_away": 33.1,
+        "pick_code": "1",
+        "pick_label": "Victoire US Sassuolo Calcio",
+        "confidence": 38.8,
+        "form_home": {
+          "points": 7,
+          "played": 5,
+          "avg_gf": 1.8,
+          "avg_ga": 1.8,
+          "form_str": "LWDWL"
+        },
+        "form_away": {
+          "points": 13,
+          "played": 5,
+          "avg_gf": 1.6,
+          "avg_ga": 0.6,
+          "form_str": "WWWDW"
         },
         "head_to_head": {
           "played": 0,
@@ -43,6 +88,51 @@
         "over_under_pick": "Plus de 2.5 buts",
         "btts_pick": "Oui",
         "avg_goals_expected": 2.9,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-10-27|Torino FC|Como 1907",
+      "date": "2026-10-27",
+      "time": "20:45",
+      "league": "Italie - Serie A",
+      "round": "Matchday 9",
+      "home": "Torino FC",
+      "away": "Como 1907",
+      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Torino%20FC.png",
+      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Como%201907.png",
+      "prediction": {
+        "elo_home": 1481.3,
+        "elo_away": 1528.2,
+        "prob_home": 38.2,
+        "prob_draw": 28.3,
+        "prob_away": 33.4,
+        "pick_code": "1",
+        "pick_label": "Victoire Torino FC",
+        "confidence": 38.2,
+        "form_home": {
+          "points": 4,
+          "played": 5,
+          "avg_gf": 1.0,
+          "avg_ga": 1.6,
+          "form_str": "LLWLD"
+        },
+        "form_away": {
+          "points": 10,
+          "played": 5,
+          "avg_gf": 1.8,
+          "avg_ga": 1.2,
+          "form_str": "DWWWL"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 2.8,
         "data_quality": "solide"
       }
     }
