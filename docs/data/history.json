@@ -1,6 +1,71 @@
 {
   "entries": [
     {
+      "id": "2026-10-28|AC Milan|Bologna FC 1909",
+      "date": "2026-10-28",
+      "league": "Italie - Serie A",
+      "home": "AC Milan",
+      "away": "Bologna FC 1909",
+      "pick_label": "Victoire AC Milan",
+      "pick_code": "1",
+      "confidence": 55.4,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
+      "id": "2026-10-28|Venezia FC|FC Internazionale Milano",
+      "date": "2026-10-28",
+      "league": "Italie - Serie A",
+      "home": "Venezia FC",
+      "away": "FC Internazionale Milano",
+      "pick_label": "Victoire Venezia FC",
+      "pick_code": "1",
+      "confidence": 46.5,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
+      "id": "2026-10-28|Parma Calcio 1913|Udinese Calcio",
+      "date": "2026-10-28",
+      "league": "Italie - Serie A",
+      "home": "Parma Calcio 1913",
+      "away": "Udinese Calcio",
+      "pick_label": "Victoire Parma Calcio 1913",
+      "pick_code": "1",
+      "confidence": 45.0,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
+      "id": "2026-10-28|Genoa CFC|Juventus FC",
+      "date": "2026-10-28",
+      "league": "Italie - Serie A",
+      "home": "Genoa CFC",
+      "away": "Juventus FC",
+      "pick_label": "Victoire Genoa CFC",
+      "pick_code": "1",
+      "confidence": 36.3,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
+      "id": "2026-10-28|AC Monza|SSC Napoli",
+      "date": "2026-10-28",
+      "league": "Italie - Serie A",
+      "home": "AC Monza",
+      "away": "SSC Napoli",
+      "pick_label": "Victoire AC Monza",
+      "pick_code": "1",
+      "confidence": 55.6,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
       "id": "2026-10-27|US Sassuolo Calcio|SS Lazio",
       "date": "2026-10-27",
       "league": "Italie - Serie A",
