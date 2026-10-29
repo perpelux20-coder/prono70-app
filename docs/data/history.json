@@ -1,6 +1,32 @@
 {
   "entries": [
     {
+      "id": "2026-10-29|Frosinone Calcio|US Lecce",
+      "date": "2026-10-29",
+      "league": "Italie - Serie A",
+      "home": "Frosinone Calcio",
+      "away": "US Lecce",
+      "pick_label": "Victoire Frosinone Calcio",
+      "pick_code": "1",
+      "confidence": 60.3,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
+      "id": "2026-10-29|ACF Fiorentina|Atalanta BC",
+      "date": "2026-10-29",
+      "league": "Italie - Serie A",
+      "home": "ACF Fiorentina",
+      "away": "Atalanta BC",
+      "pick_label": "Victoire ACF Fiorentina",
+      "pick_code": "1",
+      "confidence": 44.3,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
       "id": "2026-10-28|AC Milan|Bologna FC 1909",
       "date": "2026-10-28",
       "league": "Italie - Serie A",
