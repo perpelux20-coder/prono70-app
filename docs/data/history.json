@@ -1,6 +1,71 @@
 {
   "entries": [
     {
+      "id": "2026-10-30|Sheffield United FC|Wrexham AFC",
+      "date": "2026-10-30",
+      "league": "Angleterre - Championship",
+      "home": "Sheffield United FC",
+      "away": "Wrexham AFC",
+      "pick_label": "Victoire Sheffield United FC",
+      "pick_code": "1",
+      "confidence": 43.2,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
+      "id": "2026-10-30|SV 07 Elversberg|1. FSV Mainz 05",
+      "date": "2026-10-30",
+      "league": "Allemagne - Bundesliga",
+      "home": "SV 07 Elversberg",
+      "away": "1. FSV Mainz 05",
+      "pick_label": "Victoire SV 07 Elversberg",
+      "pick_code": "1",
+      "confidence": 50.1,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
+      "id": "2026-10-30|Le Havre AC|Paris Saint-Germain FC",
+      "date": "2026-10-30",
+      "league": "France - Ligue 1",
+      "home": "Le Havre AC",
+      "away": "Paris Saint-Germain FC",
+      "pick_label": "Victoire Le Havre AC",
+      "pick_code": "1",
+      "confidence": 37.8,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
+      "id": "2026-10-30|Lille OSC|Racing Club de Lens",
+      "date": "2026-10-30",
+      "league": "France - Ligue 1",
+      "home": "Lille OSC",
+      "away": "Racing Club de Lens",
+      "pick_label": "Victoire Lille OSC",
+      "pick_code": "1",
+      "confidence": 50.8,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
+      "id": "2026-10-30|Casa Pia AC|Sporting Clube de Portugal",
+      "date": "2026-10-30",
+      "league": "Portugal - Primeira Liga",
+      "home": "Casa Pia AC",
+      "away": "Sporting Clube de Portugal",
+      "pick_label": "Victoire Sporting Clube de Portugal",
+      "pick_code": "2",
+      "confidence": 35.7,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
       "id": "2026-10-29|Frosinone Calcio|US Lecce",
       "date": "2026-10-29",
       "league": "Italie - Serie A",
