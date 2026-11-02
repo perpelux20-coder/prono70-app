@@ -1,6 +1,71 @@
 {
   "entries": [
     {
+      "id": "2026-11-02|Newcastle United FC|Everton FC",
+      "date": "2026-11-02",
+      "league": "Angleterre - Premier League",
+      "home": "Newcastle United FC",
+      "away": "Everton FC",
+      "pick_label": "Victoire Newcastle United FC",
+      "pick_code": "1",
+      "confidence": 43.8,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
+      "id": "2026-11-02|US Sassuolo Calcio|ACF Fiorentina",
+      "date": "2026-11-02",
+      "league": "Italie - Serie A",
+      "home": "US Sassuolo Calcio",
+      "away": "ACF Fiorentina",
+      "pick_label": "Victoire US Sassuolo Calcio",
+      "pick_code": "1",
+      "confidence": 48.1,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
+      "id": "2026-11-02|Atalanta BC|Parma Calcio 1913",
+      "date": "2026-11-02",
+      "league": "Italie - Serie A",
+      "home": "Atalanta BC",
+      "away": "Parma Calcio 1913",
+      "pick_label": "Victoire Atalanta BC",
+      "pick_code": "1",
+      "confidence": 45.8,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
+      "id": "2026-11-02|Sport Lisboa e Benfica|FC Alverca",
+      "date": "2026-11-02",
+      "league": "Portugal - Primeira Liga",
+      "home": "Sport Lisboa e Benfica",
+      "away": "FC Alverca",
+      "pick_label": "Victoire Sport Lisboa e Benfica",
+      "pick_code": "1",
+      "confidence": 52.7,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
+      "id": "2026-11-02|Gil Vicente FC|Vitória Guimarães",
+      "date": "2026-11-02",
+      "league": "Portugal - Primeira Liga",
+      "home": "Gil Vicente FC",
+      "away": "Vitória Guimarães",
+      "pick_label": "Victoire Gil Vicente FC",
+      "pick_code": "1",
+      "confidence": 48.3,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
       "id": "2026-11-01|Liverpool FC|Arsenal FC",
       "date": "2026-11-01",
       "league": "Angleterre - Premier League",
