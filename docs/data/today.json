@@ -1,83 +1,38 @@
 {
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "matches": [
     {
-      "id": "2026-11-02|Sport Lisboa e Benfica|FC Alverca",
-      "date": "2026-11-02",
-      "time": "20:15",
-      "league": "Portugal - Primeira Liga",
-      "round": "Matchday 10",
-      "home": "Sport Lisboa e Benfica",
-      "away": "FC Alverca",
-      "home_logo": null,
-      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Portugal%20-%20Liga%20Portugal/FC%20Alverca.png",
+      "id": "2026-11-03|Queens Park Rangers FC|Burnley FC",
+      "date": "2026-11-03",
+      "time": "19:45",
+      "league": "Angleterre - Championship",
+      "round": "Matchday 14",
+      "home": "Queens Park Rangers FC",
+      "away": "Burnley FC",
+      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Scotland%20-%20Scottish%20Premiership/Rangers%20FC.png",
+      "away_logo": null,
       "prediction": {
-        "elo_home": 1542.6,
-        "elo_away": 1489.9,
-        "prob_home": 52.7,
-        "prob_draw": 21.2,
-        "prob_away": 26.0,
+        "elo_home": 1518.5,
+        "elo_away": 1460.5,
+        "prob_home": 53.5,
+        "prob_draw": 20.9,
+        "prob_away": 25.6,
         "pick_code": "1",
-        "pick_label": "Victoire Sport Lisboa e Benfica",
-        "confidence": 52.7,
+        "pick_label": "Victoire Queens Park Rangers FC",
+        "confidence": 53.5,
         "form_home": {
-          "points": 12,
-          "played": 5,
-          "avg_gf": 2.6,
-          "avg_ga": 1.0,
-          "form_str": "WWWWL"
-        },
-        "form_away": {
-          "points": 7,
+          "points": 8,
           "played": 5,
           "avg_gf": 1.4,
-          "avg_ga": 1.4,
-          "form_str": "LDLWW"
-        },
-        "head_to_head": {
-          "played": 0,
-          "home_wins": 0,
-          "draws": 0,
-          "away_wins": 0
-        },
-        "over_under_pick": "Plus de 2.5 buts",
-        "btts_pick": "Oui",
-        "avg_goals_expected": 3.2,
-        "data_quality": "solide"
-      }
-    },
-    {
-      "id": "2026-11-02|Gil Vicente FC|Vitória Guimarães",
-      "date": "2026-11-02",
-      "time": "20:15",
-      "league": "Portugal - Primeira Liga",
-      "round": "Matchday 10",
-      "home": "Gil Vicente FC",
-      "away": "Vitória Guimarães",
-      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Portugal%20-%20Liga%20Portugal/Gil%20Vicente%20FC.png",
-      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Portugal%20-%20Liga%20Portugal/Vit%C3%B3ria%20Guimar%C3%A3es%20SC.png",
-      "prediction": {
-        "elo_home": 1492.4,
-        "elo_away": 1469.9,
-        "prob_home": 48.3,
-        "prob_draw": 23.4,
-        "prob_away": 28.3,
-        "pick_code": "1",
-        "pick_label": "Victoire Gil Vicente FC",
-        "confidence": 48.3,
-        "form_home": {
-          "points": 7,
-          "played": 5,
-          "avg_gf": 1.0,
-          "avg_ga": 1.0,
-          "form_str": "WWLLD"
+          "avg_ga": 1.2,
+          "form_str": "WWLDD"
         },
         "form_away": {
-          "points": 4,
+          "points": 3,
           "played": 5,
           "avg_gf": 1.0,
-          "avg_ga": 1.4,
-          "form_str": "LWLLD"
+          "avg_ga": 1.6,
+          "form_str": "DLDLD"
         },
         "head_to_head": {
           "played": 0,
@@ -87,42 +42,42 @@
         },
         "over_under_pick": "Moins de 2.5 buts",
         "btts_pick": "Oui",
-        "avg_goals_expected": 2.2,
+        "avg_goals_expected": 2.6,
         "data_quality": "solide"
       }
     },
     {
-      "id": "2026-11-02|US Sassuolo Calcio|ACF Fiorentina",
-      "date": "2026-11-02",
-      "time": "18:30",
-      "league": "Italie - Serie A",
-      "round": "Matchday 10",
-      "home": "US Sassuolo Calcio",
-      "away": "ACF Fiorentina",
-      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/US%20Sassuolo.png",
-      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/ACF%20Fiorentina.png",
+      "id": "2026-11-03|Charlton Athletic FC|Bolton Wanderers FC",
+      "date": "2026-11-03",
+      "time": "19:45",
+      "league": "Angleterre - Championship",
+      "round": "Matchday 14",
+      "home": "Charlton Athletic FC",
+      "away": "Bolton Wanderers FC",
+      "home_logo": null,
+      "away_logo": null,
       "prediction": {
-        "elo_home": 1503.6,
-        "elo_away": 1482.3,
-        "prob_home": 48.1,
-        "prob_draw": 23.5,
+        "elo_home": 1510.2,
+        "elo_away": 1488.4,
+        "prob_home": 48.2,
+        "prob_draw": 23.4,
         "prob_away": 28.4,
         "pick_code": "1",
-        "pick_label": "Victoire US Sassuolo Calcio",
-        "confidence": 48.1,
+        "pick_label": "Victoire Charlton Athletic FC",
+        "confidence": 48.2,
         "form_home": {
           "points": 7,
           "played": 5,
-          "avg_gf": 1.8,
+          "avg_gf": 1.0,
           "avg_ga": 1.8,
-          "form_str": "LWDWL"
+          "form_str": "WWDLL"
         },
         "form_away": {
-          "points": 4,
+          "points": 6,
           "played": 5,
-          "avg_gf": 1.2,
-          "avg_ga": 2.4,
-          "form_str": "LLLWD"
+          "avg_gf": 1.8,
+          "avg_ga": 2.6,
+          "form_str": "LLLWW"
         },
         "head_to_head": {
           "played": 0,
@@ -137,37 +92,82 @@
       }
     },
     {
-      "id": "2026-11-02|Atalanta BC|Parma Calcio 1913",
-      "date": "2026-11-02",
-      "time": "20:45",
-      "league": "Italie - Serie A",
-      "round": "Matchday 10",
-      "home": "Atalanta BC",
-      "away": "Parma Calcio 1913",
-      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Atalanta%20BC.png",
-      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Parma%20Calcio%201913.png",
+      "id": "2026-11-03|Birmingham City FC|Millwall FC",
+      "date": "2026-11-03",
+      "time": "19:45",
+      "league": "Angleterre - Championship",
+      "round": "Matchday 14",
+      "home": "Birmingham City FC",
+      "away": "Millwall FC",
+      "home_logo": null,
+      "away_logo": null,
       "prediction": {
-        "elo_home": 1486.8,
-        "elo_away": 1481.1,
-        "prob_home": 45.8,
-        "prob_draw": 24.6,
-        "prob_away": 29.6,
+        "elo_home": 1507.8,
+        "elo_away": 1498.5,
+        "prob_home": 46.3,
+        "prob_draw": 24.3,
+        "prob_away": 29.3,
         "pick_code": "1",
-        "pick_label": "Victoire Atalanta BC",
-        "confidence": 45.8,
+        "pick_label": "Victoire Birmingham City FC",
+        "confidence": 46.3,
         "form_home": {
           "points": 6,
           "played": 5,
-          "avg_gf": 1.0,
-          "avg_ga": 1.4,
-          "form_str": "WWLLL"
+          "avg_gf": 1.6,
+          "avg_ga": 1.6,
+          "form_str": "DDLWD"
         },
         "form_away": {
-          "points": 4,
+          "points": 5,
+          "played": 5,
+          "avg_gf": 1.8,
+          "avg_ga": 2.0,
+          "form_str": "LWLDD"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 3.5,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-11-03|West Bromwich Albion FC|Southampton FC",
+      "date": "2026-11-03",
+      "time": "20:00",
+      "league": "Angleterre - Championship",
+      "round": "Matchday 14",
+      "home": "West Bromwich Albion FC",
+      "away": "Southampton FC",
+      "home_logo": null,
+      "away_logo": null,
+      "prediction": {
+        "elo_home": 1519.5,
+        "elo_away": 1521.3,
+        "prob_home": 44.7,
+        "prob_draw": 25.1,
+        "prob_away": 30.2,
+        "pick_code": "1",
+        "pick_label": "Victoire West Bromwich Albion FC",
+        "confidence": 44.7,
+        "form_home": {
+          "points": 8,
           "played": 5,
           "avg_gf": 0.8,
-          "avg_ga": 1.4,
-          "form_str": "LLDLW"
+          "avg_ga": 0.6,
+          "form_str": "DWWDL"
+        },
+        "form_away": {
+          "points": 8,
+          "played": 5,
+          "avg_gf": 2.0,
+          "avg_ga": 1.2,
+          "form_str": "DDWWL"
         },
         "head_to_head": {
           "played": 0,
@@ -182,37 +182,127 @@
       }
     },
     {
-      "id": "2026-11-02|Newcastle United FC|Everton FC",
-      "date": "2026-11-02",
-      "time": "20:00",
-      "league": "Angleterre - Premier League",
-      "round": "Matchday 9",
-      "home": "Newcastle United FC",
-      "away": "Everton FC",
-      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Newcastle%20United.png",
-      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Everton%20FC.png",
+      "id": "2026-11-03|Derby County FC|Norwich City FC",
+      "date": "2026-11-03",
+      "time": "19:45",
+      "league": "Angleterre - Championship",
+      "round": "Matchday 14",
+      "home": "Derby County FC",
+      "away": "Norwich City FC",
+      "home_logo": null,
+      "away_logo": null,
       "prediction": {
-        "elo_home": 1508.9,
-        "elo_away": 1516.5,
-        "prob_home": 43.8,
-        "prob_draw": 25.5,
-        "prob_away": 30.6,
+        "elo_home": 1459.9,
+        "elo_away": 1480.0,
+        "prob_home": 42.0,
+        "prob_draw": 26.4,
+        "prob_away": 31.5,
         "pick_code": "1",
-        "pick_label": "Victoire Newcastle United FC",
-        "confidence": 43.8,
+        "pick_label": "Victoire Derby County FC",
+        "confidence": 42.0,
         "form_home": {
-          "points": 8,
+          "points": 4,
           "played": 5,
-          "avg_gf": 1.8,
-          "avg_ga": 1.8,
-          "form_str": "DWDLW"
+          "avg_gf": 0.8,
+          "avg_ga": 1.4,
+          "form_str": "WLLLD"
         },
         "form_away": {
-          "points": 8,
-          "played": 4,
-          "avg_gf": 1.5,
-          "avg_ga": 0.75,
-          "form_str": "WDDW"
+          "points": 6,
+          "played": 5,
+          "avg_gf": 2.2,
+          "avg_ga": 2.2,
+          "form_str": "LWWLL"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Non",
+        "avg_goals_expected": 3.3,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-11-03|Watford FC|Lincoln City FC",
+      "date": "2026-11-03",
+      "time": "19:45",
+      "league": "Angleterre - Championship",
+      "round": "Matchday 14",
+      "home": "Watford FC",
+      "away": "Lincoln City FC",
+      "home_logo": null,
+      "away_logo": null,
+      "prediction": {
+        "elo_home": 1477.5,
+        "elo_away": 1503.5,
+        "prob_home": 41.2,
+        "prob_draw": 26.9,
+        "prob_away": 32.0,
+        "pick_code": "1",
+        "pick_label": "Victoire Watford FC",
+        "confidence": 41.2,
+        "form_home": {
+          "points": 3,
+          "played": 5,
+          "avg_gf": 0.6,
+          "avg_ga": 1.4,
+          "form_str": "LLWLL"
+        },
+        "form_away": {
+          "points": 10,
+          "played": 5,
+          "avg_gf": 1.0,
+          "avg_ga": 0.6,
+          "form_str": "WDWWL"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Moins de 2.5 buts",
+        "btts_pick": "Non",
+        "avg_goals_expected": 1.8,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-11-03|Blackburn Rovers FC|Stoke City FC",
+      "date": "2026-11-03",
+      "time": "19:45",
+      "league": "Angleterre - Championship",
+      "round": "Matchday 14",
+      "home": "Blackburn Rovers FC",
+      "away": "Stoke City FC",
+      "home_logo": null,
+      "away_logo": null,
+      "prediction": {
+        "elo_home": 1487.1,
+        "elo_away": 1513.9,
+        "prob_home": 41.1,
+        "prob_draw": 26.9,
+        "prob_away": 32.0,
+        "pick_code": "1",
+        "pick_label": "Victoire Blackburn Rovers FC",
+        "confidence": 41.1,
+        "form_home": {
+          "points": 4,
+          "played": 5,
+          "avg_gf": 1.6,
+          "avg_ga": 1.8,
+          "form_str": "LLLWD"
+        },
+        "form_away": {
+          "points": 13,
+          "played": 5,
+          "avg_gf": 2.0,
+          "avg_ga": 0.6,
+          "form_str": "WWDWW"
         },
         "head_to_head": {
           "played": 0,
@@ -222,7 +312,97 @@
         },
         "over_under_pick": "Plus de 2.5 buts",
         "btts_pick": "Oui",
-        "avg_goals_expected": 2.92,
+        "avg_goals_expected": 3.0,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-11-03|Preston North End FC|Sheffield United FC",
+      "date": "2026-11-03",
+      "time": "19:45",
+      "league": "Angleterre - Championship",
+      "round": "Matchday 14",
+      "home": "Preston North End FC",
+      "away": "Sheffield United FC",
+      "home_logo": null,
+      "away_logo": null,
+      "prediction": {
+        "elo_home": 1452.3,
+        "elo_away": 1487.9,
+        "prob_home": 39.8,
+        "prob_draw": 27.5,
+        "prob_away": 32.6,
+        "pick_code": "1",
+        "pick_label": "Victoire Preston North End FC",
+        "confidence": 39.8,
+        "form_home": {
+          "points": 4,
+          "played": 5,
+          "avg_gf": 1.2,
+          "avg_ga": 1.8,
+          "form_str": "LWLLD"
+        },
+        "form_away": {
+          "points": 6,
+          "played": 5,
+          "avg_gf": 1.4,
+          "avg_ga": 1.8,
+          "form_str": "WLWLL"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 3.1,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-11-03|Portsmouth FC|Swansea City AFC",
+      "date": "2026-11-03",
+      "time": "19:45",
+      "league": "Angleterre - Championship",
+      "round": "Matchday 14",
+      "home": "Portsmouth FC",
+      "away": "Swansea City AFC",
+      "home_logo": null,
+      "away_logo": null,
+      "prediction": {
+        "elo_home": 1484.3,
+        "elo_away": 1544.4,
+        "prob_home": 36.4,
+        "prob_draw": 29.3,
+        "prob_away": 34.3,
+        "pick_code": "1",
+        "pick_label": "Victoire Portsmouth FC",
+        "confidence": 36.4,
+        "form_home": {
+          "points": 7,
+          "played": 5,
+          "avg_gf": 1.6,
+          "avg_ga": 1.4,
+          "form_str": "WLLWD"
+        },
+        "form_away": {
+          "points": 12,
+          "played": 5,
+          "avg_gf": 2.2,
+          "avg_ga": 1.0,
+          "form_str": "WWLWW"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 3.1,
         "data_quality": "solide"
       }
     }
