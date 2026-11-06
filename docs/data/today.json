@@ -1,4 +1,275 @@
 {
-  "date": "2026-11-05",
-  "matches": []
+  "date": "2026-11-06",
+  "matches": [
+    {
+      "id": "2026-11-06|Venezia FC|Udinese Calcio",
+      "date": "2026-11-06",
+      "time": "20:45",
+      "league": "Italie - Serie A",
+      "round": "Matchday 11",
+      "home": "Venezia FC",
+      "away": "Udinese Calcio",
+      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Venezia%20FC.png",
+      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Udinese%20Calcio.png",
+      "prediction": {
+        "elo_home": 1554.1,
+        "elo_away": 1480.6,
+        "prob_home": 55.8,
+        "prob_draw": 19.8,
+        "prob_away": 24.4,
+        "pick_code": "1",
+        "pick_label": "Victoire Venezia FC",
+        "confidence": 55.8,
+        "form_home": {
+          "points": 0,
+          "played": 5,
+          "avg_gf": 0.8,
+          "avg_ga": 2.6,
+          "form_str": "LLLLL"
+        },
+        "form_away": {
+          "points": 4,
+          "played": 5,
+          "avg_gf": 1.6,
+          "avg_ga": 2.2,
+          "form_str": "DWLLL"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Non",
+        "avg_goals_expected": 3.6,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-11-06|Hamburger SV|Borussia Mönchengladbach",
+      "date": "2026-11-06",
+      "time": "20:30",
+      "league": "Allemagne - Bundesliga",
+      "round": "Matchday 9",
+      "home": "Hamburger SV",
+      "away": "Borussia Mönchengladbach",
+      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Hamburger%20SV.png",
+      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Borussia%20M%C3%B6nchengladbach.png",
+      "prediction": {
+        "elo_home": 1479.7,
+        "elo_away": 1459.9,
+        "prob_home": 47.9,
+        "prob_draw": 23.6,
+        "prob_away": 28.5,
+        "pick_code": "1",
+        "pick_label": "Victoire Hamburger SV",
+        "confidence": 47.9,
+        "form_home": {
+          "points": 3,
+          "played": 4,
+          "avg_gf": 0.5,
+          "avg_ga": 3.25,
+          "form_str": "LLLW"
+        },
+        "form_away": {
+          "points": 0,
+          "played": 4,
+          "avg_gf": 1.5,
+          "avg_ga": 4.0,
+          "form_str": "LLLL"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Non",
+        "avg_goals_expected": 4.62,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-11-06|Willem II Tilburg|PEC Zwolle",
+      "date": "2026-11-06",
+      "time": "20:00",
+      "league": "Pays-Bas - Eredivisie",
+      "round": "Matchday 12",
+      "home": "Willem II Tilburg",
+      "away": "PEC Zwolle",
+      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Netherlands%20-%20Eredivisie/Willem%20II%20Tilburg.png",
+      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Netherlands%20-%20Eredivisie/PEC%20Zwolle.png",
+      "prediction": {
+        "elo_home": 1449.9,
+        "elo_away": 1462.3,
+        "prob_home": 43.2,
+        "prob_draw": 25.9,
+        "prob_away": 31.0,
+        "pick_code": "1",
+        "pick_label": "Victoire Willem II Tilburg",
+        "confidence": 43.2,
+        "form_home": {
+          "points": 2,
+          "played": 5,
+          "avg_gf": 0.8,
+          "avg_ga": 2.4,
+          "form_str": "DLDLL"
+        },
+        "form_away": {
+          "points": 4,
+          "played": 5,
+          "avg_gf": 1.0,
+          "avg_ga": 3.0,
+          "form_str": "WLDLL"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Non",
+        "avg_goals_expected": 3.6,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-11-06|Toulouse FC|RC Strasbourg Alsace",
+      "date": "2026-11-06",
+      "time": "20:45",
+      "league": "France - Ligue 1",
+      "round": "Matchday 10",
+      "home": "Toulouse FC",
+      "away": "RC Strasbourg Alsace",
+      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/FC%20Toulouse.png",
+      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/RC%20Strasbourg%20Alsace.png",
+      "prediction": {
+        "elo_home": 1488.6,
+        "elo_away": 1504.0,
+        "prob_home": 42.7,
+        "prob_draw": 26.1,
+        "prob_away": 31.2,
+        "pick_code": "1",
+        "pick_label": "Victoire Toulouse FC",
+        "confidence": 42.7,
+        "form_home": {
+          "points": 5,
+          "played": 5,
+          "avg_gf": 1.4,
+          "avg_ga": 1.8,
+          "form_str": "LDLDW"
+        },
+        "form_away": {
+          "points": 7,
+          "played": 5,
+          "avg_gf": 2.0,
+          "avg_ga": 2.0,
+          "form_str": "LWWDL"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 3.6,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-11-06|FC Famalicão|FC Arouca",
+      "date": "2026-11-06",
+      "time": "20:45",
+      "league": "Portugal - Primeira Liga",
+      "round": "Matchday 11",
+      "home": "FC Famalicão",
+      "away": "FC Arouca",
+      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Portugal%20-%20Liga%20Portugal/FC%20Famalic%C3%A3o.png",
+      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Portugal%20-%20Liga%20Portugal/FC%20Arouca.png",
+      "prediction": {
+        "elo_home": 1496.4,
+        "elo_away": 1511.8,
+        "prob_home": 42.7,
+        "prob_draw": 26.1,
+        "prob_away": 31.2,
+        "pick_code": "1",
+        "pick_label": "Victoire FC Famalicão",
+        "confidence": 42.7,
+        "form_home": {
+          "points": 5,
+          "played": 5,
+          "avg_gf": 1.6,
+          "avg_ga": 1.2,
+          "form_str": "LLDDW"
+        },
+        "form_away": {
+          "points": 7,
+          "played": 5,
+          "avg_gf": 1.8,
+          "avg_ga": 1.4,
+          "form_str": "WLWLD"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 3.0,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-11-06|Derby County FC|Bolton Wanderers FC",
+      "date": "2026-11-06",
+      "time": "20:00",
+      "league": "Angleterre - Championship",
+      "round": "Matchday 15",
+      "home": "Derby County FC",
+      "away": "Bolton Wanderers FC",
+      "home_logo": null,
+      "away_logo": null,
+      "prediction": {
+        "elo_home": 1459.9,
+        "elo_away": 1488.4,
+        "prob_home": 40.8,
+        "prob_draw": 27.0,
+        "prob_away": 32.2,
+        "pick_code": "1",
+        "pick_label": "Victoire Derby County FC",
+        "confidence": 40.8,
+        "form_home": {
+          "points": 4,
+          "played": 5,
+          "avg_gf": 0.8,
+          "avg_ga": 1.4,
+          "form_str": "WLLLD"
+        },
+        "form_away": {
+          "points": 6,
+          "played": 5,
+          "avg_gf": 1.8,
+          "avg_ga": 2.6,
+          "form_str": "LLLWW"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Non",
+        "avg_goals_expected": 3.3,
+        "data_quality": "solide"
+      }
+    }
+  ]
 }
