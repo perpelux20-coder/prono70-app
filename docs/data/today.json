@@ -1,4 +1,95 @@
 {
-  "date": "2026-11-19",
-  "matches": []
+  "date": "2026-11-20",
+  "matches": [
+    {
+      "id": "2026-11-20|FC Bayern München|1. FC Köln",
+      "date": "2026-11-20",
+      "time": "20:30",
+      "league": "Allemagne - Bundesliga",
+      "round": "Matchday 10",
+      "home": "FC Bayern München",
+      "away": "1. FC Köln",
+      "home_logo": null,
+      "away_logo": null,
+      "prediction": {
+        "elo_home": 1531.0,
+        "elo_away": 1487.7,
+        "prob_home": 51.4,
+        "prob_draw": 21.9,
+        "prob_away": 26.7,
+        "pick_code": "1",
+        "pick_label": "Victoire FC Bayern München",
+        "confidence": 51.4,
+        "form_home": {
+          "points": 9,
+          "played": 3,
+          "avg_gf": 4.67,
+          "avg_ga": 0.67,
+          "form_str": "WWW"
+        },
+        "form_away": {
+          "points": 4,
+          "played": 4,
+          "avg_gf": 1.5,
+          "avg_ga": 2.25,
+          "form_str": "WLDL"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 4.54,
+        "data_quality": "limitée"
+      }
+    },
+    {
+      "id": "2026-11-20|ES Troyes AC|Le Havre AC",
+      "date": "2026-11-20",
+      "time": "20:45",
+      "league": "France - Ligue 1",
+      "round": "Matchday 11",
+      "home": "ES Troyes AC",
+      "away": "Le Havre AC",
+      "home_logo": null,
+      "away_logo": null,
+      "prediction": {
+        "elo_home": 1482.6,
+        "elo_away": 1468.2,
+        "prob_home": 47.1,
+        "prob_draw": 24.0,
+        "prob_away": 29.0,
+        "pick_code": "1",
+        "pick_label": "Victoire ES Troyes AC",
+        "confidence": 47.1,
+        "form_home": {
+          "points": 3,
+          "played": 4,
+          "avg_gf": 1.0,
+          "avg_ga": 2.75,
+          "form_str": "WLLL"
+        },
+        "form_away": {
+          "points": 1,
+          "played": 4,
+          "avg_gf": 1.0,
+          "avg_ga": 1.75,
+          "form_str": "LDLL"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 3.25,
+        "data_quality": "solide"
+      }
+    }
+  ]
 }
