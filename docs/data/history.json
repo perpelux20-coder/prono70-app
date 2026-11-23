@@ -1,6 +1,32 @@
 {
   "entries": [
     {
+      "id": "2026-11-23|AC Monza|ACF Fiorentina",
+      "date": "2026-11-23",
+      "league": "Italie - Serie A",
+      "home": "AC Monza",
+      "away": "ACF Fiorentina",
+      "pick_label": "Victoire AC Monza",
+      "pick_code": "1",
+      "confidence": 58.4,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
+      "id": "2026-11-23|Juventus FC|Venezia FC",
+      "date": "2026-11-23",
+      "league": "Italie - Serie A",
+      "home": "Juventus FC",
+      "away": "Venezia FC",
+      "pick_label": "Victoire Juventus FC",
+      "pick_code": "1",
+      "confidence": 40.1,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
       "id": "2026-11-22|Burnley FC|Blackburn Rovers FC",
       "date": "2026-11-22",
       "league": "Angleterre - Championship",
