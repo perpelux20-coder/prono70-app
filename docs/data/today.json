@@ -1,83 +1,38 @@
 {
-  "date": "2026-11-23",
+  "date": "2026-11-24",
   "matches": [
     {
-      "id": "2026-11-23|AC Monza|ACF Fiorentina",
-      "date": "2026-11-23",
-      "time": "18:30",
-      "league": "Italie - Serie A",
-      "round": "Matchday 12",
-      "home": "AC Monza",
-      "away": "ACF Fiorentina",
-      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AC%20Monza.png",
-      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/ACF%20Fiorentina.png",
+      "id": "2026-11-24|Wolverhampton Wanderers FC|Derby County FC",
+      "date": "2026-11-24",
+      "time": "20:00",
+      "league": "Angleterre - Championship",
+      "round": "Matchday 17",
+      "home": "Wolverhampton Wanderers FC",
+      "away": "Derby County FC",
+      "home_logo": null,
+      "away_logo": null,
       "prediction": {
-        "elo_home": 1573.5,
-        "elo_away": 1482.3,
-        "prob_home": 58.4,
-        "prob_draw": 18.5,
-        "prob_away": 23.1,
+        "elo_home": 1533.3,
+        "elo_away": 1459.9,
+        "prob_home": 55.8,
+        "prob_draw": 19.8,
+        "prob_away": 24.4,
         "pick_code": "1",
-        "pick_label": "Victoire AC Monza",
-        "confidence": 58.4,
-        "form_home": {
-          "points": 4,
-          "played": 5,
-          "avg_gf": 1.6,
-          "avg_ga": 2.4,
-          "form_str": "LLDLW"
-        },
-        "form_away": {
-          "points": 4,
-          "played": 5,
-          "avg_gf": 1.2,
-          "avg_ga": 2.4,
-          "form_str": "LLLWD"
-        },
-        "head_to_head": {
-          "played": 0,
-          "home_wins": 0,
-          "draws": 0,
-          "away_wins": 0
-        },
-        "over_under_pick": "Plus de 2.5 buts",
-        "btts_pick": "Oui",
-        "avg_goals_expected": 3.8,
-        "data_quality": "solide"
-      }
-    },
-    {
-      "id": "2026-11-23|Juventus FC|Venezia FC",
-      "date": "2026-11-23",
-      "time": "20:45",
-      "league": "Italie - Serie A",
-      "round": "Matchday 12",
-      "home": "Juventus FC",
-      "away": "Venezia FC",
-      "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Juventus%20FC.png",
-      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Venezia%20FC.png",
-      "prediction": {
-        "elo_home": 1520.6,
-        "elo_away": 1554.1,
-        "prob_home": 40.1,
-        "prob_draw": 27.4,
-        "prob_away": 32.5,
-        "pick_code": "1",
-        "pick_label": "Victoire Juventus FC",
-        "confidence": 40.1,
+        "pick_label": "Victoire Wolverhampton Wanderers FC",
+        "confidence": 55.8,
         "form_home": {
           "points": 10,
           "played": 5,
-          "avg_gf": 1.6,
-          "avg_ga": 0.8,
-          "form_str": "WWDLW"
+          "avg_gf": 2.0,
+          "avg_ga": 1.4,
+          "form_str": "WLDWW"
         },
         "form_away": {
-          "points": 0,
+          "points": 4,
           "played": 5,
           "avg_gf": 0.8,
-          "avg_ga": 2.6,
-          "form_str": "LLLLL"
+          "avg_ga": 1.4,
+          "form_str": "WLLLD"
         },
         "head_to_head": {
           "played": 0,
@@ -87,7 +42,322 @@
         },
         "over_under_pick": "Plus de 2.5 buts",
         "btts_pick": "Non",
-        "avg_goals_expected": 2.9,
+        "avg_goals_expected": 2.8,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-11-24|Cardiff City FC|Preston North End FC",
+      "date": "2026-11-24",
+      "time": "19:45",
+      "league": "Angleterre - Championship",
+      "round": "Matchday 17",
+      "home": "Cardiff City FC",
+      "away": "Preston North End FC",
+      "home_logo": null,
+      "away_logo": null,
+      "prediction": {
+        "elo_home": 1479.8,
+        "elo_away": 1452.3,
+        "prob_home": 49.0,
+        "prob_draw": 23.0,
+        "prob_away": 28.0,
+        "pick_code": "1",
+        "pick_label": "Victoire Cardiff City FC",
+        "confidence": 49.0,
+        "form_home": {
+          "points": 4,
+          "played": 5,
+          "avg_gf": 1.0,
+          "avg_ga": 1.4,
+          "form_str": "LLDLW"
+        },
+        "form_away": {
+          "points": 4,
+          "played": 5,
+          "avg_gf": 1.2,
+          "avg_ga": 1.8,
+          "form_str": "LWLLD"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 2.7,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-11-24|Bristol City FC|Wrexham AFC",
+      "date": "2026-11-24",
+      "time": "19:45",
+      "league": "Angleterre - Championship",
+      "round": "Matchday 17",
+      "home": "Bristol City FC",
+      "away": "Wrexham AFC",
+      "home_logo": null,
+      "away_logo": null,
+      "prediction": {
+        "elo_home": 1509.1,
+        "elo_away": 1499.7,
+        "prob_home": 46.3,
+        "prob_draw": 24.3,
+        "prob_away": 29.3,
+        "pick_code": "1",
+        "pick_label": "Victoire Bristol City FC",
+        "confidence": 46.3,
+        "form_home": {
+          "points": 9,
+          "played": 5,
+          "avg_gf": 1.4,
+          "avg_ga": 1.4,
+          "form_str": "WWLLW"
+        },
+        "form_away": {
+          "points": 7,
+          "played": 5,
+          "avg_gf": 1.4,
+          "avg_ga": 2.0,
+          "form_str": "LWDLW"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 3.1,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-11-24|Charlton Athletic FC|Lincoln City FC",
+      "date": "2026-11-24",
+      "time": "19:45",
+      "league": "Angleterre - Championship",
+      "round": "Matchday 17",
+      "home": "Charlton Athletic FC",
+      "away": "Lincoln City FC",
+      "home_logo": null,
+      "away_logo": null,
+      "prediction": {
+        "elo_home": 1510.2,
+        "elo_away": 1503.5,
+        "prob_home": 45.9,
+        "prob_draw": 24.5,
+        "prob_away": 29.5,
+        "pick_code": "1",
+        "pick_label": "Victoire Charlton Athletic FC",
+        "confidence": 45.9,
+        "form_home": {
+          "points": 7,
+          "played": 5,
+          "avg_gf": 1.0,
+          "avg_ga": 1.8,
+          "form_str": "WWDLL"
+        },
+        "form_away": {
+          "points": 10,
+          "played": 5,
+          "avg_gf": 1.0,
+          "avg_ga": 0.6,
+          "form_str": "WDWWL"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Moins de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 2.2,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-11-24|Middlesbrough FC|Swansea City AFC",
+      "date": "2026-11-24",
+      "time": "19:45",
+      "league": "Angleterre - Championship",
+      "round": "Matchday 17",
+      "home": "Middlesbrough FC",
+      "away": "Swansea City AFC",
+      "home_logo": null,
+      "away_logo": null,
+      "prediction": {
+        "elo_home": 1530.9,
+        "elo_away": 1544.4,
+        "prob_home": 43.0,
+        "prob_draw": 26.0,
+        "prob_away": 31.0,
+        "pick_code": "1",
+        "pick_label": "Victoire Middlesbrough FC",
+        "confidence": 43.0,
+        "form_home": {
+          "points": 9,
+          "played": 5,
+          "avg_gf": 2.0,
+          "avg_ga": 1.6,
+          "form_str": "DWWDD"
+        },
+        "form_away": {
+          "points": 12,
+          "played": 5,
+          "avg_gf": 2.2,
+          "avg_ga": 1.0,
+          "form_str": "WWLWW"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 3.4,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-11-24|Sheffield United FC|Southampton FC",
+      "date": "2026-11-24",
+      "time": "19:45",
+      "league": "Angleterre - Championship",
+      "round": "Matchday 17",
+      "home": "Sheffield United FC",
+      "away": "Southampton FC",
+      "home_logo": null,
+      "away_logo": null,
+      "prediction": {
+        "elo_home": 1487.9,
+        "elo_away": 1521.3,
+        "prob_home": 40.1,
+        "prob_draw": 27.4,
+        "prob_away": 32.5,
+        "pick_code": "1",
+        "pick_label": "Victoire Sheffield United FC",
+        "confidence": 40.1,
+        "form_home": {
+          "points": 6,
+          "played": 5,
+          "avg_gf": 1.4,
+          "avg_ga": 1.8,
+          "form_str": "WLWLL"
+        },
+        "form_away": {
+          "points": 8,
+          "played": 5,
+          "avg_gf": 2.0,
+          "avg_ga": 1.2,
+          "form_str": "DDWWL"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 3.2,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-11-24|Norwich City FC|Queens Park Rangers FC",
+      "date": "2026-11-24",
+      "time": "19:45",
+      "league": "Angleterre - Championship",
+      "round": "Matchday 17",
+      "home": "Norwich City FC",
+      "away": "Queens Park Rangers FC",
+      "home_logo": null,
+      "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Scotland%20-%20Scottish%20Premiership/Rangers%20FC.png",
+      "prediction": {
+        "elo_home": 1480.0,
+        "elo_away": 1518.5,
+        "prob_home": 39.4,
+        "prob_draw": 27.7,
+        "prob_away": 32.9,
+        "pick_code": "1",
+        "pick_label": "Victoire Norwich City FC",
+        "confidence": 39.4,
+        "form_home": {
+          "points": 6,
+          "played": 5,
+          "avg_gf": 2.2,
+          "avg_ga": 2.2,
+          "form_str": "LWWLL"
+        },
+        "form_away": {
+          "points": 8,
+          "played": 5,
+          "avg_gf": 1.4,
+          "avg_ga": 1.2,
+          "form_str": "WWLDD"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 3.5,
+        "data_quality": "solide"
+      }
+    },
+    {
+      "id": "2026-11-24|Portsmouth FC|West Ham United FC",
+      "date": "2026-11-24",
+      "time": "19:45",
+      "league": "Angleterre - Championship",
+      "round": "Matchday 17",
+      "home": "Portsmouth FC",
+      "away": "West Ham United FC",
+      "home_logo": null,
+      "away_logo": null,
+      "prediction": {
+        "elo_home": 1484.3,
+        "elo_away": 1531.6,
+        "prob_home": 38.1,
+        "prob_draw": 28.4,
+        "prob_away": 33.5,
+        "pick_code": "1",
+        "pick_label": "Victoire Portsmouth FC",
+        "confidence": 38.1,
+        "form_home": {
+          "points": 7,
+          "played": 5,
+          "avg_gf": 1.6,
+          "avg_ga": 1.4,
+          "form_str": "WLLWD"
+        },
+        "form_away": {
+          "points": 13,
+          "played": 5,
+          "avg_gf": 3.6,
+          "avg_ga": 1.2,
+          "form_str": "WWWWD"
+        },
+        "head_to_head": {
+          "played": 0,
+          "home_wins": 0,
+          "draws": 0,
+          "away_wins": 0
+        },
+        "over_under_pick": "Plus de 2.5 buts",
+        "btts_pick": "Oui",
+        "avg_goals_expected": 3.9,
         "data_quality": "solide"
       }
     }
