@@ -1,6 +1,58 @@
 {
   "entries": [
     {
+      "id": "2026-11-25|Watford FC|Blackburn Rovers FC",
+      "date": "2026-11-25",
+      "league": "Angleterre - Championship",
+      "home": "Watford FC",
+      "away": "Blackburn Rovers FC",
+      "pick_label": "Victoire Watford FC",
+      "pick_code": "1",
+      "confidence": 43.6,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
+      "id": "2026-11-25|Bolton Wanderers FC|West Bromwich Albion FC",
+      "date": "2026-11-25",
+      "league": "Angleterre - Championship",
+      "home": "Bolton Wanderers FC",
+      "away": "West Bromwich Albion FC",
+      "pick_label": "Victoire Bolton Wanderers FC",
+      "pick_code": "1",
+      "confidence": 40.5,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
+      "id": "2026-11-25|Burnley FC|Birmingham City FC",
+      "date": "2026-11-25",
+      "league": "Angleterre - Championship",
+      "home": "Burnley FC",
+      "away": "Birmingham City FC",
+      "pick_label": "Victoire Burnley FC",
+      "pick_code": "1",
+      "confidence": 38.1,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
+      "id": "2026-11-25|Stoke City FC|Millwall FC",
+      "date": "2026-11-25",
+      "league": "Angleterre - Championship",
+      "home": "Stoke City FC",
+      "away": "Millwall FC",
+      "pick_label": "Victoire Stoke City FC",
+      "pick_code": "1",
+      "confidence": 47.2,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
       "id": "2026-11-24|Cardiff City FC|Preston North End FC",
       "date": "2026-11-24",
       "league": "Angleterre - Championship",
