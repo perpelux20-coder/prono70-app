@@ -1,6 +1,71 @@
 {
   "entries": [
     {
+      "id": "2026-11-27|Southampton FC|Middlesbrough FC",
+      "date": "2026-11-27",
+      "league": "Angleterre - Championship",
+      "home": "Southampton FC",
+      "away": "Middlesbrough FC",
+      "pick_label": "Victoire Southampton FC",
+      "pick_code": "1",
+      "confidence": 43.6,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
+      "id": "2026-11-27|SV Werder Bremen|Borussia Mönchengladbach",
+      "date": "2026-11-27",
+      "league": "Allemagne - Bundesliga",
+      "home": "SV Werder Bremen",
+      "away": "Borussia Mönchengladbach",
+      "pick_label": "Victoire SV Werder Bremen",
+      "pick_code": "1",
+      "confidence": 52.7,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
+      "id": "2026-11-27|Stade Brestois 29|Paris FC",
+      "date": "2026-11-27",
+      "league": "France - Ligue 1",
+      "home": "Stade Brestois 29",
+      "away": "Paris FC",
+      "pick_label": "Victoire Stade Brestois 29",
+      "pick_code": "1",
+      "confidence": 39.1,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
+      "id": "2026-11-27|FC Groningen|Willem II Tilburg",
+      "date": "2026-11-27",
+      "league": "Pays-Bas - Eredivisie",
+      "home": "FC Groningen",
+      "away": "Willem II Tilburg",
+      "pick_label": "Victoire FC Groningen",
+      "pick_code": "1",
+      "confidence": 53.5,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
+      "id": "2026-11-27|CS Marítimo|CD Nacional",
+      "date": "2026-11-27",
+      "league": "Portugal - Primeira Liga",
+      "home": "CS Marítimo",
+      "away": "CD Nacional",
+      "pick_label": "Victoire CS Marítimo",
+      "pick_code": "1",
+      "confidence": 50.2,
+      "status": "en_attente",
+      "actual_score": null,
+      "correct": null
+    },
+    {
       "id": "2026-11-25|Watford FC|Blackburn Rovers FC",
       "date": "2026-11-25",
       "league": "Angleterre - Championship",
